@@ -1,0 +1,17 @@
+[2024-03-21 15:30:03.056] [info] [thread: 188] [main.cpp] [main] [line:34] **************************** Log Start *********************************
+[2024-03-21 15:30:03.215] [info] [thread: 188] [LauncherManager.cpp] [LauncherManager::canRun] [line:145] launcher.exe version: 2.33.3.0, local game version: 
+[2024-03-21 15:30:04.127] [critical] [thread: 188] [] [] [line: ] EnableNonClientDpiScaling() failed for HWND 0x30074 (120) (调用尚未实现。)
+[2024-03-21 15:30:04.458] [info] [thread: 188] [MainWindowSophon.cpp] [MainWindowSophon::DelayRequestGameResource] [line:3794] [MainWindowSophon] [DelayRequestGameResource] curr status 0
+[2024-03-21 15:30:04.896] [info] [thread: 188] [MainWindowSophon.cpp] [MainWindowSophon::TryToUpdateTotalDownloadSizeWhenInstallChange] [line:3840]  update total download size with mode false
+[2024-03-21 15:30:04.935] [info] [thread: 188] [] [] [line: ] Request download file:  "fa1d4f4abda181bc0195116f9c5e1c5a_6155429948038316622.png"
+[2024-03-21 15:30:04.935] [info] [thread: 188] [] [] [line: ] download url start:  "fa1d4f4abda181bc0195116f9c5e1c5a_6155429948038316622.png"
+[2024-03-21 15:30:05.180] [info] [thread: 188] [] [] [line: ] Header response, file:  "fa1d4f4abda181bc0195116f9c5e1c5a_6155429948038316622.png"
+[2024-03-21 15:30:05.180] [info] [thread: 188] [] [] [line: ] Header response, file:  "fa1d4f4abda181bc0195116f9c5e1c5a_6155429948038316622.png" , size:  1475691
+[2024-03-21 15:30:05.241] [critical] [thread: 188] [] [] [line: ] EnableNonClientDpiScaling() failed for HWND 0x200c6 (120) (调用尚未实现。)
+[2024-03-21 15:30:05.331] [info] [thread: 188] [] [] [line: ] downloadtask start file: "fa1d4f4abda181bc0195116f9c5e1c5a_6155429948038316622.png" , range:  "bytes=0-" , request domain: "launcher-webstatic.mihoyo.com" , CNAME:  , IP: 112.81.88.103
+[2024-03-21 15:30:07.179] [critical] [thread: 188] [https://ys.mihoyo.com/launcher/18/zh-cn?api_url=https0AFFhk4e-launcher.mihoyo.comFhk4e_cn&key=eYd89JmJ&prev=false] [] [line: ] Uncaught (in promise) TypeError: Failed to register a ServiceWorker: ServiceWorker script evaluation failed
+[2024-03-21 15:30:07.853] [info] [thread: 188] [LauncherManager.cpp] [LauncherManager::exitApp] [line:231] launcher.exe quit
+[2024-03-21 15:30:07.859] [info] [thread: 188] [MainWindowSophon.cpp] [MainWindowSophon::onRequestFinished] [line:686] [file] request update finished
+[2024-03-21 15:30:07.859] [info] [thread: 188] [MainWindowSophon.cpp] [MainWindowSophon::TryToUpdateTotalDownloadSizeWhenInstallChange] [line:3840]  update total download size with mode false
+[2024-03-21 15:30:07.959] [info] [thread: 188] [main.cpp] [main] [line:81] **************************** Log End *********************************
+
