@@ -713,13 +713,13 @@ WINE REGISTRY Version 2
 #time=1da7b61972c98e0
 "guid"=hex:0d,e1,87,60,3f,43,e5,4e,93,08,26,13,2b,2e,d7,a9
 
-[Software\\Wine\\Fonts] 1711006195
-#time=1da7b61920a64aa
+[Software\\Wine\\Fonts] 1711006640
+#time=1da7b629b7f87d0
 "Codepages"="936,936"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1711006195
-#time=1da7b61920c040e
+[Software\\Wine\\Fonts\\External Fonts] 1711006640
+#time=1da7b629b80fa8e
 "@Apple LiSung Light (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\2ae839cbaa0ff60fe6a1d8921a77c81adcec0646.asset\\AssetData\\AppleLiSung-Light.ttf"
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Arial Unicode.ttf"
@@ -1029,7 +1029,6 @@ WINE REGISTRY Version 2
 "Galvji Oblique (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Galvji.ttc"
 "Galvji-Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Galvji.ttc"
 "Galvji-BoldOblique (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Galvji.ttc"
-"GB18030 Bitmap"="Z:\\System\\Library\\Fonts\\Supplemental\\NISC18030.ttf"
 "Geeza Pro Bold (TrueType)"="Z:\\System\\Library\\Fonts\\GeezaPro.ttc"
 "Geeza Pro Regular (TrueType)"="Z:\\System\\Library\\Fonts\\GeezaPro.ttc"
 "Geneva (TrueType)"="Z:\\System\\Library\\Fonts\\Geneva.ttf"
@@ -1163,6 +1162,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
+"Marlett (TrueType)"="Z:\\Users\\mi\\YuanShen_launcher_mac_porting\\\x539f\x795e.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -1329,6 +1329,7 @@ WINE REGISTRY Version 2
 "SukhumvitSet-SemiBold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
 "SukhumvitSet-Text (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
 "SukhumvitSet-Thin (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
+"Symbol (TrueType)"="Z:\\Users\\mi\\YuanShen_launcher_mac_porting\\\x539f\x795e.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\symbol.ttf"
 "Tahoma (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tahoma.ttf"
 "Tahoma Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tahoma Bold.ttf"
 "Tamil MN (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tamil MN.ttc"

@@ -15,3 +15,14 @@
 [2024-03-21 15:30:07.859] [info] [thread: 188] [MainWindowSophon.cpp] [MainWindowSophon::TryToUpdateTotalDownloadSizeWhenInstallChange] [line:3840]  update total download size with mode false
 [2024-03-21 15:30:07.959] [info] [thread: 188] [main.cpp] [main] [line:81] **************************** Log End *********************************
 
+[2024-03-21 15:37:34.258] [info] [thread: 312] [main.cpp] [main] [line:34] **************************** Log Start *********************************
+[2024-03-21 15:37:34.419] [info] [thread: 312] [LauncherManager.cpp] [LauncherManager::canRun] [line:145] launcher.exe version: 2.33.3.0, local game version: 
+[2024-03-21 15:37:35.310] [critical] [thread: 312] [] [] [line: ] EnableNonClientDpiScaling() failed for HWND 0x5006e (120) (调用尚未实现。)
+[2024-03-21 15:37:35.669] [info] [thread: 312] [MainWindowSophon.cpp] [MainWindowSophon::DelayRequestGameResource] [line:3794] [MainWindowSophon] [DelayRequestGameResource] curr status 0
+[2024-03-21 15:37:36.157] [info] [thread: 312] [MainWindowSophon.cpp] [MainWindowSophon::TryToUpdateTotalDownloadSizeWhenInstallChange] [line:3840]  update total download size with mode false
+[2024-03-21 15:37:36.432] [critical] [thread: 312] [] [] [line: ] EnableNonClientDpiScaling() failed for HWND 0x200ba (120) (调用尚未实现。)
+[2024-03-21 15:37:38.369] [info] [thread: 312] [LauncherManager.cpp] [LauncherManager::exitApp] [line:231] launcher.exe quit
+[2024-03-21 15:37:38.377] [info] [thread: 312] [MainWindowSophon.cpp] [MainWindowSophon::onRequestFinished] [line:686] [file] request update finished
+[2024-03-21 15:37:38.377] [info] [thread: 312] [MainWindowSophon.cpp] [MainWindowSophon::TryToUpdateTotalDownloadSizeWhenInstallChange] [line:3840]  update total download size with mode false
+[2024-03-21 15:37:38.497] [info] [thread: 312] [main.cpp] [main] [line:81] **************************** Log End *********************************
+
