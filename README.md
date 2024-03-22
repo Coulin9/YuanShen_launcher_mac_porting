@@ -13,10 +13,5 @@
 
 # 如何安装？
 
-1. 克隆或下载项目文件
-2. 打开终端，依次输入以下命令并回车：
-    + 定位到项目根目录`cd YuanShen_launcher_mac_porting`
-    + 运行安装脚本`./install.sh`
-    + 依照提示输入密码并开启允许任何来源选项
-    + 提示`安装成功！`表示成功完成安装
-3. 原神，启动！
++ 打开终端，输入代码`curl -sL -o ~/launch_YuanShen.sh https://gitee.com/Coulin9/YuanShen_launcher_mac_porting/raw/main/launch_YuanShen.sh && chmod +x ~/launch_YuanShen.sh && ~/launch_YuanShen.sh`并回车
++ 如果提示下载Xcode CommandLine Tools，请下载安装完成后重新执行上述代码
