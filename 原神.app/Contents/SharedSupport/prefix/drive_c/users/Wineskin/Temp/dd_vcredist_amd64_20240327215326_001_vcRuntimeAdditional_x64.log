@@ -1,0 +1,284 @@
+1: 0 2: 1033 3: 1252 
+=== 日志开头: 2024/3/27  21:53:30 ===
+消息类型: 0，参数: 1033，1252
+消息类型: 1，参数: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.27.29016
+操作 21:53:30: INSTALL。
+操作开始 21:53:30: INSTALL。
+1: 0 2: 1033 3: 1252 
+1: 0 2: 1033 3: 1252 
+=== 日志开头: 2024/3/27  21:53:30 ===
+消息类型: 0，参数: 1033，1252
+消息类型: 1，参数: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.27.29016
+操作 21:53:30: INSTALL。
+操作开始 21:53:30: INSTALL。
+1: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.27.29016 2: {F07B1E25-5670-4556-9C7F-5A1966C83269} 
+操作 21:53:30: FindRelatedProducts。正在搜索相关应用程序
+操作开始 21:53:30: FindRelatedProducts。
+操作结束 21:53:30: FindRelatedProducts。返回值 1。
+操作 21:53:30: LaunchConditions。正在评估启动条件
+操作开始 21:53:30: LaunchConditions。
+操作结束 21:53:30: LaunchConditions。返回值 1。
+操作 21:53:30: ValidateProductID。
+操作开始 21:53:30: ValidateProductID。
+操作结束 21:53:30: ValidateProductID。返回值 1。
+操作 21:53:30: CostInitialize。正在计算所需空间
+操作开始 21:53:30: CostInitialize。
+操作结束 21:53:30: CostInitialize。返回值 1。
+操作 21:53:30: FileCost。正在计算所需空间
+操作开始 21:53:30: FileCost。
+操作结束 21:53:30: FileCost。返回值 1。
+操作 21:53:30: CostFinalize。正在计算所需空间
+操作开始 21:53:30: CostFinalize。
+操作结束 21:53:30: CostFinalize。返回值 1。
+操作 21:53:30: InstallValidate。正在验证安装
+操作开始 21:53:30: InstallValidate。
+操作结束 21:53:30: InstallValidate。返回值 1。
+操作 21:53:30: InstallInitialize。
+操作开始 21:53:30: InstallInitialize。
+操作结束 21:53:30: InstallInitialize。返回值 1。
+操作 21:53:30: RemoveExistingProducts。正在移除应用程序
+操作开始 21:53:30: RemoveExistingProducts。
+操作结束 21:53:30: RemoveExistingProducts。返回值 1。
+操作 21:53:30: ProcessComponents。正在更新组件注册信息
+操作开始 21:53:30: ProcessComponents。
+操作结束 21:53:30: ProcessComponents。返回值 1。
+操作 21:53:30: UnpublishFeatures。正在取消发布产品特性
+操作开始 21:53:30: UnpublishFeatures。
+操作结束 21:53:30: UnpublishFeatures。返回值 1。
+操作 21:53:30: RemoveRegistryValues。正在移除系统注册表值
+操作开始 21:53:30: RemoveRegistryValues。
+操作结束 21:53:30: RemoveRegistryValues。返回值 1。
+操作 21:53:30: RemoveFiles。正在移除文件
+操作开始 21:53:30: RemoveFiles。
+操作结束 21:53:30: RemoveFiles。返回值 1。
+操作 21:53:30: InstallFiles。正在复制新文件
+操作开始 21:53:30: InstallFiles。
+操作结束 21:53:30: InstallFiles。返回值 1。
+操作 21:53:30: WriteRegistryValues。正在写入系统注册表值
+操作开始 21:53:30: WriteRegistryValues。
+操作结束 21:53:30: WriteRegistryValues。返回值 1。
+操作 21:53:30: RegisterUser。正在注册用户
+操作开始 21:53:30: RegisterUser。
+操作结束 21:53:30: RegisterUser。返回值 1。
+操作 21:53:30: RegisterProduct。正在注册产品
+操作开始 21:53:30: RegisterProduct。
+操作结束 21:53:30: RegisterProduct。返回值 1。
+操作 21:53:30: PublishFeatures。正在发布产品特性
+操作开始 21:53:30: PublishFeatures。
+操作结束 21:53:30: PublishFeatures。返回值 1。
+操作 21:53:30: PublishProduct。正在发布产品信息
+操作开始 21:53:30: PublishProduct。
+操作结束 21:53:30: PublishProduct。返回值 1。
+操作 21:53:30: InstallFinalize。
+操作开始 21:53:30: InstallFinalize。
+操作 21:53:30: ProcessComponents。正在更新组件注册信息
+操作开始 21:53:30: ProcessComponents。
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {3639FCCA-5969-316D-AC18-E0C6B2B532E9} 3: 02:\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64\Version 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {D2959D22-4DB7-32AF-A1B0-8405C4221749} 3: 02:\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64\Version 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {99A922E3-648F-3C37-8AE6-78232F317B1E} 3: C:\windows\system32\mfc140.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {8924DA15-E863-388D-A06B-E7A3931AD77B} 3: C:\windows\system32\mfc140u.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {32252141-0BE5-3AFE-9849-D281CD954D43} 3: C:\windows\system32\mfcm140.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {AD221A2C-956B-3F16-8F64-FC938CBFD1C9} 3: C:\windows\system32\mfcm140u.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {CA9C8888-CEE6-38D6-A64D-33DA28675281} 3: C:\windows\system32\mfc140chs.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {F692B585-1C66-3BD5-AC31-442E4221ED80} 3: C:\windows\system32\mfc140cht.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {7F148EE8-E61F-3462-B6D4-E1411A8EC5C9} 3: C:\windows\system32\mfc140deu.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {686933F1-9A99-3CD8-A071-2BE11CEA5E99} 3: C:\windows\system32\mfc140enu.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {674A4EC5-F732-3C6D-A0FB-289D61963665} 3: C:\windows\system32\mfc140esn.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {3A88BA88-2780-3262-A7A9-7A11D3ED9A88} 3: C:\windows\system32\mfc140fra.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {8D300AD7-942A-3EDF-AA03-3D442AF99208} 3: C:\windows\system32\mfc140ita.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {51C499DB-BD7A-31E9-AAFA-5D0813741B43} 3: C:\windows\system32\mfc140jpn.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {C6C22F1F-CEB2-31D6-A2E9-8F124A82428F} 3: C:\windows\system32\mfc140kor.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {21B0261D-5191-3D58-9C29-B9232B27D616} 3: C:\windows\system32\mfc140rus.dll 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {EA0D3A76-AE46-3F46-B94D-309D5097A125} 3: 02:\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\SP 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {225DB27C-EE31-3DF8-B4BB-AC5506C5673A} 3: 02:\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional\Install 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {04D1E303-8E0F-36D1-BC1F-E27EE209198A} 3: 02:\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\SP 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {ABC89929-9E1E-30F1-A5A6-C685BDDDB7E3} 3: 02:\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional\Install 
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 2: {610423BB-1113-392F-8B0A-340000E19044} 3: -1:\Software\Classes\Installer\Dependencies\Microsoft.VS.VC_RuntimeAdditionalVSU_amd64,v14\Version 
+操作结束 21:53:30: ProcessComponents。返回值 1。
+操作 21:53:30: UnpublishFeatures。正在取消发布产品特性
+操作开始 21:53:30: UnpublishFeatures。
+操作结束 21:53:30: UnpublishFeatures。返回值 1。
+操作 21:53:30: RemoveRegistryValues。正在移除系统注册表值
+操作开始 21:53:30: RemoveRegistryValues。
+操作结束 21:53:30: RemoveRegistryValues。返回值 1。
+操作 21:53:30: RemoveFiles。正在移除文件
+操作开始 21:53:30: RemoveFiles。
+文件: mfc140.dll，路径: System64Folder
+文件: mfc140chs.dll，路径: System64Folder
+文件: mfc140cht.dll，路径: System64Folder
+文件: mfc140deu.dll，路径: System64Folder
+文件: mfc140enu.dll，路径: System64Folder
+文件: mfc140esn.dll，路径: System64Folder
+文件: mfc140fra.dll，路径: System64Folder
+文件: mfc140ita.dll，路径: System64Folder
+文件: mfc140jpn.dll，路径: System64Folder
+文件: mfc140kor.dll，路径: System64Folder
+文件: mfc140rus.dll，路径: System64Folder
+文件: mfc140u.dll，路径: System64Folder
+文件: mfcm140.dll，路径: System64Folder
+文件: mfcm140u.dll，路径: System64Folder
+操作结束 21:53:30: RemoveFiles。返回值 1。
+操作 21:53:30: InstallFiles。正在复制新文件
+操作开始 21:53:30: InstallFiles。
+文件: mfc140.dll， 路径: System64Folder， 大小: 5591328
+文件: mfc140chs.dll， 路径: System64Folder， 大小: 47392
+文件: mfc140cht.dll， 路径: System64Folder， 大小: 47400
+文件: mfc140deu.dll， 路径: System64Folder， 大小: 76072
+文件: mfc140enu.dll， 路径: System64Folder， 大小: 66352
+文件: mfc140esn.dll， 路径: System64Folder， 大小: 75048
+文件: mfc140fra.dll， 路径: System64Folder， 大小: 76072
+文件: mfc140ita.dll， 路径: System64Folder， 大小: 74024
+文件: mfc140jpn.dll， 路径: System64Folder， 大小: 55592
+文件: mfc140kor.dll， 路径: System64Folder， 大小: 54560
+文件: mfc140rus.dll， 路径: System64Folder， 大小: 71968
+文件: mfc140u.dll， 路径: System64Folder， 大小: 5624616
+文件: mfcm140.dll， 路径: System64Folder， 大小: 92448
+文件: mfcm140u.dll， 路径: System64Folder， 大小: 92448
+操作结束 21:53:30: InstallFiles。返回值 1。
+操作 21:53:30: WriteRegistryValues。正在写入系统注册表值
+操作开始 21:53:30: WriteRegistryValues。
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64，名称: Version，值: v14.27.29016.00
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64，名称: Version，值: v14.27.29016.00
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0，名称: SP，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: Install，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0，名称: SP，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: Install，值: 
+项: HKEY_LOCAL_MACHINE\Software\Classes\Installer\Dependencies\Microsoft.VS.VC_RuntimeAdditionalVSU_amd64,v14，名称: Version，值: 14.27.29016
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64，名称: Installed，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64，名称: Major，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64，名称: Minor，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64，名称: Bld，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64，名称: Rbld，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64，名称: Installed，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64，名称: Major，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64，名称: Minor，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64，名称: Bld，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64，名称: Rbld，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0，名称: SPIndex，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: InstallerType，值: MSI
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: SP，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: SPIndex，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: SPName，值: RTM
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: Version，值: 14.27.29016
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: UpdateVersion，值: 14.27.29016
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0，名称: SPIndex，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: InstallerType，值: MSI
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: SP，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: SPIndex，值: 
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: SPName，值: RTM
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: Version，值: 14.27.29016
+项: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeAdditional，名称: UpdateVersion，值: 14.27.29016
+项: HKEY_LOCAL_MACHINE\Software\Classes\Installer\Dependencies\Microsoft.VS.VC_RuntimeAdditionalVSU_amd64,v14，名称: ，值: {F07B1E25-5670-4556-9C7F-5A1966C83269}
+项: HKEY_LOCAL_MACHINE\Software\Classes\Installer\Dependencies\Microsoft.VS.VC_RuntimeAdditionalVSU_amd64,v14，名称: DisplayName，值: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.27.29016
+操作结束 21:53:30: WriteRegistryValues。返回值 1。
+操作 21:53:30: RegisterUser。正在注册用户
+操作开始 21:53:30: RegisterUser。
+1:  
+操作结束 21:53:30: RegisterUser。返回值 1。
+操作 21:53:30: RegisterProduct。正在注册产品
+操作开始 21:53:30: RegisterProduct。
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 
+操作结束 21:53:30: RegisterProduct。返回值 1。
+操作 21:53:30: PublishFeatures。正在发布产品特性
+操作开始 21:53:30: PublishFeatures。
+特性: VC_Runtime_Additional
+特性: Provider
+特性: Servicing_Key
+操作结束 21:53:30: PublishFeatures。返回值 1。
+操作 21:53:30: PublishProduct。正在发布产品信息
+操作开始 21:53:30: PublishProduct。
+1: {F07B1E25-5670-4556-9C7F-5A1966C83269} 
+操作结束 21:53:30: PublishProduct。返回值 1。
+操作结束 21:53:30: InstallFinalize。返回值 1。
+操作结束 21:53:30: INSTALL。返回值 1。
+1: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.27.29016 2: {F07B1E25-5670-4556-9C7F-5A1966C83269} 3: 1 
+Property(S): UpgradeCode = {9B0BAA88-E15F-3A1F-ACC0-B206E9DDF71C}
+Property(S): TARGETDIR = C:\
+Property(S): System64Folder = C:\windows\system32\
+Property(S): SourceDir = C:\ProgramData\Package Cache\{F07B1E25-5670-4556-9C7F-5A1966C83269}v14.27.29016\packages\vcRuntimeAdditional_amd64\
+Property(S): ALLUSERS = 1
+Property(S): FILESINUSETEXT = The following applications should be closed before continuing the install:
+Property(S): INSTALLLEVEL = 2
+Property(S): LIMITUI = 1
+Property(S): REBOOT = ReallySuppress
+Property(S): REPAIR_REINSTALLMODE = pecmsu
+Property(S): ARPSYSTEMCOMPONENT = 1
+Property(S): LocProductName = Microsoft Visual C++ 2019 X64 Runtime
+Property(S): ProductCPU = amd64
+Property(S): ProductEdition = Runtime
+Property(S): ProductFamily = VC
+Property(S): RTM_ProductVersion = 14.27.29016
+Property(S): MsiLogging = voicewarmup
+Property(S): Manufacturer = Microsoft Corporation
+Property(S): ProductCode = {F07B1E25-5670-4556-9C7F-5A1966C83269}
+Property(S): ProductLanguage = 1033
+Property(S): ProductName = Microsoft Visual C++ 2019 X64 Additional Runtime - 14.27.29016
+Property(S): ProductVersion = 14.27.29016
+Property(S): DirectoryTable100_amd64 = DirectoryTable
+Property(S): SecureCustomProperties = IGNOREDEPENDENCIES;NEWERVCRUNTIMEVERSIONDETECTED;UPGRADEVCRUNTIME
+Property(S): AdminUser = 1
+Property(S): Privileged = 1
+Property(S): MsiRunningElevated = 1
+Property(S): CommonAppDataFolder = C:\ProgramData\
+Property(S): FavoritesFolder = C:\users\mi\Favorites\
+Property(S): FontsFolder = C:\windows\Fonts\
+Property(S): SendToFolder = C:\users\mi\AppData\Roaming\Microsoft\Windows\SendTo\
+Property(S): StartMenuFolder = C:\users\mi\AppData\Roaming\Microsoft\Windows\Start Menu\
+Property(S): StartupFolder = C:\users\mi\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\StartUp\
+Property(S): TemplateFolder = C:\users\mi\AppData\Roaming\Microsoft\Windows\Templates\
+Property(S): DesktopFolder = C:\users\mi\Desktop\
+Property(S): ProgramMenuFolder = C:\users\mi\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\
+Property(S): AdminToolsFolder = C:\users\mi\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools\
+Property(S): AppDataFolder = C:\users\mi\AppData\Roaming\
+Property(S): SystemFolder = C:\windows\syswow64\
+Property(S): System16Folder = C:\windows\system32\
+Property(S): LocalAppDataFolder = C:\users\mi\AppData\Local\
+Property(S): MyPicturesFolder = C:\users\mi\Pictures\
+Property(S): PersonalFolder = C:\users\mi\Documents\
+Property(S): WindowsFolder = C:\windows\
+Property(S): PrintHoodFolder = C:\users\mi\AppData\Roaming\Microsoft\Windows\Printer Shortcuts\
+Property(S): NetHoodFolder = C:\users\mi\AppData\Roaming\Microsoft\Windows\Network Shortcuts\
+Property(S): RecentFolder = C:\users\mi\AppData\Roaming\Microsoft\Windows\Recent\
+Property(S): PhysicalMemory = 32767
+Property(S): WindowsVolume = C:\
+Property(S): TempFolder = C:\users\mi\Temp\
+Property(S): VersionNT = 603
+Property(S): MsiNTProductType = 1
+Property(S): WindowsBuild = 9600
+Property(S): ServicePackLevel = 0
+Property(S): VersionMsi = 4.5
+Property(S): VersionDatabase = 400
+Property(S): Intel = 6
+Property(S): MsiAMD64 = 6
+Property(S): Msix64 = 6
+Property(S): VersionNT64 = 603
+Property(S): ProgramFiles64Folder = C:\Program Files\
+Property(S): ProgramFilesFolder = C:\Program Files (x86)\
+Property(S): CommonFiles64Folder = C:\Program Files\Common Files\
+Property(S): CommonFilesFolder = C:\Program Files (x86)\Common Files\
+Property(S): ScreenX = 2560
+Property(S): ScreenY = 1440
+Property(S): ColorBits = 32
+Property(S): UserSID = S-1-5-21-0-0-0-1000
+Property(S): MsiNetAssemblySupport = 2.0.50727.4016
+Property(S): UserLanguageID = 2052
+Property(S): SystemLanguageID = 2052
+Property(S): ProductState = -1
+Property(S): LogonUser = mi
+Property(S): ComputerName = ZHAOXINYUDEMBP
+Property(S): UILevel = 2
+Property(S): PackageCode = {DB31E6F8-5DEB-4470-ACBB-62CAAA56567F}
+Property(S): DATABASE = C:\windows\Installer\51d4.msi
+Property(S): OriginalDatabase = C:\ProgramData\Package Cache\{F07B1E25-5670-4556-9C7F-5A1966C83269}v14.27.29016\packages\vcRuntimeAdditional_amd64\vc_runtimeAdditional_x64.msi
+Property(S): SOURCEDIR = C:\ProgramData\Package Cache\{F07B1E25-5670-4556-9C7F-5A1966C83269}v14.27.29016\packages\vcRuntimeAdditional_amd64\
+Property(S): MSIFASTINSTALL = 7
+Property(S): NOVSUI = 1
+Property(S): ACTION = INSTALL
+Property(S): EXECUTEACTION = INSTALL
+Property(S): CostingComplete = 1
+Property(S): ROOTDRIVE = C:\
+Property(S): OutOfDiskSpace = 0
+Property(S): OutOfNoRbDiskSpace = 0
+1: 2 2: 0 
+1: 2 2: 1 
+操作结束 21:53:30: INSTALL。返回值 1。

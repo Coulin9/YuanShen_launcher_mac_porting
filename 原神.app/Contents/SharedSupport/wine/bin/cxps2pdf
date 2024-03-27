@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# Script to convert PostScript to PDF
+#
+# By default, this will use the Apple pstopdf tool, if available. Otherwise,
+# it will use the bundled GhostScript ps2pdf script.
+#
+# To use an alternative PDF conversion tool as a fallback, set the CX_PS2PDF
+# environment variable. The tool should take the input .ps file as the first
+# parameter, and the output .pdf file as the second parameter.
+
+if [ -f "/usr/bin/pstopdf" ]; then
+	/usr/bin/pstopdf "$1" -o "$2" && exit 0
+fi
+
+if test -z "${CX_PS2PDF}"; then
+	CX_PS2PDF="`dirname \"$0\"`/ps2pdf"
+fi
+
+"${CX_PS2PDF}" "$1" "$2"
