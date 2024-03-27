@@ -1,6 +1,0 @@
-framework module ObjectiveC_Extension {
-  umbrella header "ObjectiveC_Extension.h"
-  export *
-
-  module * { export * }
-}
