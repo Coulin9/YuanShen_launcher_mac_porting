@@ -16,8 +16,14 @@ fi
   
 # 定义Git仓库地址和克隆目录  
 GIT_REPO="https://gitee.com/Coulin9/YuanShen_launcher_mac_porting.git"  
-CLONE_DIR="$HOME/YuanShen_launcher_mac_porting"  
+CLONE_DIR="$HOME/YuanShen_launcher_mac_porting"
+
+if [ -e "$CLONE_DIR" ]; then
+    # 删除已有的本地仓库
+    sudo rm -rf "$CLONE_DIR"
   
+fi
+ 
 # 克隆项目  
 git clone "$GIT_REPO" "$CLONE_DIR"  
   
