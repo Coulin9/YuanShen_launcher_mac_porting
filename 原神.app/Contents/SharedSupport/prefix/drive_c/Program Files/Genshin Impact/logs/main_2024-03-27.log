@@ -1,0 +1,22 @@
+[2024-03-27 21:54:54.149] [info] [thread: 188] [main.cpp] [main] [line:34] **************************** Log Start *********************************
+[2024-03-27 21:54:54.309] [info] [thread: 188] [LauncherManager.cpp] [LauncherManager::canRun] [line:156] launcher.exe version: 2.33.5.0, local game version: 
+[2024-03-27 21:54:54.961] [critical] [thread: 188] [LauncherManager.cpp] [LauncherManager::GetDownloadManager] [line:55] Sophon Current log level: 1
+[2024-03-27 21:54:54.976] [critical] [thread: 188] [MainWindowSophon.cpp] [MainWindowSophon::initData] [line:382] Current log level: 2
+[2024-03-27 21:54:55.203] [critical] [thread: 188] [] [] [line: ] EnableNonClientDpiScaling() failed for HWND 0x30074 (120) (调用尚未实现。)
+[2024-03-27 21:54:55.610] [info] [thread: 188] [MainWindowSophon.cpp] [MainWindowSophon::DelayRequestGameResource] [line:3798] [MainWindowSophon] [DelayRequestGameResource] curr status 0
+[2024-03-27 21:54:56.058] [info] [thread: 188] [MainWindowSophon.cpp] [MainWindowSophon::TryToUpdateTotalDownloadSizeWhenInstallChange] [line:3844]  update total download size with mode false
+[2024-03-27 21:54:56.201] [info] [thread: 188] [] [] [line: ] Request download file:  "fa1d4f4abda181bc0195116f9c5e1c5a_6155429948038316622.png"
+[2024-03-27 21:54:56.204] [info] [thread: 188] [] [] [line: ] download url start:  "fa1d4f4abda181bc0195116f9c5e1c5a_6155429948038316622.png"
+[2024-03-27 21:54:56.317] [info] [thread: 188] [] [] [line: ] Header response, file:  "fa1d4f4abda181bc0195116f9c5e1c5a_6155429948038316622.png"
+[2024-03-27 21:54:56.317] [info] [thread: 188] [] [] [line: ] Header response, file:  "fa1d4f4abda181bc0195116f9c5e1c5a_6155429948038316622.png" , size:  1475691
+[2024-03-27 21:54:56.369] [info] [thread: 188] [] [] [line: ] downloadtask start file: "fa1d4f4abda181bc0195116f9c5e1c5a_6155429948038316622.png" , range:  "bytes=0-" , request domain: "launcher-webstatic.mihoyo.com" , CNAME:  , IP: 49.79.224.241
+[2024-03-27 21:54:56.382] [info] [thread: 188] [MainWindowSophon.cpp] [MainWindowSophon::onRequestFinished] [line:690] [file] request update finished
+[2024-03-27 21:54:56.382] [info] [thread: 188] [MainWindowSophon.cpp] [MainWindowSophon::TryToUpdateTotalDownloadSizeWhenInstallChange] [line:3844]  update total download size with mode false
+[2024-03-27 21:55:00.728] [info] [thread: 188] [MainWindowSophon.cpp] [MainWindowSophon::onShowInstallChange] [line:1247]  request show install change by 1
+[2024-03-27 21:55:00.778] [critical] [thread: 188] [] [] [line: ] EnableNonClientDpiScaling() failed for HWND 0x200b0 (120) (调用尚未实现。)
+[2024-03-27 21:55:02.335] [critical] [thread: 188] [] [] [line: ] EnableNonClientDpiScaling() failed for HWND 0x6008e (120) (调用尚未实现。)
+[2024-03-27 21:55:18.342] [critical] [thread: 188] [] [] [line: ] EnableNonClientDpiScaling() failed for HWND 0x400a8 (120) (调用尚未实现。)
+[2024-03-27 21:55:20.225] [info] [thread: 188] [LauncherManager.cpp] [LauncherManager::exitApp] [line:242] launcher.exe quit
+[2024-03-27 21:55:20.251] [info] [thread: 188] [LauncherManager.cpp] [LauncherManager::exitApp] [line:242] launcher.exe quit
+[2024-03-27 21:55:20.333] [info] [thread: 188] [main.cpp] [main] [line:85] **************************** Log End *********************************
+
