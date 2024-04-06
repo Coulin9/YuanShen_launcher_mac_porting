@@ -22,12 +22,14 @@ Graphics/Displays:
       Vendor: Apple (0x106b)
       Metal Support: Metal 3
       Displays:
-        P27QBC-RG:
-          Resolution: 2560 x 1440 (QHD/WQHD - Wide Quad High Definition)
-          UI Looks like: 2560 x 1440 @ 120.00Hz
+        Color LCD:
+          Display Type: Built-in Liquid Retina XDR Display
+          Resolution: 3456 x 2234 Retina
           Main Display: Yes
           Mirror: Off
           Online: Yes
+          Automatically Adjust Brightness: Yes
+          Connection Type: Internal
 
 Hardware:
 
@@ -53,12 +55,14 @@ Graphics/Displays:
       Vendor: Apple (0x106b)
       Metal Support: Metal 3
       Displays:
-        P27QBC-RG:
-          Resolution: 2560 x 1440 (QHD/WQHD - Wide Quad High Definition)
-          UI Looks like: 2560 x 1440 @ 120.00Hz
+        Color LCD:
+          Display Type: Built-in Liquid Retina XDR Display
+          Resolution: 3456 x 2234 Retina
           Main Display: Yes
           Mirror: Off
           Online: Yes
+          Automatically Adjust Brightness: Yes
+          Connection Type: Internal
 
 Hardware:
 
@@ -84,12 +88,14 @@ Graphics/Displays:
       Vendor: Apple (0x106b)
       Metal Support: Metal 3
       Displays:
-        P27QBC-RG:
-          Resolution: 2560 x 1440 (QHD/WQHD - Wide Quad High Definition)
-          UI Looks like: 2560 x 1440 @ 120.00Hz
+        Color LCD:
+          Display Type: Built-in Liquid Retina XDR Display
+          Resolution: 3456 x 2234 Retina
           Main Display: Yes
           Mirror: Off
           Online: Yes
+          Automatically Adjust Brightness: Yes
+          Connection Type: Internal
 
 Hardware:
 
@@ -115,103 +121,12 @@ Graphics/Displays:
       Vendor: Apple (0x106b)
       Metal Support: Metal 3
       Displays:
-        P27QBC-RG:
-          Resolution: 2560 x 1440 (QHD/WQHD - Wide Quad High Definition)
-          UI Looks like: 2560 x 1440 @ 120.00Hz
+        Color LCD:
+          Display Type: Built-in Liquid Retina XDR Display
+          Resolution: 3456 x 2234 Retina
           Main Display: Yes
           Mirror: Off
           Online: Yes
-
-Hardware:
-
-    Hardware Overview:
-
-      Model Name: Mac
-      Model Identifier: Mac14,6
-      Model Number: MNWA3CH/A
-      Chip: Unknown
-      Total Number of Cores: 12 (8 performance and 4 efficiency)
-      Memory: 32 GB
-      System Firmware Version: 10151.101.3
-      OS Loader Version: 10151.101.3
-
-Graphics/Displays:
-
-    Apple M2 Max:
-
-      Chipset Model: Apple M2 Max
-      Type: GPU
-      Bus: Built-In
-      Total Number of Cores: 38
-      Vendor: Apple (0x106b)
-      Metal Support: Metal 3
-      Displays:
-        P27QBC-RG:
-          Resolution: 2560 x 1440 (QHD/WQHD - Wide Quad High Definition)
-          UI Looks like: 2560 x 1440 @ 120.00Hz
-          Main Display: Yes
-          Mirror: Off
-          Online: Yes
-
-Hardware:
-
-    Hardware Overview:
-
-      Model Name: Mac
-      Model Identifier: Mac14,6
-      Model Number: MNWA3CH/A
-      Chip: Unknown
-      Total Number of Cores: 12 (8 performance and 4 efficiency)
-      Memory: 32 GB
-      System Firmware Version: 10151.101.3
-      OS Loader Version: 10151.101.3
-
-Graphics/Displays:
-
-    Apple M2 Max:
-
-      Chipset Model: Apple M2 Max
-      Type: GPU
-      Bus: Built-In
-      Total Number of Cores: 38
-      Vendor: Apple (0x106b)
-      Metal Support: Metal 3
-      Displays:
-        P27QBC-RG:
-          Resolution: 2560 x 1440 (QHD/WQHD - Wide Quad High Definition)
-          UI Looks like: 2560 x 1440 @ 120.00Hz
-          Main Display: Yes
-          Mirror: Off
-          Online: Yes
-
-Hardware:
-
-    Hardware Overview:
-
-      Model Name: Mac
-      Model Identifier: Mac14,6
-      Model Number: MNWA3CH/A
-      Chip: Unknown
-      Total Number of Cores: 12 (8 performance and 4 efficiency)
-      Memory: 32 GB
-      System Firmware Version: 10151.101.3
-      OS Loader Version: 10151.101.3
-
-Graphics/Displays:
-
-    Apple M2 Max:
-
-      Chipset Model: Apple M2 Max
-      Type: GPU
-      Bus: Built-In
-      Total Number of Cores: 38
-      Vendor: Apple (0x106b)
-      Metal Support: Metal 3
-      Displays:
-        P27QBC-RG:
-          Resolution: 2560 x 1440 (QHD/WQHD - Wide Quad High Definition)
-          UI Looks like: 2560 x 1440 @ 120.00Hz
-          Main Display: Yes
-          Mirror: Off
-          Online: Yes
+          Automatically Adjust Brightness: Yes
+          Connection Type: Internal
 
