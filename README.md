@@ -22,3 +22,5 @@
     + 增加了对移动硬盘的支持，现在你应该可以在D盘下找到你的移动硬盘
 + V0.1.2
     + 更新winskin engine版本为CX23.7.1-2
++ V0.1.3
+    + 更新winskin engine为wineStaging9.3
