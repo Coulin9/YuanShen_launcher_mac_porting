@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstwavenc
+Description: gst-plugins-good: gstwavenc
+Version: 1.24.2
+Requires.private: gstreamer-base-1.0 >=  1.24.0, gstreamer-audio-1.0 >=  1.24.0, gstreamer-riff-1.0 >=  1.24.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstwavenc
+Cflags: -I${includedir}
+

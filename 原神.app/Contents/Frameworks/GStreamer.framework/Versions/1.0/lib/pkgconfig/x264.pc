@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: x264
+Description: H.264 (MPEG4 AVC) encoder library
+Version: 0.157.2M ce84d56
+Libs: -L/Users/gcenx/Documents/GitHub/cerbero/build/dist/darwin_x86_64/lib -lx264 
+Libs.private: -lpthread -lm -ldl
+Cflags: -I${prefix}/include
+

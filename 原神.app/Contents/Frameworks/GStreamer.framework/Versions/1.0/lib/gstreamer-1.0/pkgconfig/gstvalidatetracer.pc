@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstvalidatetracer
+Description: gst-devtools: gstvalidatetracer
+Version: 1.24.2
+Requires.private: gstreamer-check-1.0 >=  1.24.0, gstreamer-1.0 >=  1.24.0, gstreamer-controller-1.0 >=  1.24.0, gstreamer-base-1.0 >=  1.24.0, gstreamer-app-1.0 >=  1.24.0, gio-2.0 >=  2.64.0, gmodule-no-export-2.0, gstreamer-pbutils-1.0 >=  1.24.0, json-glib-1.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstvalidatetracer
+Libs.private: -lm
+Cflags: -I${includedir}

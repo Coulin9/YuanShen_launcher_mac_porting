@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: theora
+Description: Theora video codec
+Version: 1.1.1
+Requires.private: ogg >=  1.1
+Libs: -L${libdir} -ltheora
+Libs.private: -lm
+Cflags: -I${includedir}
+

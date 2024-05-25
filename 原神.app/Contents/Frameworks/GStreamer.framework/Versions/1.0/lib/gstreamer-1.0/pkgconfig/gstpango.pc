@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstpango
+Description: gst-plugins-base: gstpango
+Version: 1.24.2
+Requires.private: gstreamer-video-1.0, pangocairo >= 1.22.0, gstreamer-base-1.0 >=  1.24.0, orc-0.4 >=  0.4.24, gstreamer-1.0 >=  1.24.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstpango
+Libs.private: -lm
+Cflags: -I${includedir}
+

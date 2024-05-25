@@ -1,0 +1,14 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+
+graphene_has_sse2=1
+graphene_has_gcc=0
+graphene_has_neon=0
+graphene_has_scalar=1
+
+Name: Graphene-GObject
+Description: GObject types for Graphene
+Version: 1.10.8
+Requires: graphene-1.0, gobject-2.0
+Cflags: -I${includedir}/graphene-1.0
+

@@ -1,0 +1,10 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+Libs: -L${libdir} -lz
+Cflags: -I${includedir}
+

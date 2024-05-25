@@ -18,7 +18,7 @@
 ####################################################
 # Set all variables
 CMACOSFOLD="$(dirname "$0")"
-MACOSFOLD="$CMACOSFOLD/../../../Contents/MacOS"
+MACOSFOLD="$CMACOSFOLD/../../../MacOS"
 cd "$MACOSFOLD"
 MACOSFOLD="$(echo "$PWD")"
 CEXENAME="$(basename "${CMACOSFOLD%/Contents/MacOS}")"

@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstsmoothstreaming
+Description: gst-plugins-bad: gstsmoothstreaming
+Version: 1.24.2
+Requires.private: gstreamer-base-1.0 >=  1.24.0, gstreamer-codecparsers-1.0, gstreamer-1.0 >=  1.24.0, libxml-2.0 >=  2.8, gio-2.0 >=  2.64.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstsmoothstreaming
+Libs.private: -L${libdir} -lgstisoff-1.0 -lgsturidownloader-1.0 -lgstadaptivedemux-1.0
+Cflags: -I${includedir}
+

@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstgoom2k1
+Description: gst-plugins-good: gstgoom2k1
+Version: 1.24.2
+Requires.private: gstreamer-pbutils-1.0 >=  1.24.0, gstreamer-base-1.0 >=  1.24.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstgoom2k1
+Libs.private: -lm
+Cflags: -I${includedir}
+

@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: JSON-GLib
+Description: JSON Parser for GLib.
+Version: 1.6.2
+Requires: gio-2.0 >=  2.54.0
+Libs: -L${libdir} -ljson-glib-1.0
+Cflags: -I${includedir}/json-glib-1.0
+

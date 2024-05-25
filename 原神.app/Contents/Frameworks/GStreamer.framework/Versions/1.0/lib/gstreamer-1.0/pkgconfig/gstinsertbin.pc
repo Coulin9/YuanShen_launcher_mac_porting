@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstinsertbin
+Description: gst-plugins-bad: gstinsertbin
+Version: 1.24.2
+Requires.private: gstreamer-insertbin-1.0, gstreamer-1.0 >=  1.24.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstinsertbin
+Cflags: -I${includedir}
+

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export GSTREAMER_ROOT="/Users/gcenx/Documents/GitHub_old/cerbero/build/dist/darwin_x86_64"
+export GSTREAMER_ROOT="/Users/gcenx/Documents/GitHub/cerbero/build/dist/darwin_x86_64"
 export PATH="${GSTREAMER_ROOT}/bin${PATH:+:$PATH}"
 export LD_LIBRARY_PATH="${GSTREAMER_ROOT}/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
 export PKG_CONFIG_PATH="${GSTREAMER_ROOT}/lib/pkgconfig:${GSTREAMER_ROOT}/share/pkgconfig${PKG_CONFIG_PATH:+:$PKG_CONFIG_PATH}"

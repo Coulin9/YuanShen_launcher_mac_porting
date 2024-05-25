@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstbz2
+Description: gst-plugins-bad: gstbz2
+Version: 1.24.2
+Requires.private: gstreamer-video-1.0 >=  1.24.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstbz2
+Libs.private: -lbz2
+Cflags: -I${includedir}
+

@@ -3,38 +3,38 @@ WINE REGISTRY Version 2
 
 #arch=win64
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1712394051
-#time=1da8800ec85511e
-"Administrative Tools"="C:\\users\\mi\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
-"AppData"="C:\\users\\mi\\AppData\\Roaming"
-"Cache"="C:\\users\\mi\\AppData\\Local\\Microsoft\\Windows\\INetCache"
-"Cookies"="C:\\users\\mi\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
-"Desktop"="C:\\users\\mi\\Desktop"
-"Favorites"="C:\\users\\mi\\Favorites"
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1716605248
+#time=1daae4de1c03de8
+"Administrative Tools"="C:\\users\\zhaoxinyu\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
+"AppData"="C:\\users\\zhaoxinyu\\AppData\\Roaming"
+"Cache"="C:\\users\\zhaoxinyu\\AppData\\Local\\Microsoft\\Windows\\INetCache"
+"Cookies"="C:\\users\\zhaoxinyu\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+"Desktop"="C:\\users\\zhaoxinyu\\Desktop"
+"Favorites"="C:\\users\\zhaoxinyu\\Favorites"
 "Fonts"="C:\\windows\\Fonts"
-"History"="C:\\users\\mi\\AppData\\Local\\Microsoft\\Windows\\History"
-"Local AppData"="C:\\users\\mi\\AppData\\Local"
-"My Music"="C:\\users\\mi\\Music"
-"My Pictures"="C:\\users\\mi\\Pictures"
-"My Videos"="C:\\users\\mi\\Videos"
-"NetHood"="C:\\users\\mi\\AppData\\Roaming\\Microsoft\\Windows\\Network Shortcuts"
-"Personal"="C:\\users\\mi\\Documents"
-"PrintHood"="C:\\users\\mi\\AppData\\Roaming\\Microsoft\\Windows\\Printer Shortcuts"
-"Programs"="C:\\users\\mi\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
-"Recent"="C:\\users\\mi\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
-"SendTo"="C:\\users\\mi\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
-"Start Menu"="C:\\users\\mi\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
-"StartUp"="C:\\users\\mi\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp"
-"Templates"="C:\\users\\mi\\AppData\\Roaming\\Microsoft\\Windows\\Templates"
-"{374DE290-123F-4565-9164-39C4925E467B}"="C:\\users\\mi\\Downloads"
-"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"="C:\\users\\mi\\Saved Games"
-"{56784854-C6CB-462B-8169-88E350ACB882}"="C:\\users\\mi\\Contacts"
-"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"="C:\\users\\mi\\Searches"
-"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\mi\\AppData\\LocalLow"
-"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\mi\\Links"
+"History"="C:\\users\\zhaoxinyu\\AppData\\Local\\Microsoft\\Windows\\History"
+"Local AppData"="C:\\users\\zhaoxinyu\\AppData\\Local"
+"My Music"="C:\\users\\zhaoxinyu\\Music"
+"My Pictures"="C:\\users\\zhaoxinyu\\Pictures"
+"My Videos"="C:\\users\\zhaoxinyu\\Videos"
+"NetHood"="C:\\users\\zhaoxinyu\\AppData\\Roaming\\Microsoft\\Windows\\Network Shortcuts"
+"Personal"="C:\\users\\zhaoxinyu\\Documents"
+"PrintHood"="C:\\users\\zhaoxinyu\\AppData\\Roaming\\Microsoft\\Windows\\Printer Shortcuts"
+"Programs"="C:\\users\\zhaoxinyu\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
+"Recent"="C:\\users\\zhaoxinyu\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+"SendTo"="C:\\users\\zhaoxinyu\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
+"Start Menu"="C:\\users\\zhaoxinyu\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+"StartUp"="C:\\users\\zhaoxinyu\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp"
+"Templates"="C:\\users\\zhaoxinyu\\AppData\\Roaming\\Microsoft\\Windows\\Templates"
+"{374DE290-123F-4565-9164-39C4925E467B}"="C:\\users\\zhaoxinyu\\Downloads"
+"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"="C:\\users\\zhaoxinyu\\Saved Games"
+"{56784854-C6CB-462B-8169-88E350ACB882}"="C:\\users\\zhaoxinyu\\Contacts"
+"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"="C:\\users\\zhaoxinyu\\Searches"
+"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\zhaoxinyu\\AppData\\LocalLow"
+"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\zhaoxinyu\\Links"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1712394051
-#time=1da8800ec8541d8
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1716605248
+#time=1daae4de1c02e16
 "Administrative Tools"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
 "AppData"=str(2):"%USERPROFILE%\\AppData\\Roaming"
 "Cache"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCache"

@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstmultifile
+Description: gst-plugins-good: gstmultifile
+Version: 1.24.2
+Requires.private: gstreamer-video-1.0 >=  1.24.0, gstreamer-base-1.0 >=  1.24.0, gstreamer-pbutils-1.0 >=  1.24.0, gio-2.0 >=  2.64.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstmultifile
+Cflags: -I${includedir}
+

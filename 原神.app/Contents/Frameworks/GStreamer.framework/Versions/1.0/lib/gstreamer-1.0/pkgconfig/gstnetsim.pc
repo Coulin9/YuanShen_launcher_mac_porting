@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstnetsim
+Description: gst-plugins-bad: gstnetsim
+Version: 1.24.2
+Requires.private: gstreamer-base-1.0 >=  1.24.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstnetsim
+Libs.private: -lm
+Cflags: -I${includedir}
+

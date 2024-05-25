@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstaudiotestsrc
+Description: gst-plugins-base: gstaudiotestsrc
+Version: 1.24.2
+Requires.private: gstreamer-audio-1.0, gstreamer-tag-1.0, gstreamer-base-1.0 >=  1.24.0, zlib, orc-0.4 >=  0.4.24
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstaudiotestsrc
+Libs.private: -lm
+Cflags: -I${includedir}
+

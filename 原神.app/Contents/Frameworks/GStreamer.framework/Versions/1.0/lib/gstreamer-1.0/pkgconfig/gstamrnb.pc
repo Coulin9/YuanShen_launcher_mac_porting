@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstamrnb
+Description: gst-plugins-good: gstamrnb
+Version: 1.24.2
+Requires.private: gstreamer-audio-1.0 >=  1.24.0, opencore-amrnb >=  0.1.3
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstamrnb
+Cflags: -I${includedir}
+

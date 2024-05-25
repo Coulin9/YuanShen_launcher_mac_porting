@@ -1,0 +1,10 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: sbc
+Description: SBC library
+Version: 2.0
+Libs: -L${libdir} -lsbc
+Cflags: -I${includedir}
+

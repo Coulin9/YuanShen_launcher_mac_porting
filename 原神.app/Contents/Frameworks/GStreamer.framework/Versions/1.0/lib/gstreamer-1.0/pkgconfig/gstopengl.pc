@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstopengl
+Description: gst-plugins-base: gstopengl
+Version: 1.24.2
+Requires.private: gstreamer-gl-1.0, gstreamer-video-1.0, gstreamer-base-1.0 >=  1.24.0, orc-0.4 >=  0.4.24, gstreamer-controller-1.0 >=  1.24.0, graphene-gobject-1.0 >= 1.4.0, libpng >= 1.0, libjpeg
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstopengl
+Libs.private: -lm -framework Cocoa -framework QuartzCore -framework Foundation -framework CoreFoundation
+Cflags: -I${includedir}
+

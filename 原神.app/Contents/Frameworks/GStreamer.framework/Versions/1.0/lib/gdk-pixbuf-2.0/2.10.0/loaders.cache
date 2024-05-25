@@ -1,0 +1,14 @@
+# GdkPixbuf Image Loader Modules file
+# Automatically generated file, do not edit
+# Created by gdk-pixbuf-query-loaders from gdk-pixbuf-2.42.10
+#
+# LoaderDir = /Users/gcenx/Documents/GitHub/cerbero/build/dist/darwin_x86_64/lib/gdk-pixbuf-2.0/2.10.0/loaders
+#
+"/Users/gcenx/Documents/GitHub/cerbero/build/dist/darwin_x86_64/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so"
+"svg" 6 "gdk-pixbuf" "Scalable Vector Graphics" "LGPL"
+"image/svg+xml" "image/svg" "image/svg-xml" "image/vnd.adobe.svg+xml" "text/xml-svg" "image/svg+xml-compressed" ""
+"svg" "svgz" "svg.gz" ""
+" <svg" "*    " 100
+" <!DOCTYPE svg" "*             " 100
+
+

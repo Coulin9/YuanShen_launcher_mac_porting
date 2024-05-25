@@ -1,0 +1,19 @@
+prefix=${pcfiledir}/../..
+datadir=${prefix}/share
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+exec_prefix=${prefix}
+toolsdir=${exec_prefix}/bin
+pluginsdir=${libdir}/gstreamer-1.0
+datarootdir=${prefix}/share
+girdir=${datadir}/gir-1.0
+typelibdir=${libdir}/girepository-1.0
+
+Name: gstreamer-mpegts-1.0
+Description: GStreamer MPEG-TS support
+Version: 1.24.2
+Requires: gstreamer-1.0 >=  1.24.0, gstreamer-base-1.0 >=  1.24.0
+Libs: -L${libdir} -lgstmpegts-1.0
+Cflags: -I${includedir}/gstreamer-1.0
+

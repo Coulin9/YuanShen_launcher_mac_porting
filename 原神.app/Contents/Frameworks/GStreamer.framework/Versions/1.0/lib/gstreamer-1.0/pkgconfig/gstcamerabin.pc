@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstcamerabin
+Description: gst-plugins-bad: gstcamerabin
+Version: 1.24.2
+Requires.private: gstreamer-app-1.0 >=  1.24.0, gstreamer-photography-1.0, gstreamer-1.0 >=  1.24.0, gstreamer-tag-1.0 >=  1.24.0, gstreamer-pbutils-1.0 >=  1.24.0, gstreamer-base-1.0 >=  1.24.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstcamerabin
+Libs.private: -L${libdir} -lgstbasecamerabinsrc-1.0
+Cflags: -I${includedir}
+

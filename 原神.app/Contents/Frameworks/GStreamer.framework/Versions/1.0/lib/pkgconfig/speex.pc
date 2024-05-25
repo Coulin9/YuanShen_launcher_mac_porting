@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: speex
+Description: Speex is an audio codec tuned for speech
+Version: 1.2.1
+Libs: -L${libdir} -lspeex
+Libs.private: -lm
+Cflags: -I${includedir}
+

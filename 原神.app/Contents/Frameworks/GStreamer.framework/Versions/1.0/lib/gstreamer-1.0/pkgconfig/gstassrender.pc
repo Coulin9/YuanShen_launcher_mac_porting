@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstassrender
+Description: gst-plugins-bad: gstassrender
+Version: 1.24.2
+Requires.private: gstreamer-video-1.0 >=  1.24.0, libass >=  0.10.2
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstassrender
+Cflags: -I${includedir}
+

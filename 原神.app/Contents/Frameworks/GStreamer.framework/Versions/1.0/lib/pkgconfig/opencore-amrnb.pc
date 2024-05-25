@@ -1,0 +1,10 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: OpenCORE AMR-NB
+Description: Adaptive Multi-Rate speech codec library
+Version: 0.1.6
+Libs: -L${libdir} -lopencore-amrnb
+Cflags: -I${includedir}/opencore-amrnb
+

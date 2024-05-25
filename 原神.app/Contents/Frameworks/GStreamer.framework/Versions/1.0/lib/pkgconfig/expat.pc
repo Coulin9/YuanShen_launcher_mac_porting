@@ -1,0 +1,13 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=/Users/gcenx/Documents/GitHub/cerbero/build/dist/darwin_x86_64/lib
+includedir=${prefix}/include
+
+Name: expat
+Version: 2.4.8
+Description: expat XML parser
+URL: https://libexpat.github.io/
+Libs: -L${libdir} -lexpat
+Libs.private: 
+Cflags: -I${includedir}
+

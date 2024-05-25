@@ -17,8 +17,8 @@
 # Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
 # Boston, MA 02110-1301, USA.
 
-LIBDIR = r'/Users/gcenx/Documents/GitHub_old/cerbero/build/dist/darwin_x86_64/lib'
-DATADIR = r'/Users/gcenx/Documents/GitHub_old/cerbero/build/dist/darwin_x86_64/share'
-BUILDDIR = r'/Users/gcenx/Documents/GitHub_old/cerbero/build/sources/darwin_x86_64/gstreamer-1.0/subprojects/gst-devtools/_builddir'
-SRCDIR = r'/Users/gcenx/Documents/GitHub_old/cerbero/build/sources/darwin_x86_64/gstreamer-1.0/subprojects/gst-devtools'
+LIBDIR = r'/Users/gcenx/Documents/GitHub/cerbero/build/dist/darwin_x86_64/lib'
+DATADIR = r'/Users/gcenx/Documents/GitHub/cerbero/build/dist/darwin_x86_64/share'
+BUILDDIR = r'/Users/gcenx/Documents/GitHub/cerbero/build/sources/darwin_x86_64/gst-devtools-1.0-1.24.2/_builddir'
+SRCDIR = r'/Users/gcenx/Documents/GitHub/cerbero/build/sources/darwin_x86_64/gst-devtools-1.0-1.24.2'
 GST_VALIDATE_TESTSUITE_VERSION = '1.24'

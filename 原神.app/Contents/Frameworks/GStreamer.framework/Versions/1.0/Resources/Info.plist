@@ -9,13 +9,13 @@
 <key>CFBundleExecutable</key>
 <string>GStreamer</string>
 <key>CFBundlePackageGetInfoString</key>
-<string>GStreamer OSX Framework Bundle Version 1.24.0.1</string>
+<string>GStreamer OSX Framework Bundle Version 1.24.2</string>
 <key>CFBundlePackageType</key>
 <string>FMWK</string>
 <key>CFBundleVersion</key>
-<string>12401</string>
+<string>1242</string>
 <key>CFBundleShortVersionString</key>
-<string>1.24.0.1</string>
+<string>1.24.2</string>
 <key>LSMinimumSystemVersion</key>
 <string>10.13</string>
 <key>CFBundleInfoDictionaryVersion</key>

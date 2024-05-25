@@ -22,7 +22,7 @@
 	<key>CFBundleIconFile</key>
 	<string>Wineskin.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.778949114.wineskin</string>
+	<string>com.689576742.wineskin</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>CFBundleName</key>
@@ -30,9 +30,9 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.1.2</string>
+	<string>0.1.3</string>
 	<key>CFBundleVersion</key>
-	<string>3.0</string>
+	<string>3.0.3</string>
 	<key>CLI Custom Commands</key>
 	<string></string>
 	<key>CSResourcesFileMapped</key>
@@ -111,7 +111,7 @@
 	<key>Try To Use GPU Info</key>
 	<integer>0</integer>
 	<key>WINEDEBUG</key>
-	<string></string>
+	<string>-plugplay,+loaddll</string>
 	<key>WINEESYNC</key>
 	<integer>1</integer>
 	<key>WINEMSYNC</key>

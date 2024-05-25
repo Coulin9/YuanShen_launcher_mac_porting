@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstaudioparsers
+Description: gst-plugins-good: gstaudioparsers
+Version: 1.24.2
+Requires.private: gstreamer-1.0 >=  1.24.0, gstreamer-base-1.0 >=  1.24.0, gstreamer-pbutils-1.0 >=  1.24.0, gstreamer-audio-1.0 >=  1.24.0, gstreamer-tag-1.0 >=  1.24.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstaudioparsers
+Cflags: -I${includedir}
+

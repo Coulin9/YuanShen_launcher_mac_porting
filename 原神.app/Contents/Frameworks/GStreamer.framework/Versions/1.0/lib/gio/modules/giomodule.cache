@@ -1,0 +1,2 @@
+libgioenvironmentproxy.so: gio-proxy-resolver
+libgioopenssl.so: gio-tls-backend

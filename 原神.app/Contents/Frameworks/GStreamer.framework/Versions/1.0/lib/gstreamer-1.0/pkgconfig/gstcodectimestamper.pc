@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstcodectimestamper
+Description: gst-plugins-bad: gstcodectimestamper
+Version: 1.24.2
+Requires.private: gstreamer-codecparsers-1.0, gstreamer-base-1.0 >=  1.24.0, gstreamer-video-1.0 >=  1.24.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstcodectimestamper
+Cflags: -I${includedir}
+

@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstremovesilence
+Description: gst-plugins-bad: gstremovesilence
+Version: 1.24.2
+Requires.private: gstreamer-base-1.0 >=  1.24.0, gstreamer-audio-1.0 >=  1.24.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstremovesilence
+Libs.private: -lm
+Cflags: -I${includedir}
+

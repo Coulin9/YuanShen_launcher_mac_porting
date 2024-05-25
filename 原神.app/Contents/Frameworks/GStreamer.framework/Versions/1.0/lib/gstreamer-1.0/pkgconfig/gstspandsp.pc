@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstspandsp
+Description: gst-plugins-bad: gstspandsp
+Version: 1.24.2
+Requires.private: gstreamer-video-1.0 >=  1.24.0, spandsp >=  0.0.6
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstspandsp
+Cflags: -I${includedir}
+

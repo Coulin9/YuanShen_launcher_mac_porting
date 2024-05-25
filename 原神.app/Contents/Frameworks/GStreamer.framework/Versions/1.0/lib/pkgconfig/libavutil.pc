@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: avutil
+Description: Multimedia utilities
+Version: 58.2.100
+Libs: -L${libdir} -lavutil
+Libs.private: -framework CoreFoundation -framework CoreMedia -framework CoreVideo -framework CoreAudio -lm
+Cflags: -I${includedir}
+

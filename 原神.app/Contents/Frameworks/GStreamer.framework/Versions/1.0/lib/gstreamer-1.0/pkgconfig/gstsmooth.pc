@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstsmooth
+Description: gst-plugins-bad: gstsmooth
+Version: 1.24.2
+Requires.private: gstreamer-base-1.0 >=  1.24.0, gstreamer-video-1.0 >=  1.24.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstsmooth
+Cflags: -I${includedir}
+

@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libltc
+Description: linear/longitudinal timecode library
+Version: 1.3.2
+Libs: -L${libdir} -lltc
+Libs.private: -lm
+Cflags: -I${includedir}
+

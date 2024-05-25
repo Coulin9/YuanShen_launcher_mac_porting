@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstapetag
+Description: gst-plugins-good: gstapetag
+Version: 1.24.2
+Requires.private: gstreamer-pbutils-1.0 >=  1.24.0, gstreamer-tag-1.0 >=  1.24.0, gstreamer-1.0 >=  1.24.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstapetag
+Cflags: -I${includedir}
+

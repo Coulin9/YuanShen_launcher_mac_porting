@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstmpegtsmux
+Description: gst-plugins-bad: gstmpegtsmux
+Version: 1.24.2
+Requires.private: gstreamer-mpegts-1.0, gstreamer-1.0 >=  1.24.0, gstreamer-tag-1.0 >=  1.24.0, gstreamer-pbutils-1.0 >=  1.24.0, gstreamer-audio-1.0 >=  1.24.0, gstreamer-video-1.0 >=  1.24.0, gstreamer-base-1.0 >=  1.24.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstmpegtsmux
+Cflags: -I${includedir}
+

@@ -1,0 +1,13 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: cairo-gobject
+Description: cairo-gobject for cairo graphics library
+Version: 1.18.0
+Requires: cairo, glib-2.0 >=  2.14, gobject-2.0
+Requires.private: zlib, libpng, fontconfig >=  2.2.95, freetype2 >=  9.7.3, pixman-1 >=  0.36.0
+Libs: -L${libdir} -lcairo-gobject
+Libs.private: -lm -ldl -framework CoreFoundation -framework ApplicationServices
+Cflags: -I${includedir}/cairo
+

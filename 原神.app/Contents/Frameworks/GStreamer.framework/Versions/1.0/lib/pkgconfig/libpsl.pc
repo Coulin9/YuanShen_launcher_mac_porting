@@ -1,0 +1,10 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libpsl
+Description: Public Suffix List C library
+Version: 0.20.2
+Libs: -L${libdir} -lpsl
+Cflags: -I${includedir}
+

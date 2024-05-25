@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstbayer
+Description: gst-plugins-bad: gstbayer
+Version: 1.24.2
+Requires.private: gstreamer-base-1.0 >=  1.24.0, gstreamer-video-1.0 >=  1.24.0, orc-0.4 >=  0.4.17
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstbayer
+Cflags: -I${includedir}
+

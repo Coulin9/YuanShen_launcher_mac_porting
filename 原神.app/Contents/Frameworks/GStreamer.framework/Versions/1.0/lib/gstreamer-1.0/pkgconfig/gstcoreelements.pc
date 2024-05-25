@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gstcoreelements
+Description: gstreamer: gstcoreelements
+Version: 1.24.2
+Requires.private: gstreamer-1.0, gstreamer-base-1.0, glib-2.0 >=  2.64.0, gobject-2.0, gmodule-no-export-2.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstcoreelements
+Cflags: -I${includedir}
+

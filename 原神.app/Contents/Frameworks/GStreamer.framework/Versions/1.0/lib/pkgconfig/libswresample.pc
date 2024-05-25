@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: swresample
+Description: FFmpeg audio resampling library
+Version: 4.10.100
+Requires.private: libavutil
+Libs: -L${libdir} -lswresample
+Libs.private: -framework CoreFoundation -framework CoreMedia -framework CoreVideo -framework CoreAudio -lm
+Cflags: -I${includedir}
+
