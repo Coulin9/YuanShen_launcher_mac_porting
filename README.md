@@ -1,6 +1,6 @@
 # 这是什么？
 
-一个基于 [WineSkin](https://github.com/Gcenx/WineskinServer)的PC原神移植版本。
+一个基于 [WineSkin](https://github.com/Gcenx/WineskinServer)的PC原神/绝区零移植版本。
 
 # 优势
 
@@ -13,8 +13,31 @@
 
 # 如何安装？
 
-+ 打开终端，输入代码`curl -sL -o ~/launch_YuanShen.sh https://gitee.com/Coulin9/YuanShen_launcher_mac_porting/raw/main/launch_YuanShen.sh && chmod +x ~/launch_YuanShen.sh && ~/launch_YuanShen.sh`并回车
-+ 如果提示下载Xcode CommandLine Tools，请下载安装完成后重新执行上述代码
++ 步骤1:安装homebrew，如果你已经安装好了homebrew，可以跳过这一步
+  + 如果你在国内，请依次在终端执行：
+    + **/bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"** 如果卡住，请按**Control + C**中断脚本执行，再重新执行前面的命令，看到 ==> Installation successful! 说明安装成功
+    + **git -C "$(brew --repo)" remote set-url origin https://mirrors.ustc.edu.cn/brew.git**
+    + **git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git**
+    + **git -C "$(brew --repo homebrew/cask)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git**
+    + **brew update**
+  + 如果你在国外，请依次在终端执行：
+    + **/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"**
+    + **brew update**
++ 步骤2:安装kotlin，如果你已经安装了kotlin，可以跳过这一步
+  + 在终端执行命令**brew install kotlin**，等待安装完成
++ 步骤3:克隆项目
+  + 如果你在国内，请在终端执行：**git clone https://gitee.com/Coulin9/YuanShen_launcher_mac_porting.git**
+  + 如果你在国外，请在终端执行：**git clone https://github.com/Coulin9/YuanShen_launcher_mac_porting.git**
+  + Tips:**如果提示下载Xcode CommandLine Tools，请下载安装完成后重新执行步骤3**
++ 步骤4:定位到项目目录
+  + 在终端执行命令**cd YuanShen_launcher_mac_porting**
++ 步骤5:运行安装脚本
+  + 在终端执行命令**kotlinc -script install_or_update_game_package.main.kts**
++ 步骤6:使用安装脚本安装游戏
+  + 选择要安装的游戏后脚本将自动执行，期间会下载并解压游戏数据包，可能需要30min以上，如果最后提示**解压完成**表明安装成功。
++ 步骤7:在启动台找到游戏并启动
+
+![img.png](img.png)
 
 # ChangeLogs
 + V0.1.1
@@ -24,3 +47,7 @@
     + 更新winskin engine版本为CX23.7.1-2
 + V0.1.3
     + 更新winskin engine为wineStaging9.3
++ V1.0.0
+  + 新增绝区零安装支持
+  + 去掉了官方启动器，改为脚本安装游戏数据
+  + GPTK更新为2.0b1

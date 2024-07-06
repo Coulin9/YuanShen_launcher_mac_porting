@@ -1,8 +1,0 @@
-prefix=${pcfiledir}/../..
-includedir=${prefix}/include
-
-Name: Pango FC
-Description: Fontconfig support for Pango
-Version: 1.50.11
-Requires: pangoft2
-Cflags: -I${includedir}/pango-1.0

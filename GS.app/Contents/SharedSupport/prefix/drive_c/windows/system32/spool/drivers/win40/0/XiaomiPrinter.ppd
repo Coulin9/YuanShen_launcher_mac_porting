@@ -1,0 +1,806 @@
+*PPD-Adobe: "4.3"
+*%
+*% "$Id: postscript.ppd,v 1.1.1.1 2000/08/24 19:23:13 goffioul Exp $"
+*%
+*%   Sample Postscript driver PPD file for the Common UNIX Printing
+*%   System (CUPS).
+*%
+*%   Michael Goffioul <goffioul@emic.ucl.ac.be>
+*%
+*%   Changes to the original file by Volker Behr, Martin-Eric Racine,
+*%   Nickolay Kondrashov and other contributors:
+*%   added PrinterIcon support     - 2016-05-27
+*%   added IEEE-1284 device id     - 2008-03-24
+*%   added custom page size        - 2006-05-18
+*%   replaced page descriptions    - 2006-05-18
+*%   InputSlot constraints removed - 2006-05-11
+*%   maxed out imageable regions   - 2006-05-11
+*%   added pstitleiconv filter     - 2006-05-11
+*%   added ledger paper size       - 2006-01-29
+*%   match Adobe specifications    - 2005-12-23
+*%   additional paper formats      - 2005-02-03 and 2005-02-07
+*%   made A4 default paper size    - 2005-02-03
+*%   Color enabled                 - 2003-12-02
+*%
+*FormatVersion:    "4.3"
+*FileVersion:    "1.0"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName:    "SMPCPrinter.ppd"
+*Manufacturer:    "SMPC"
+*Product:    "(Printer_166 v1.0)"
+*ModelName:     "CanonPrinter"
+*ShortNickName: "CanonPrinter"
+*NickName:      "CanonPrinter"
+*APPrinterIconPath: "/Library/Printers/SMPC/smpcprinter/SMPCPrinter.png"
+*1284DeviceID:  "MFG:RWTS;MDL:CanonPrinter;DES:CanonPrinter - Prints documents as PDF files;CLS:PRINTER;CMD:POSTSCRIPT;"
+*cupsFilter:    "application/vnd.cups-pdf 0 -"
+*PSVersion:    "(3016.102) 1"
+*LanguageLevel:    "3"
+*ColorDevice:    True
+*DefaultColorSpace: Gray
+*FileSystem:    False
+*Throughput:    "8"
+*LandscapeOrientation: Plus90
+*TTRasterizer:    Type42
+
+
+*FileVersion: "0.1.0"
+*% PCFileName: "Generic.ppd"
+*APAirPrint: True
+*cupsSingleFile: False
+
+
+*%OpenUI *Collate: PickOne
+*%OrderDependency: 10 AnySetup *Collate
+*%DefaultCollate: False
+*%Collate True: "<</Collate true>>setpagedevice"
+*%Collate False: "<</Collate false>>setpagedevice"
+*%CloseUI: *Collate
+
+*ColorDevice: True
+*APColorSpaces: true
+*DefaultColorSpace: Gray
+*cupsICCProfile Gray../Grayscale: "/System/Library/ColorSync/Profiles/Generic Gray Gamma 2.2 Profile.icc"
+*cupsICCProfile RGB../Color: "/System/Library/ColorSync/Profiles/sRGB Profile.icc"
+
+
+*% Base PostScript watermark option
+*%OpenUI WatermarkText/Watermark Text: PickOne
+*%OrderDependency: 10 AnySetup *WatermarkText
+*%DefaultWatermarkText: None
+*%WatermarkText None: ""
+*%WatermarkText Draft: "<</cupsString1(Draft)>>setpagedevice"
+*%CloseUI: *WatermarkText
+
+*% Custom PostScript watermark option
+*%CustomWatermarkText True: "<</cupsString1 3 -1 roll>>setpagedevice"
+*%ParamCustomWatermarkText Text: 1 string 0 32
+
+
+*OpenUI *ColorModel/Color Mode: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*DefaultColorModel: Gray
+*ColorModel Gray/Grayscale: "<</cupsColorSpace 18/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*ColorModel RGB/Color: "<</cupsColorSpace 19/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*CloseUI: *ColorModel
+
+*OpenGroup: InstallableOptions/Options Installed
+*OpenUI *APOptionalDuplexer/Duplex Printing Unit: Boolean
+*DefaultAPOptionalDuplexer: False
+*APOptionalDuplexer True/Installed: ""
+*APOptionalDuplexer False/Not Installed: ""
+*?APOptionalDuplexer: "
+save
+currentpagedevice /Duplex known
+{(True)}{(False)}ifelse = flush
+restore
+"
+*End
+*CloseUI: *APOptionalDuplexer
+*CloseGroup: InstallableOptions
+
+*% ==== uninstalled options =======
+*UIConstraints: *APOptionalDuplexer False *Duplex DuplexTumble
+*UIConstraints: *APOptionalDuplexer False *Duplex DuplexNoTumble
+*UIConstraints: *Duplex DuplexTumble *APOptionalDuplexer False
+*UIConstraints: *Duplex DuplexNoTumble *APOptionalDuplexer False
+
+*OpenUI *Duplex/Duplex: PickOne
+*OrderDependency: 20 AnySetup *Duplex
+*DefaultDuplex: DuplexNoTumble
+*Duplex None/1-Sided: "1 dict dup /Duplex false put setpagedevice"
+*Duplex DuplexNoTumble/2-Sided, Long-Edge Binding (No Tumble): "
+2 dict dup /Duplex true put dup /Tumble false put setpagedevice
+"
+*End
+*Duplex DuplexTumble/2-Sided, Short-Edge Binding (Tumble): "
+2 dict dup /Duplex true put dup /Tumble true put setpagedevice
+"
+*End
+*?Duplex: "
+save
+currentpagedevice /Duplex known
+{
+currentpagedevice /Duplex get
+{
+currentpagedevice /Tumble get
+{
+(DuplexTumble)
+}{
+(DuplexNoTumble)
+}ifelse
+}{
+(None)
+}ifelse
+}{
+(None)
+}ifelse
+= flush
+restore
+"
+*End
+*CloseUI: *Duplex
+
+*OpenUI *PageSize/Page Size: PickOne
+*OrderDependency: 100 AnySetup *PageSize
+*DefaultPageSize: A4
+*PageSize A3/A3: "<</PageSize[842 1191]/ImagingBBox null>>setpagedevice"
+*PageSize A4/A4: "<</PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 100 AnySetup *PageRegion
+*DefaultPageRegion: A4
+*PageRegion A3/A3: "<</PageSize[842 1191]/ImagingBBox null>>setpagedevice"
+*PageRegion A4/A4: "<</PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+
+
+*DefaultImageableArea: A4
+*ImageableArea A3/A3: "0 0 842 1191"
+*ImageableArea A4/A4: "0 0 595 842"
+*DefaultPaperDimension: A4
+*PaperDimension A3/A3: "842 1191"
+*PaperDimension A4/A4: "595 842"
+
+
+*OpenUI *ManualFeed/Manual Feed: Boolean
+*OrderDependency: 20 AnySetup *ManualFeed
+*DefaultManualFeed: False
+*ManualFeed True: "1 dict dup /ManualFeed true put setpagedevice"
+*ManualFeed False: "1 dict dup /ManualFeed false put setpagedevice"
+*CloseUI: *ManualFeed
+
+*RequiresPageRegion All: True
+
+*OpenUI *InputSlot: PickOne
+*OrderDependency: 20 AnySetup *InputSlot
+*DefaultInputSlot: Upper
+*InputSlot Upper/Cassette: ""
+*CloseUI: *InputSlot
+
+*%OpenGroup: General/General
+*%OpenUI *Resolution/Output Resolution: PickOne
+*%OrderDependency: 100 AnySetup *Resolution
+*%DefaultResolution: 300dpi
+*%Resolution 150dpi/150 DPI: "<</HWResolution[150 150]>>setpagedevice"
+*%Resolution 300dpi/300 DPI: "<</HWResolution[300 300]>>setpagedevice"
+*%Resolution 600dpi/600 DPI: "<</HWResolution[600 600]>>setpagedevice"
+*%Resolution 1200dpi/1200 DPI: "<</HWResolution[1200 1200]>>setpagedevice"
+*%Resolution 2400dpi/2400 DPI: "<</HWResolution[2400 2400]>>setpagedevice"
+*%CloseUI: *Resolution
+*%CloseGroup: General
+
+*DefaultFont: Courier
+*Font Courier: Standard "(001.000)" Standard ROM
+*Font Courier-Bold: Standard "(001.000)" Standard ROM
+*Font Courier-BoldOblique: Standard "(001.000)" Standard ROM
+*Font Courier-Oblique: Standard "(001.000)" Standard ROM
+*Font Helvetica: Standard "(001.001)" Standard ROM
+*Font Helvetica-Bold: Standard "(001.001)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(001.000)" Standard ROM
+*Font Helvetica-Oblique: Standard "(001.000)" Standard ROM
+*Font Symbol: Special "(001.001)" Special ROM
+*Font Times-Bold: Standard "(001.001)" Standard ROM
+*Font Times-BoldItalic: Standard "(001.001)" Standard ROM
+*Font Times-Italic: Standard "(001.001)" Standard ROM
+*Font Times-Roman: Standard "(001.000)" Standard ROM
+
+
+
+*cupsLanguages: "pt zh_CN de da es no ja fi ko nl sv it zh_TW fr ru pt_PT pl ar"
+
+*% === Portuguese ===
+*pt.Translation InputSlot/Fonte de Mídia: ""
+*pt.InputSlot Upper/Bandeja: ""
+*pt.Translation ManualFeed/Alimentação Manual: ""
+*pt.ManualFeed True/Sim: ""
+*pt.ManualFeed False/Não: ""
+*pt.Translation PageRegion/Região da Página: ""
+*pt.PageRegion Letter/Carta EUA: ""
+*pt.PageRegion Legal/Ofício EUA: ""
+*pt.PageRegion A4/A4: ""
+*pt.PageRegion ISOB5/ISOB5: ""
+*pt.PageRegion B5/JISB5: ""
+*pt.PageRegion LetterSmall/Carta Pequena EUA: ""
+*pt.PageRegion LegalSmall/Ofício Pequeno EUA: ""
+*pt.PageRegion A4Small/A4 Pequeno: ""
+*pt.Translation PageSize/Tamanho Médio: ""
+*pt.PageSize Letter/Carta EUA: ""
+*pt.PageSize Legal/Ofício EUA: ""
+*pt.PageSize A4/A4: ""
+*pt.PageSize ISOB5/ISOB5: ""
+*pt.PageSize B5/JISB5: ""
+*pt.PageSize LetterSmall/Carta Pequena EUA: ""
+*pt.PageSize LegalSmall/Ofício Pequeno EUA: ""
+*pt.PageSize A4Small/A4 Pequeno: ""
+*pt.Translation APOptionalDuplexer/Unidade de Impressão Dupla: ""
+*pt.APOptionalDuplexer True/Instalada: ""
+*pt.APOptionalDuplexer False/Não Instalada: ""
+*pt.Translation Duplex/Dupla: ""
+*pt.Duplex None/Frente: ""
+*pt.Duplex DuplexNoTumble/Frente e Verso, Encadernação com Margem Grande (Sem Inversão): ""
+*pt.Duplex DuplexTumble/Frente e Verso, Encadernação com Margem Pequena (Com Inversão): ""
+
+*% === Simplified Chinese ===
+*zh_CN.Translation InputSlot/介质源: ""
+*zh_CN.InputSlot Upper/纸盒: ""
+*zh_CN.Translation ManualFeed/手动送纸: ""
+*zh_CN.ManualFeed True/是: ""
+*zh_CN.ManualFeed False/否: ""
+*zh_CN.Translation PageRegion/页面区域: ""
+*zh_CN.PageRegion Letter/美国信纸: ""
+*zh_CN.PageRegion Legal/美国法定用纸: ""
+*zh_CN.PageRegion A4/A4: ""
+*zh_CN.PageRegion ISOB5/ISOB5: ""
+*zh_CN.PageRegion B5/JISB5: ""
+*zh_CN.PageRegion LetterSmall/美国小号信纸: ""
+*zh_CN.PageRegion LegalSmall/美国小号法定用纸: ""
+*zh_CN.PageRegion A4Small/小号 A4: ""
+*zh_CN.Translation PageSize/介质大小: ""
+*zh_CN.PageSize Letter/美国信纸: ""
+*zh_CN.PageSize Legal/美国法定用纸: ""
+*zh_CN.PageSize A4/A4: ""
+*zh_CN.PageSize ISOB5/ISOB5: ""
+*zh_CN.PageSize B5/JISB5: ""
+*zh_CN.PageSize LetterSmall/美国小号信纸: ""
+*zh_CN.PageSize LegalSmall/美国小号法定用纸: ""
+*zh_CN.PageSize A4Small/小号 A4: ""
+*zh_CN.Translation APOptionalDuplexer/双面打印单位: ""
+*zh_CN.APOptionalDuplexer True/已安装: ""
+*zh_CN.APOptionalDuplexer False/未安装: ""
+*zh_CN.Translation Duplex/双面: ""
+*zh_CN.Duplex None/单面: ""
+*zh_CN.Duplex DuplexNoTumble/双面、长边装订（无翻转）: ""
+*zh_CN.Duplex DuplexTumble/双面、短边装订（翻转）: ""
+
+*% === German ===
+*de.Translation InputSlot/Medienquelle: ""
+*de.InputSlot Upper/Kassette: ""
+*de.Translation ManualFeed/Einzelblattzufuhr: ""
+*de.ManualFeed True/Ja: ""
+*de.ManualFeed False/Nein: ""
+*de.Translation PageRegion/Seitenregion: ""
+*de.PageRegion Letter/US Brief: ""
+*de.PageRegion Legal/US lang: ""
+*de.PageRegion A4/DIN A4: ""
+*de.PageRegion ISOB5/DIN B5: ""
+*de.PageRegion B5/DIN B5: ""
+*de.PageRegion LetterSmall/US Brief (klein): ""
+*de.PageRegion LegalSmall/US lang (klein): ""
+*de.PageRegion A4Small/DIN A4 (klein): ""
+*de.Translation PageSize/Mediengröße: ""
+*de.PageSize Letter/US Brief: ""
+*de.PageSize Legal/US lang: ""
+*de.PageSize A4/DIN A4: ""
+*de.PageSize ISOB5/DIN B5: ""
+*de.PageSize B5/DIN B5: ""
+*de.PageSize LetterSmall/US Brief (klein): ""
+*de.PageSize LegalSmall/US lang (klein): ""
+*de.PageSize A4Small/DIN A4 (klein): ""
+*de.Translation APOptionalDuplexer/Duplexeinheit: ""
+*de.APOptionalDuplexer True/Installiert: ""
+*de.APOptionalDuplexer False/Nicht installiert: ""
+*de.Translation Duplex/Duplex: ""
+*de.Duplex None/Aus: ""
+*de.Duplex DuplexNoTumble/Ein, Bindung links: ""
+*de.Duplex DuplexTumble/Ein, Bindung oben: ""
+
+*% === Danish ===
+*da.Translation InputSlot/Papirkilde: ""
+*da.InputSlot Upper/Kassette: ""
+*da.Translation ManualFeed/Manuel ilægning: ""
+*da.ManualFeed True/Ja: ""
+*da.ManualFeed False/Nej: ""
+*da.Translation PageRegion/Sideområde: ""
+*da.PageRegion Letter/8,5 x 11" (falset): ""
+*da.PageRegion Legal/8,5 x 14" (falset): ""
+*da.PageRegion A4/A4: ""
+*da.PageRegion ISOB5/ISOB5: ""
+*da.PageRegion B5/JISB5: ""
+*da.PageRegion LetterSmall/8,5 x 11" (beskåret): ""
+*da.PageRegion LegalSmall/8,5 x 14" (beskåret): ""
+*da.PageRegion A4Small/A4 (beskåret): ""
+*da.Translation PageSize/Papirstørrelse: ""
+*da.PageSize Letter/8,5 x 11" (falset): ""
+*da.PageSize Legal/8,5 x 14" (falset): ""
+*da.PageSize A4/A4: ""
+*da.PageSize ISOB5/ISOB5: ""
+*da.PageSize B5/JISB5: ""
+*da.PageSize LetterSmall/8,5 x 11" (beskåret): ""
+*da.PageSize LegalSmall/8,5 x 14" (beskåret): ""
+*da.PageSize A4Small/A4 (beskåret): ""
+*da.Translation APOptionalDuplexer/Dupleksenhed: ""
+*da.APOptionalDuplexer True/Installeret: ""
+*da.APOptionalDuplexer False/Ikke installeret: ""
+*da.Translation Duplex/Dupleks: ""
+*da.Duplex None/Udskrift på en side: ""
+*da.Duplex DuplexNoTumble/Udskrift på begge sider, indbinding på den lange led: ""
+*da.Duplex DuplexTumble/Udskrift på begge sider, indbinding på den korte led: ""
+
+*% === Spanish ===
+*es.Translation InputSlot/Origen del papel: ""
+*es.InputSlot Upper/Bandeja: ""
+*es.Translation ManualFeed/Alimentación manual: ""
+*es.ManualFeed True/Sí: ""
+*es.ManualFeed False/No: ""
+*es.Translation PageRegion/PageRegion: ""
+*es.PageRegion Letter/Carta US: ""
+*es.PageRegion Legal/Legal US: ""
+*es.PageRegion A4/A4: ""
+*es.PageRegion ISOB5/ISOB5: ""
+*es.PageRegion B5/JISB5: ""
+*es.PageRegion LetterSmall/Carta US reducida: ""
+*es.PageRegion LegalSmall/Legal US reducido: ""
+*es.PageRegion A4Small/A4 reducido: ""
+*es.Translation PageSize/Tamaño de papel: ""
+*es.PageSize Letter/Carta US: ""
+*es.PageSize Legal/Legal US: ""
+*es.PageSize A4/A4: ""
+*es.PageSize ISOB5/ISOB5: ""
+*es.PageSize B5/JISB5: ""
+*es.PageSize LetterSmall/Carta US reducida: ""
+*es.PageSize LegalSmall/Legal US reducido: ""
+*es.PageSize A4Small/A4 reducido: ""
+*es.Translation APOptionalDuplexer/Unidad de doble cara: ""
+*es.APOptionalDuplexer True/Instalada: ""
+*es.APOptionalDuplexer False/No instalada: ""
+*es.Translation Duplex/Doble cara: ""
+*es.Duplex None/1-Sided: ""
+*es.Duplex DuplexNoTumble/2 caras, filo largo (sin caída): ""
+*es.Duplex DuplexTumble/2 caras, filo corto (con caída): ""
+
+*% === Norwegian ===
+*no.Translation InputSlot/Mediekilde: ""
+*no.InputSlot Upper/Kassett: ""
+*no.Translation ManualFeed/Manuell mating: ""
+*no.ManualFeed True/Ja: ""
+*no.ManualFeed False/Nei: ""
+*no.Translation PageRegion/Sideområde: ""
+*no.PageRegion Letter/US Letter: ""
+*no.PageRegion Legal/US Legal: ""
+*no.PageRegion A4/A4: ""
+*no.PageRegion ISOB5/ISOB5: ""
+*no.PageRegion B5/JISB5: ""
+*no.PageRegion LetterSmall/US Letter lite: ""
+*no.PageRegion LegalSmall/US Legal lite: ""
+*no.PageRegion A4Small/A4 lite: ""
+*no.Translation PageSize/Mediastørrelse: ""
+*no.PageSize Letter/US Letter: ""
+*no.PageSize Legal/US Legal: ""
+*no.PageSize A4/A4: ""
+*no.PageSize ISOB5/ISOB5: ""
+*no.PageSize B5/JISB5: ""
+*no.PageSize LetterSmall/US Letter lite: ""
+*no.PageSize LegalSmall/US Legal lite: ""
+*no.PageSize A4Small/A4 lite: ""
+*no.Translation APOptionalDuplexer/Dupleksenhet: ""
+*no.APOptionalDuplexer True/Installert: ""
+*no.APOptionalDuplexer False/Ikke installert: ""
+*no.Translation Duplex/Dupleks: ""
+*no.Duplex None/Enkeltsidig: ""
+*no.Duplex DuplexNoTumble/Tosidig, langsidebinding (uten rotering): ""
+*no.Duplex DuplexTumble/Tosidig, langsidebinding (rotering): ""
+
+*% === Japanese ===
+*ja.Translation InputSlot/給紙: ""
+*ja.InputSlot Upper/用紙カセット: ""
+*ja.Translation ManualFeed/手差し: ""
+*ja.ManualFeed True/はい: ""
+*ja.ManualFeed False/いいえ: ""
+*ja.Translation PageRegion/印刷領域: ""
+*ja.PageRegion Letter/レター: ""
+*ja.PageRegion Legal/リーガル: ""
+*ja.PageRegion A4/A4: ""
+*ja.PageRegion ISOB5/B5（ISO）: ""
+*ja.PageRegion LetterSmall/レター（小）: ""
+*ja.PageRegion LegalSmall/リーガル（小）: ""
+*ja.PageRegion A4Small/A4（小）: ""
+*ja.Translation PageSize/用紙サイズ: ""
+*ja.PageSize Letter/レター: ""
+*ja.PageSize Legal/リーガル: ""
+*ja.PageSize A4/A4: ""
+*ja.PageSize ISOB5/B5（ISO）: ""
+*ja.PageSize B5/JISB5: ""
+*ja.PageSize LetterSmall/レター（小）: ""
+*ja.PageSize LegalSmall/リーガル（小）: ""
+*ja.PageSize A4Small/A4（小）: ""
+*ja.Translation APOptionalDuplexer/両面印刷: ""
+*ja.APOptionalDuplexer True/インストール済み: ""
+*ja.APOptionalDuplexer False/未インストール: ""
+*ja.Translation Duplex/両面: ""
+*ja.Duplex None/片面: ""
+*ja.Duplex DuplexNoTumble/両面、長辺とじ（タンブルなし）: ""
+*ja.Duplex DuplexTumble/両面、短辺とじ（タンブル）: ""
+
+*% === Finnish ===
+*fi.Translation InputSlot/Medialähde: ""
+*fi.InputSlot Upper/Kasetti: ""
+*fi.Translation ManualFeed/Käsisyöttö: ""
+*fi.ManualFeed True/Kyllä: ""
+*fi.ManualFeed False/Ei: ""
+*fi.Translation PageRegion/Sivualue: ""
+*fi.PageRegion Letter/US Letter: ""
+*fi.PageRegion Legal/US Legal: ""
+*fi.PageRegion A4/A4: ""
+*fi.PageRegion ISOB5/ISOB5: ""
+*fi.PageRegion B5/JISB5: ""
+*fi.PageRegion LetterSmall/US Letter pieni: ""
+*fi.PageRegion LegalSmall/US Legal pieni: ""
+*fi.PageRegion A4Small/A4 pieni: ""
+*fi.Translation PageSize/Mediakoko: ""
+*fi.PageSize Letter/US Letter: ""
+*fi.PageSize Legal/US Legal: ""
+*fi.PageSize A4/A4: ""
+*fi.PageSize ISOB5/ISOB5: ""
+*fi.PageSize B5/JISB5: ""
+*fi.PageSize LetterSmall/US Letter pieni: ""
+*fi.PageSize LegalSmall/US Legal pieni: ""
+*fi.PageSize A4Small/A4 pieni: ""
+*fi.Translation APOptionalDuplexer/Duplex-yksikkö: ""
+*fi.APOptionalDuplexer True/Asennettu: ""
+*fi.APOptionalDuplexer False/Ei asennettu: ""
+*fi.Translation Duplex/Duplex: ""
+*fi.Duplex None/1-puolinen: ""
+*fi.Duplex DuplexNoTumble/2-puolinen, pitkä sivu sidottu (ei kääntäen): ""
+*fi.Duplex DuplexTumble/2-puolinen, lyhyt sivu sidottu (kääntäen): ""
+
+*% === Korean ===
+*ko.Translation InputSlot/미디어 소스: ""
+*ko.InputSlot Upper/카세트: ""
+*ko.Translation ManualFeed/수동 공급: ""
+*ko.ManualFeed True/예: ""
+*ko.ManualFeed False/아니요: ""
+*ko.Translation PageRegion/페이지 영역: ""
+*ko.PageRegion Letter/US 편지지: ""
+*ko.PageRegion Legal/US 공문서: ""
+*ko.PageRegion A4/A4: ""
+*ko.PageRegion ISOB5/ISOB5: ""
+*ko.PageRegion B5/JISB5: ""
+*ko.PageRegion LetterSmall/US 편지지(소): ""
+*ko.PageRegion LegalSmall/US 공문서(소): ""
+*ko.PageRegion A4Small/A4(소): ""
+*ko.Translation PageSize/미디어 크기: ""
+*ko.PageSize Letter/US 편지지: ""
+*ko.PageSize Legal/US 공문서: ""
+*ko.PageSize A4/A4: ""
+*ko.PageSize ISOB5/ISOB5: ""
+*ko.PageSize B5/JISB5: ""
+*ko.PageSize LetterSmall/US 편지지(소): ""
+*ko.PageSize LegalSmall/US 공문서(소): ""
+*ko.PageSize A4Small/A4(소): ""
+*ko.Translation APOptionalDuplexer/양면 프린트 장비: ""
+*ko.APOptionalDuplexer True/설치됨: ""
+*ko.APOptionalDuplexer False/설치되지 않음: ""
+*ko.Translation Duplex/양면: ""
+*ko.Duplex None/한면: ""
+*ko.Duplex DuplexNoTumble/양면, 긴 가장자리 바인딩(뒤집어 찍기 안 함): ""
+*ko.Duplex DuplexTumble/양면, 짧은 가장자리 바인딩(뒤집어 찍기): ""
+
+*% === Dutch ===
+*nl.Translation InputSlot/Mediabron: ""
+*nl.InputSlot Upper/Cassette: ""
+*nl.Translation ManualFeed/Handmatige invoer: ""
+*nl.ManualFeed True/Ja: ""
+*nl.ManualFeed False/Nee: ""
+*nl.Translation PageRegion/Paginadeel: ""
+*nl.PageRegion Letter/US Letter: ""
+*nl.PageRegion Legal/US Legal: ""
+*nl.PageRegion A4/A4: ""
+*nl.PageRegion ISOB5/ISOB5: ""
+*nl.PageRegion B5/JISB5: ""
+*nl.PageRegion LetterSmall/US Letter klein: ""
+*nl.PageRegion LegalSmall/US Legal klein: ""
+*nl.PageRegion A4Small/A4 klein: ""
+*nl.Translation PageSize/Mediagrootte: ""
+*nl.PageSize Letter/US Letter: ""
+*nl.PageSize Legal/US Legal: ""
+*nl.PageSize A4/A4: ""
+*nl.PageSize ISOB5/ISOB5: ""
+*nl.PageSize B5/JISB5: ""
+*nl.PageSize LetterSmall/US Letter klein: ""
+*nl.PageSize LegalSmall/US Legal klein: ""
+*nl.PageSize A4Small/A4 klein: ""
+*nl.Translation APOptionalDuplexer/Dubbelzijdig afdrukken: ""
+*nl.APOptionalDuplexer True/Geïnstalleerd: ""
+*nl.APOptionalDuplexer False/Niet geïnstalleerd: ""
+*nl.Translation Duplex/Dubbelzijdig: ""
+*nl.Duplex None/Enkelzijdig: ""
+*nl.Duplex DuplexNoTumble/Dubbelzijdig, lange zijde gebonden: ""
+*nl.Duplex DuplexTumble/Dubbelzijdig, korte zijde gebonden: ""
+
+*% === Swedish ===
+*sv.Translation InputSlot/Media Source: ""
+*sv.InputSlot Upper/Kassett: ""
+*sv.Translation ManualFeed/Manuell matning: ""
+*sv.ManualFeed True/Ja: ""
+*sv.ManualFeed False/Nej: ""
+*sv.Translation PageRegion/PageRegion: ""
+*sv.PageRegion Letter/US Letter: ""
+*sv.PageRegion Legal/US Legal: ""
+*sv.PageRegion A4/A4: ""
+*sv.PageRegion ISOB5/ISOB5: ""
+*sv.PageRegion B5/JISB5: ""
+*sv.PageRegion LetterSmall/US Letter (litet): ""
+*sv.PageRegion LegalSmall/US Legal (litet): ""
+*sv.PageRegion A4Small/A4 (litet): ""
+*sv.Translation PageSize/Media Size: ""
+*sv.PageSize Letter/US Letter: ""
+*sv.PageSize Legal/US Legal: ""
+*sv.PageSize A4/A4: ""
+*sv.PageSize ISOB5/ISOB5: ""
+*sv.PageSize B5/JISB5: ""
+*sv.PageSize LetterSmall/US Letter (litet): ""
+*sv.PageSize LegalSmall/US Legal (litet): ""
+*sv.PageSize A4Small/A4 (litet): ""
+*sv.Translation APOptionalDuplexer/Duplexenhet: ""
+*sv.APOptionalDuplexer True/Monterad: ""
+*sv.APOptionalDuplexer False/Ej monterad: ""
+*sv.Translation Duplex/Duplexenhet: ""
+*sv.Duplex None/1 sida: ""
+*sv.Duplex DuplexNoTumble/2-sidig långsidesbindning (utan rotation): ""
+*sv.Duplex DuplexTumble/2-sidig kortsidesbindning (med rotation): ""
+
+*% === Italian ===
+*it.Translation InputSlot/Sorgente media: ""
+*it.InputSlot Upper/Cassetto: ""
+*it.Translation ManualFeed/Alimentazione manuale: ""
+*it.ManualFeed True/Sì: ""
+*it.ManualFeed False/No: ""
+*it.Translation PageRegion/PageRegion: ""
+*it.PageRegion Letter/Lettera USA: ""
+*it.PageRegion Legal/Legale USA: ""
+*it.PageRegion A4/A4: ""
+*it.PageRegion ISOB5/ISOB5: ""
+*it.PageRegion B5/JISB5: ""
+*it.PageRegion LetterSmall/Lettera USA con margini: ""
+*it.PageRegion LegalSmall/Legale USA con margini: ""
+*it.PageRegion A4Small/A4 con margini: ""
+*it.Translation PageSize/Dimensioni media: ""
+*it.PageSize Letter/Lettera USA: ""
+*it.PageSize Legal/Legale USA: ""
+*it.PageSize A4/A4: ""
+*it.PageSize ISOB5/ISOB5: ""
+*it.PageSize B5/JISB5: ""
+*it.PageSize LetterSmall/Lettera USA con margini: ""
+*it.PageSize LegalSmall/Legale USA con margini: ""
+*it.PageSize A4Small/A4 con margini: ""
+*it.Translation APOptionalDuplexer/Unità Fronte Retro: ""
+*it.APOptionalDuplexer True/Presente: ""
+*it.APOptionalDuplexer False/Non Presente: ""
+*it.Translation Duplex/Fronte-Retro: ""
+*it.Duplex None/Singola Faccia: ""
+*it.Duplex DuplexNoTumble/Doppia Faccia: ""
+*it.Duplex DuplexTumble/Doppia Faccia, a cascata: ""
+
+*% === Traditinal Chinese ===
+*zh_TW.Translation InputSlot/媒體來源: ""
+*zh_TW.InputSlot Upper/裝紙匣: ""
+*zh_TW.Translation ManualFeed/手動送紙: ""
+*zh_TW.ManualFeed True/是: ""
+*zh_TW.ManualFeed False/否: ""
+*zh_TW.Translation PageRegion/頁面區域: ""
+*zh_TW.PageRegion Letter/美式信紙（US Letter）: ""
+*zh_TW.PageRegion Legal/美式法定紙（US Legal）: ""
+*zh_TW.PageRegion A4/A4: ""
+*zh_TW.PageRegion ISOB5/ISOB5: ""
+*zh_TW.PageRegion B5/JISB5: ""
+*zh_TW.PageRegion LetterSmall/美式信紙-小型（US Letter-Small）: ""
+*zh_TW.PageRegion LegalSmall/美式法定紙-小型（US Legal-Small）: ""
+*zh_TW.PageRegion A4Small/小型 A4: ""
+*zh_TW.Translation PageSize/媒體大小: ""
+*zh_TW.PageSize Letter/美式信紙: ""
+*zh_TW.PageSize Legal/美式法定紙: ""
+*zh_TW.PageSize A4/A4: ""
+*zh_TW.PageSize ISOB5/ISOB5: ""
+*zh_TW.PageSize B5/JISB5: ""
+*zh_TW.PageSize LetterSmall/美式信紙-小型（US Letter-Small）: ""
+*zh_TW.PageSize LegalSmall/美式法定紙-小型（US Legal-Small）: ""
+*zh_TW.PageSize A4Small/小型 A4: ""
+*zh_TW.Translation APOptionalDuplexer/雙面列印單位: ""
+*zh_TW.APOptionalDuplexer True/已安裝: ""
+*zh_TW.APOptionalDuplexer False/未安裝: ""
+*zh_TW.Translation Duplex/雙面: ""
+*zh_TW.Duplex None/單面: ""
+*zh_TW.Duplex DuplexNoTumble/雙面，長邊裝訂（未翻轉）: ""
+*zh_TW.Duplex DuplexTumble/雙面，短邊裝訂（翻轉）: ""
+
+*% === French ===
+*fr.Translation InputSlot/Source du papier : ""
+*fr.InputSlot Upper/Cassette : ""
+*fr.Translation ManualFeed/Alimentation manuelle : ""
+*fr.ManualFeed True/Oui : ""
+*fr.ManualFeed False/Non : ""
+*fr.Translation PageRegion/PageRegion : ""
+*fr.PageRegion Letter/Lettre US : ""
+*fr.PageRegion Legal/Légal US : ""
+*fr.PageRegion A4/A4 : ""
+*fr.PageRegion ISOB5/ISOB5 : ""
+*fr.PageRegion B5/JISB5 : ""
+*fr.PageRegion LetterSmall/Lettre US réduit : ""
+*fr.PageRegion LegalSmall/Légal US réduit : ""
+*fr.PageRegion A4Small/A4 réduit : ""
+*fr.Translation PageSize/Format du papier : ""
+*fr.PageSize Letter/Lettre US : ""
+*fr.PageSize Legal/Légal US : ""
+*fr.PageSize A4/A4 : ""
+*fr.PageSize ISOB5/ISOB5 : ""
+*fr.PageSize B5/JISB5 : ""
+*fr.PageSize LetterSmall/Lettre US réduit : ""
+*fr.PageSize LegalSmall/Légal US réduit : ""
+*fr.PageSize A4Small/A4 réduit : ""
+*fr.Translation APOptionalDuplexer/Unité d’impression Duplex : ""
+*fr.APOptionalDuplexer True/Installé : ""
+*fr.APOptionalDuplexer False/Pas installé : ""
+*fr.Translation Duplex/Duplex : ""
+*fr.Duplex None/Recto : ""
+*fr.Duplex DuplexNoTumble/Recto-verso, reliure côté long (pas de tête-bêche) : ""
+*fr.Duplex DuplexTumble/Recto-verso, reliure côté court (tête-bêche) : ""
+
+*% === Russian ===
+*ru.Translation InputSlot/Лоток: ""
+*ru.InputSlot Upper/Верхний лоток: ""
+*ru.Translation ManualFeed/Ручная подaча: ""
+*ru.ManualFeed True/Да: ""
+*ru.ManualFeed False/Нет: ""
+*ru.Translation PageRegion/Параметры ввода: ""
+*ru.PageRegion Letter/US Letter: ""
+*ru.PageRegion Legal/US Legal: ""
+*ru.PageRegion A4/A4: ""
+*ru.PageRegion ISOB5/B5: ""
+*ru.PageRegion B5/JISB5: ""
+*ru.PageRegion LetterSmall/US Letter (малый): ""
+*ru.PageRegion LegalSmall/US Legal (малый): ""
+*ru.PageRegion A4Small/A4 (малый): ""
+*ru.Translation PageSize/Размер страницы: ""
+*ru.PageSize Letter/US Letter: ""
+*ru.PageSize Legal/US Legal: ""
+*ru.PageSize A4/A4: ""
+*ru.PageSize ISOB5/B5: ""
+*ru.PageSize B5/JISB5: ""
+*ru.PageSize LetterSmall/US Letter (малый): ""
+*ru.PageSize LegalSmall/US Legal (малый): ""
+*ru.PageSize A4Small/A4 (малый): ""
+*ru.Translation APOptionalDuplexer/Модуль двусторонней печати: ""
+*ru.APOptionalDuplexer True/Установлен: ""
+*ru.APOptionalDuplexer False/Не установлен: ""
+*ru.Translation Duplex/Двусторонняя печать: ""
+*ru.Duplex None/Односторонняя: ""
+*ru.Duplex DuplexNoTumble/2-стор., сшивание по дл. стор. (без поворота): ""
+*ru.Duplex DuplexTumble/2-стор., сшивание по коротк. стор.(с поворотом): ""
+
+*% === pt_PT ===
+*pt_PT.Translation InputSlot/Origem: ""
+*pt_PT.InputSlot Upper/Bandeja: ""
+*pt_PT.Translation ManualFeed/Alimentação Manual: ""
+*pt_PT.ManualFeed True/Sim: ""
+*pt_PT.ManualFeed False/Não: ""
+*pt_PT.Translation PageRegion/Região Página: ""
+*pt_PT.PageRegion Letter/Carta US: ""
+*pt_PT.PageRegion Legal/Legal US: ""
+*pt_PT.PageRegion A4/A4: ""
+*pt_PT.PageRegion ISOB5/ISOB5: ""
+*pt_PT.PageRegion B5/JISB5: ""
+*pt_PT.PageRegion LetterSmall/Carta Pequena US: ""
+*pt_PT.PageRegion LegalSmall/Legal Pequeno US: ""
+*pt_PT.PageRegion A4Small/A4 Pequeno: ""
+*pt_PT.Translation PageSize/Tamanho: ""
+*pt_PT.PageSize Letter/Carta US: ""
+*pt_PT.PageSize Legal/Legal US: ""
+*pt_PT.PageSize A4/A4: ""
+*pt_PT.PageSize ISOB5/ISOB5: ""
+*pt_PT.PageSize B5/JISB5: ""
+*pt_PT.PageSize LetterSmall/Carta Pequena US: ""
+*pt_PT.PageSize LegalSmall/Legal Pequeno US: ""
+*pt_PT.PageSize A4Small/A4 Pequeno: ""
+*pt_PT.Translation APOptionalDuplexer/Unidade de impressão frente e verso: ""
+*pt_PT.APOptionalDuplexer True/Instalada: ""
+*pt_PT.APOptionalDuplexer False/Não instalada: ""
+*pt_PT.Translation Duplex/Frente e verso: ""
+*pt_PT.Duplex None/1 lado: ""
+*pt_PT.Duplex DuplexNoTumble/Encadernação com margem longa, dos 2 lados (sem inversão): ""
+*pt_PT.Duplex DuplexTumble/Encadernação com margem estreita, dos 2 lados (com inversão): ""
+
+*% === Polish ===
+*pl.Translation InputSlot/Media Source: ""
+*pl.InputSlot Upper/Z kasety: ""
+*pl.Translation ManualFeed/Z podajnika ręcznego: ""
+*pl.ManualFeed True/Tak: ""
+*pl.ManualFeed False/Nie: ""
+*pl.Translation PageRegion/PageRegion: ""
+*pl.PageRegion Letter/US Letter: ""
+*pl.PageRegion Legal/US Legal: ""
+*pl.PageRegion A4/A4: ""
+*pl.PageRegion ISOB5/B5: ""
+*pl.PageRegion B5/JISB5: ""
+*pl.PageRegion LetterSmall/US Letter mały: ""
+*pl.PageRegion LegalSmall/US Legal mały: ""
+*pl.PageRegion A4Small/A4 mały: ""
+*pl.Translation PageSize/Rozmiar nośnika: ""
+*pl.PageSize Letter/US Letter: ""
+*pl.PageSize Legal/US Legal: ""
+*pl.PageSize A4/A4: ""
+*pl.PageSize ISOB5/B5: ""
+*pl.PageSize B5/JISB5: ""
+*pl.PageSize LetterSmall/US Letter mały: ""
+*pl.PageSize LegalSmall/US Legal mały: ""
+*pl.PageSize A4Small/A4 mały: ""
+*pl.Translation APOptionalDuplexer/Moduł drukowania obustronnego: ""
+*pl.APOptionalDuplexer True/Zainstalowany: ""
+*pl.APOptionalDuplexer False/Niezainstalowany: ""
+*pl.Translation Duplex/Drukowanie stron: ""
+*pl.Duplex None/Jednostronne: ""
+*pl.Duplex DuplexNoTumble/Obustronne, oprawa wzdłuż długiej krawędzi: ""
+*pl.Duplex DuplexTumble/Obustronne, oprawa wzdłuż krótkiej krawędzi: ""
+
+*% === Arabic ===
+*ar.Translation InputSlot/كاسيت: ""
+*ar.InputSlot Upper/كاسيت: ""
+*ar.Translation ManualFeed/تغذية يدوية: ""
+*ar.ManualFeed True/مثبت: ""
+*ar.ManualFeed False/غير مثبت: ""
+*ar.Translation PageRegion/منطقة الصفحة: ""
+*ar.PageRegion Letter/US Letter: ""
+*ar.PageRegion Legal/US Legal: ""
+*ar.PageRegion A4/A4: ""
+*ar.PageRegion ISOB5/B5（ISO）: ""
+*ar.PageRegion B5/JISB5: ""
+*ar.PageRegion LetterSmall/US Letter صغير: ""
+*ar.PageRegion LegalSmall/US Legal صغير: ""
+*ar.PageRegion A4Small/A4 صغير: ""
+*ar.Translation PageSize/حجم الصفحة: ""
+*ar.PageSize Letter/US Letter: ""
+*ar.PageSize Legal/US Legal: ""
+*ar.PageSize A4/A4: ""
+*ar.PageSize ISOB5/B5（ISO）: ""
+*ar.PageSize B5/JISB5: ""
+*ar.PageSize LetterSmall/US Letter صغير: ""
+*ar.PageSize LegalSmall/US Legal صغير: ""
+*ar.PageSize A4Small/A4 صغير: ""
+*ar.Translation APOptionalDuplexer/وحدة الطباعة المزدوجة: ""
+*ar.APOptionalDuplexer True/مثبت: ""
+*ar.APOptionalDuplexer False/غير مثبت: ""
+*ar.Translation Duplex/ازدواج: ""
+*ar.Duplex None/وجه واحد: ""
+*ar.Duplex DuplexNoTumble/(على الوجهين، ربط الحافة الطويلة بدون (دوران: ""
+*ar.Duplex DuplexTumble/(على الوجهين، ربط الحافة القصيرة (دوران: ""
+
+*APPrinterPreset Gray_with_Paper_Auto-Detect/Black and White: "
+*cupsPrintQuality Normal
+*ColorModel Gray
+*Duplex None/1-Sided
+com.apple.print.preset.graphicsType General
+com.apple.print.preset.quality mid
+com.apple.print.preset.media-front-coating autodetect
+com.apple.print.preset.output-mode monochrome"
+*End
+*APPrinterPreset Color_with_Paper_Auto-Detect/Color: "
+*cupsPrintQuality Normal
+*ColorModel RGB
+*Duplex None/1-Sided
+com.apple.print.preset.graphicsType General
+com.apple.print.preset.quality mid
+com.apple.print.preset.media-front-coating autodetect"
+*End
+
