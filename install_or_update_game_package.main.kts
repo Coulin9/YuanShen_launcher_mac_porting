@@ -213,7 +213,9 @@ class HoYoGameInstaller() {
                 return false
             }
 
-            splitPkgZipFileName.add(fileName)
+            if(!splitPkgZipFileName.contains(fileName)) {
+                splitPkgZipFileName.add(fileName)
+            }
 
             initPkgZipFileName(fileName)
 
