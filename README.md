@@ -37,7 +37,7 @@
   + 选择要安装的游戏后脚本将自动执行，期间会下载并解压游戏数据包，可能需要30min以上，如果最后提示**解压完成**表明安装成功。
 + 步骤7:在启动台找到游戏并启动
 
-![img.png](img.png)
+![ScreenShot.png](ScreenShot.png)
 
 # ChangeLogs
 + V0.1.1
