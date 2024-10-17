@@ -1,0 +1,13 @@
+version:5.1_rel CNRELWin5.1.0_27118081_27462100_27787359_27760956_27297621
+deviceName:ZHAOXINYUDEMACB
+time:2024-10-18 01.36.15.4305
+deviceModel:Mac14,6 (Apple Inc.)
+operatingSystem:Windows 10  (10.0.19043) 64bit Microsoft Windows NT 10.0.19043.0
+uid:0
+memoryInfo:0
+cpuInfo:VirtualApple @ 2.50GHz
+gpuInfo:AMD Compatibility Mode
+clientIp:fe80::1cab:8923:1995:6cc1
+isRelease:1
+type:Windows Crash Release
+

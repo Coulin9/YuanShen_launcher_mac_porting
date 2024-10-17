@@ -1,0 +1,995 @@
+Initialize engine version: 2017.4.30f1 (0)
+Initialize display manager (Display count: 1)
+GfxDevice: creating device client; threaded=1
+url fetch responce: {"retcode":0,"message":"success","data":null}
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Compatibility Mode (ID=0x66af)
+    Vendor:   ATI
+    VRAM:     21845 MB
+    Driver:   30.0.14023.3004
+[2024-10-18 01:34:51.096] create job queue 7
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Touch support initialization failed: 调用尚未实现。
+.
+url fetch responce: {"retcode":0,"message":"success","data":null}
+UnloadTime: 4.296300 ms
+[2024-10-18 01:34:54.922] Genshin Start Log: GameManager Awake - NowTimeStamp:1729186494
+[2024-10-18 01:34:55.807] WaitForAllAsyncOperationsToComplete waiting null
+ 
+(Filename:  Line: 1112)
+
+[2024-10-18 01:34:56.324] Genshin Start Log: GameManager Start - NowTimeStamp:1729186496
+[2024-10-18 01:34:56.324] Genshin Start Log: GameManager InitGame - NowTimeStamp:1729186496
+[2024-10-18 01:34:56.345] Load DownloadPref: {"resStatus":[1,1],"redownloadUselessAudio":false,"redownloadUselessVideo":false,"incrementVerify":true}
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+LOGLHOIFBMO:EKCLHJFIPBC()
+IPIICLOHJJH:OMOKEINMLFH()
+CAMLIEFAFKO:DCPPPKIFKOJ()
+MoleMole.GameManager:ECEKNONHIAE()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:34:56.383] IsBaseResVersionHashChanged=> baseResVersionHashInPersist = 9b7ad9c9c5d4704093ed7d48e3b13f1a, md5 in streamingResVersion = 9b7ad9c9c5d4704093ed7d48e3b13f1a
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+CAMLIEFAFKO:EOGBNFGIHLI()
+CAMLIEFAFKO:DCPPPKIFKOJ()
+MoleMole.GameManager:ECEKNONHIAE()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:34:57.580] [MTRManager]client create sucess!
+UnityEngine.Logger:Log(LogType, Object)
+EIHEEFDMCLG:Init()
+MoleMole.ManagerController:CreateGlobalManager()
+MoleMole.GameManager:AIGCPDLFNON()
+MoleMole.GameManager:ECEKNONHIAE()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:34:57.822] Genshin Start Log: GameManager ShowLogo - NowTimeStamp:1729186497
+[2024-10-18 01:34:57.865] Genshin Start Log: LogoPageContext SetupView - NowTimeStamp:1729186497
+submit shader load 2
+[2024-10-18 01:35:03.917] Genshin Start Log: LogoPageContext ClosePage - NowTimeStamp:1729186503
+[2024-10-18 01:35:03.917] Genshin Start Log: GameManager StartHome - NowTimeStamp:1729186503
+[2024-10-18 01:35:03.950] Genshin Start Log: GameManager ChangeGameWorld Home - NowTimeStamp:1729186503
+[2024-10-18 01:35:03.957] Genshin Start Log: GameManager CreateNewGameWorld Home - NowTimeStamp:1729186503
+[2024-10-18 01:35:03.962] Genshin Start Log: Home LoadScene - NowTimeStamp:1729186503
+Unloading 5 Unused Serialized files (Serialized files now loaded: 35)
+[2024-10-18 01:35:03.981] Genshin Start Log: GameManager FirstChangeToHomeCallback - NowTimeStamp:1729186503
+UnloadTime: 1.263200 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 18300.
+Total: 51.498100 ms (FindLiveObjects: 0.300900 ms CreateObjectMapping: 0.303600 ms MarkObjects: 50.540900 ms  DeleteObjects: 0.350900 ms)
+
+[2024-10-18 01:35:04.117] Genshin Start Log: LoginMainPageContext SetupView - NowTimeStamp:1729186504
+WARNING: Shader Unsupported: 'miHoYo/Hidden/DebugVertexDensity' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'miHoYo/Hidden/DebugVertexDensity' - All passes removed
+[2024-10-18 01:35:04.647] Genshin Start Log: LoginMainPageContext OnAgreement - NowTimeStamp:1729186504
+[2024-10-18 01:35:04.670] jsonWatermarkConfig: {"available":true,"config":[{"app_id":"c7ahlk7m0feo","cloud_app_id":"cpnlgzmi69kw","enable_envs":[9,1,6]}]}
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.ConfigManager:GetModulesConfig(EnvType)
+MiHoYo.SDK.ConfigManager:LoadLocalConfig(EnvType)
+MiHoYo.SDK.ConfigManager:SetEnv(EnvType)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:04.675] jsonWatermarkConfig: {"available":true,"config":[{"app_id":"c7ahlk7m0feo","cloud_app_id":"cpnlgzmi69kw","enable_envs":[9,1,6]}]}
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.ConfigManager:GetModulesConfig(EnvType)
+MiHoYo.SDK.ConfigManager:LoadLocalConfig(EnvType)
+MiHoYo.SDK.URLConfig:GetURL(EnvType)
+MiHoYo.SDK.ConfigManager:SetEnv(EnvType)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:04.676] LoadSkinColorConfig
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.ConfigManager:LoadSkinColorConfig()
+MiHoYo.SDK.ConfigManager:SetEnv(EnvType)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:04.710] TelemetryInterface path:C:\HoYoGame\YuanShen_Data\SDKCaches, level:2, dest:0
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+MiHoYo.SDK.TelemetryInterface:Init()
+MiHoYo.SDK.TelemetryInterface:SetConfig(Boolean, String)
+MiHoYo.SDK.SetConfigDelegate:Invoke(Boolean, String)
+MiHoYo.SDK.DataUploadReport:TelemetryStart()
+MiHoYo.SDK.ConfigManager:SetEnv(EnvType)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:04.712] Request to set language:zh-cn, length:5
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:04.724] Update region translation resources:zh-cn
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:04.725] Update local region translation resources:zh-cn
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.RegionTranslationManager:LoadLocalTranslation(String)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:04.727] Update local region translation resources:zh-cn
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.RegionTranslationManager:LoadRemoteTranslation(String)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:04.728] regionTranslationVersionCheck URL:https://webstatic.mihoyo.com/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.<RequestRemoteVersion>d__18:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+submit shader load 2
+submit shader load 2
+submit shader load 2
+submit shader load 2
+submit shader load 2
+submit shader load 2
+submit shader load 2
+submit shader load 2
+submit shader load 2
+[2024-10-18 01:35:04.980] Logger Index is:1, not registered any pluginui, ignore native_ui_show event:ProtocolDialog
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.HoYoSDKNativeUIStackManager:OnShowNativeUI(String, String)
+MiHoYo.SDK.OnShowNativeUIDelegate:Invoke(String, String)
+MiHoYo.SDK.UIManager:PushUIElement(String, Action`1, Int32)
+MiHoYo.SDK.Protocol:Show(Boolean)
+MiHoYo.SDK.ProtocolManager:ShowProtocol(Boolean)
+MiHoYo.SDK.ProtocolManager:CheckShowProtocol(JSONNode)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:04.980] Logger Index is:2, received native_ui_show event: ProtocolDialog,should send notification.
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.HoYoSDKNativeUIStackManager:OnShowNativeUI(String, String)
+MiHoYo.SDK.OnShowNativeUIDelegate:Invoke(String, String)
+MiHoYo.SDK.UIManager:PushUIElement(String, Action`1, Int32)
+MiHoYo.SDK.Protocol:Show(Boolean)
+MiHoYo.SDK.ProtocolManager:ShowProtocol(Boolean)
+MiHoYo.SDK.ProtocolManager:CheckShowProtocol(JSONNode)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:04.999] ipRegionLangDownload URL:https://webstatic.mihoyo.com/admin/mi18n/plat_os/m09291531181441/m09291531181441-zh-cn.json
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.<RequestRemoteTranslation>d__19:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+System.Action`1:Invoke(T)
+MiHoYo.SDK.<PerformHttpRequest>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+submit shader load 2
+submit shader load 2
+submit shader load 2
+submit shader load 2
+submit shader load 2
+[2024-10-18 01:35:07.159] into HideProtocol
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.ProtocolManager:HideProtocol()
+MiHoYo.SDK.ProtocolManager:OnAcceptUserAgreement()
+System.Action:Invoke()
+UnityEngine.Events.UnityAction:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.UI.Button:Press()
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
+UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+MoleMole.MihoyoStandaloneInputModule:EBFPOAFLPDE(MouseButtonEventData)
+MoleMole.MihoyoStandaloneInputModule:ONFNAGGKDMC(Int32)
+MoleMole.MihoyoEventSystem:Tick()
+EHDEDFPIGNF:Tick()
+MoleMole.GameManager:KNNJGNAMLGN()
+MoleMole.GameManager:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:07.159] Logger Index is:3, not registered any pluginui, ignore native_ui_hide event:ProtocolDialog
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.HoYoSDKNativeUIStackManager:OnHideNativeUI(String, String)
+MiHoYo.SDK.OnHideNativeUIDelegate:Invoke(String, String)
+MiHoYo.SDK.UIManager:PopUIElement(String)
+MiHoYo.SDK.ProtocolManager:OnAcceptUserAgreement()
+System.Action:Invoke()
+UnityEngine.Events.UnityAction:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.UI.Button:Press()
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
+UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+MoleMole.MihoyoStandaloneInputModule:EBFPOAFLPDE(MouseButtonEventData)
+MoleMole.MihoyoStandaloneInputModule:ONFNAGGKDMC(Int32)
+MoleMole.MihoyoEventSystem:Tick()
+EHDEDFPIGNF:Tick()
+MoleMole.GameManager:KNNJGNAMLGN()
+MoleMole.GameManager:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:07.160] Logger Index is:4, received native_ui_hide event: ProtocolDialog,should send notification.
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.HoYoSDKNativeUIStackManager:OnHideNativeUI(String, String)
+MiHoYo.SDK.OnHideNativeUIDelegate:Invoke(String, String)
+MiHoYo.SDK.UIManager:PopUIElement(String)
+MiHoYo.SDK.ProtocolManager:OnAcceptUserAgreement()
+System.Action:Invoke()
+UnityEngine.Events.UnityAction:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.UI.Button:Press()
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
+UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+MoleMole.MihoyoStandaloneInputModule:EBFPOAFLPDE(MouseButtonEventData)
+MoleMole.MihoyoStandaloneInputModule:ONFNAGGKDMC(Int32)
+MoleMole.MihoyoEventSystem:Tick()
+EHDEDFPIGNF:Tick()
+MoleMole.GameManager:KNNJGNAMLGN()
+MoleMole.GameManager:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:07.160] Genshin Start Log: LoginMainPageContext OnShowUserAgreementResult - NowTimeStamp:1729186507
+[2024-10-18 01:35:07.166] Genshin Start Log: LoginMainPageContext OnPreInit - NowTimeStamp:1729186507
+[2024-10-18 01:35:07.197] Genshin Start Log: LoginMainPageContext InitServerDispatch - NowTimeStamp:1729186507
+[2024-10-18 01:35:07.197] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer 1 - NowTimeStamp:1729186507
+[2024-10-18 01:35:07.197] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186507
+[2024-10-18 01:35:07.789] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186507
+[2024-10-18 01:35:08.387] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186508
+[2024-10-18 01:35:08.985] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186508
+[2024-10-18 01:35:09.550] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186509
+[2024-10-18 01:35:10.114] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186510
+[2024-10-18 01:35:10.679] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186510
+[2024-10-18 01:35:10.779] DNS result is:{"retcode":-1,"msg":""}
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.<>c__DisplayClass5_0:<RequestHostAddr>b__1(String)
+System.Action`1:Invoke(T)
+MiHoYo.SDK.<>c__DisplayClass5_2:<RequestHostAddr>b__4()
+System.Action:Invoke()
+MiHoYo.SDK.MainThreadDispatcher:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:10.812] HoYoSDKHttpWebResponse Dispose is called.
+UnityEngine.Logger:Log(LogType, Object)
+System.Action:Invoke()
+MiHoYo.SDK.MainThreadDispatcher:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+url fetch responce: {"code":0,"message":"OK"}
+[2024-10-18 01:35:11.310] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186511
+[2024-10-18 01:35:11.410] DNS result is:{"retcode":-1,"msg":""}
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.<>c__DisplayClass5_0:<RequestHostAddr>b__1(String)
+System.Action`1:Invoke(T)
+MiHoYo.SDK.<>c__DisplayClass5_2:<RequestHostAddr>b__4()
+System.Action:Invoke()
+MiHoYo.SDK.MainThreadDispatcher:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:11.443] HoYoSDKHttpWebResponse Dispose is called.
+UnityEngine.Logger:Log(LogType, Object)
+System.Action:Invoke()
+MiHoYo.SDK.MainThreadDispatcher:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:11.921] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186511
+[2024-10-18 01:35:12.021] DNS result is:{"retcode":-1,"msg":""}
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.<>c__DisplayClass5_0:<RequestHostAddr>b__1(String)
+System.Action`1:Invoke(T)
+MiHoYo.SDK.<>c__DisplayClass5_2:<RequestHostAddr>b__4()
+System.Action:Invoke()
+MiHoYo.SDK.MainThreadDispatcher:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:12.054] HoYoSDKHttpWebResponse Dispose is called.
+UnityEngine.Logger:Log(LogType, Object)
+System.Action:Invoke()
+MiHoYo.SDK.MainThreadDispatcher:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:15.212] Genshin Start Log: GameManager ChangeGameWorld Home - NowTimeStamp:1729186515
+[2024-10-18 01:35:15.217] Talk state change level:False False False 2565
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+JAHOGBGCOIO:OAFGGKIOMLF()
+LMADJIBGMLC:LANAKFIFJJK()
+BOCPHKCBCBC:BNHAHAOKIAM()
+MoleMole.GameManager:DestroyCurLevel()
+MoleMole.GameManager:GoBackHomeInternal()
+MoleMole.GameManagerPostScheduler:LateUpdate()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:15.273] Talk state change back:False False False 2565
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+JAHOGBGCOIO:GCOAFHABFGN()
+LMADJIBGMLC:KPEIBAPMOOB()
+MoleMole.GameManager:GoBackHomeInternal()
+MoleMole.GameManagerPostScheduler:LateUpdate()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:15.358] Genshin Start Log: GameManager CreateNewGameWorld Home - NowTimeStamp:1729186515
+[2024-10-18 01:35:15.358] Genshin Start Log: Home LoadScene - NowTimeStamp:1729186515
+Unloading 3 Unused Serialized files (Serialized files now loaded: 42)
+UnloadTime: 1.560600 ms
+
+Unloading 575 unused Assets to reduce memory usage. Loaded Objects now: 18509.
+Total: 51.581100 ms (FindLiveObjects: 0.234800 ms CreateObjectMapping: 0.270100 ms MarkObjects: 49.892600 ms  DeleteObjects: 1.182900 ms)
+
+[2024-10-18 01:35:15.472] Genshin Start Log: LoginMainPageContext SetupView - NowTimeStamp:1729186515
+WARNING: Shader Unsupported: 'miHoYo/Hidden/DebugVertexDensity' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'miHoYo/Hidden/DebugVertexDensity' - All passes removed
+[2024-10-18 01:35:15.681] Genshin Start Log: LoginMainPageContext OnAgreement - NowTimeStamp:1729186515
+[2024-10-18 01:35:15.687] jsonWatermarkConfig: {"available":true,"config":[{"app_id":"c7ahlk7m0feo","cloud_app_id":"cpnlgzmi69kw","enable_envs":[9,1,6]}]}
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.ConfigManager:GetModulesConfig(EnvType)
+MiHoYo.SDK.ConfigManager:LoadLocalConfig(EnvType)
+MiHoYo.SDK.ConfigManager:SetEnv(EnvType)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+submit shader load 2
+submit shader load 2
+submit shader load 2
+[2024-10-18 01:35:15.691] jsonWatermarkConfig: {"available":true,"config":[{"app_id":"c7ahlk7m0feo","cloud_app_id":"cpnlgzmi69kw","enable_envs":[9,1,6]}]}
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.ConfigManager:GetModulesConfig(EnvType)
+MiHoYo.SDK.ConfigManager:LoadLocalConfig(EnvType)
+MiHoYo.SDK.URLConfig:GetURL(EnvType)
+MiHoYo.SDK.ConfigManager:SetEnv(EnvType)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:15.692] LoadSkinColorConfig
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.ConfigManager:LoadSkinColorConfig()
+MiHoYo.SDK.ConfigManager:SetEnv(EnvType)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:15.693] Request to set language:zh-cn, length:5
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+submit shader load 2
+[2024-10-18 01:35:15.694] Update region translation resources:zh-cn
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:15.700] Update local region translation resources:zh-cn
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.RegionTranslationManager:LoadLocalTranslation(String)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:15.700] Update local region translation resources:zh-cn
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.RegionTranslationManager:LoadRemoteTranslation(String)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:15.701] regionTranslationVersionCheck URL:https://webstatic.mihoyo.com/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.<RequestRemoteVersion>d__18:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:15.701] Genshin Start Log: LoginMainPageContext OnShowUserAgreementResult - NowTimeStamp:1729186515
+submit shader load 2
+submit shader load 2
+[2024-10-18 01:35:15.714] Genshin Start Log: LoginMainPageContext OnPreInit - NowTimeStamp:1729186515
+submit shader load 2
+submit shader load 2
+submit shader load 2
+[2024-10-18 01:35:15.747] Genshin Start Log: LoginMainPageContext InitServerDispatch - NowTimeStamp:1729186515
+[2024-10-18 01:35:15.747] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer 1 - NowTimeStamp:1729186515
+[2024-10-18 01:35:15.747] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186515
+[2024-10-18 01:35:16.345] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186516
+[2024-10-18 01:35:16.943] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186516
+[2024-10-18 01:35:17.541] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186517
+[2024-10-18 01:35:18.106] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186518
+[2024-10-18 01:35:18.671] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186518
+[2024-10-18 01:35:19.236] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186519
+[2024-10-18 01:35:19.335] DNS result is:{"retcode":-1,"msg":""}
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.<>c__DisplayClass5_0:<RequestHostAddr>b__1(String)
+System.Action`1:Invoke(T)
+MiHoYo.SDK.<>c__DisplayClass5_2:<RequestHostAddr>b__4()
+System.Action:Invoke()
+MiHoYo.SDK.MainThreadDispatcher:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:19.369] HoYoSDKHttpWebResponse Dispose is called.
+UnityEngine.Logger:Log(LogType, Object)
+System.Action:Invoke()
+MiHoYo.SDK.MainThreadDispatcher:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:19.867] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186519
+[2024-10-18 01:35:19.967] DNS result is:{"retcode":-1,"msg":""}
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.<>c__DisplayClass5_0:<RequestHostAddr>b__1(String)
+System.Action`1:Invoke(T)
+MiHoYo.SDK.<>c__DisplayClass5_2:<RequestHostAddr>b__4()
+System.Action:Invoke()
+MiHoYo.SDK.MainThreadDispatcher:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:20.000] HoYoSDKHttpWebResponse Dispose is called.
+UnityEngine.Logger:Log(LogType, Object)
+System.Action:Invoke()
+MiHoYo.SDK.MainThreadDispatcher:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:20.499] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186520
+[2024-10-18 01:35:20.598] DNS result is:{"retcode":-1,"msg":""}
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.<>c__DisplayClass5_0:<RequestHostAddr>b__1(String)
+System.Action`1:Invoke(T)
+MiHoYo.SDK.<>c__DisplayClass5_2:<RequestHostAddr>b__4()
+System.Action:Invoke()
+MiHoYo.SDK.MainThreadDispatcher:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:20.631] HoYoSDKHttpWebResponse Dispose is called.
+UnityEngine.Logger:Log(LogType, Object)
+System.Action:Invoke()
+MiHoYo.SDK.MainThreadDispatcher:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:33.126] Genshin Start Log: GameManager ChangeGameWorld Home - NowTimeStamp:1729186533
+[2024-10-18 01:35:33.127] Talk state change level:False False False 3096
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+JAHOGBGCOIO:OAFGGKIOMLF()
+LMADJIBGMLC:LANAKFIFJJK()
+BOCPHKCBCBC:BNHAHAOKIAM()
+MoleMole.GameManager:DestroyCurLevel()
+MoleMole.GameManager:GoBackHomeInternal()
+MoleMole.GameManagerPostScheduler:LateUpdate()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:33.137] Talk state change back:False False False 3096
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+JAHOGBGCOIO:GCOAFHABFGN()
+LMADJIBGMLC:KPEIBAPMOOB()
+MoleMole.GameManager:GoBackHomeInternal()
+MoleMole.GameManagerPostScheduler:LateUpdate()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:33.232] Genshin Start Log: GameManager CreateNewGameWorld Home - NowTimeStamp:1729186533
+[2024-10-18 01:35:33.232] Genshin Start Log: Home LoadScene - NowTimeStamp:1729186533
+Unloading 2 Unused Serialized files (Serialized files now loaded: 42)
+UnloadTime: 1.148600 ms
+
+Unloading 467 unused Assets to reduce memory usage. Loaded Objects now: 18510.
+Total: 51.326700 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.260100 ms MarkObjects: 49.961700 ms  DeleteObjects: 0.857000 ms)
+
+[2024-10-18 01:35:33.345] Genshin Start Log: LoginMainPageContext SetupView - NowTimeStamp:1729186533
+WARNING: Shader Unsupported: 'miHoYo/Hidden/DebugVertexDensity' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'miHoYo/Hidden/DebugVertexDensity' - All passes removed
+[2024-10-18 01:35:33.554] Genshin Start Log: LoginMainPageContext OnAgreement - NowTimeStamp:1729186533
+submit shader load 2
+submit shader load 2
+submit shader load 2
+[2024-10-18 01:35:33.559] jsonWatermarkConfig: {"available":true,"config":[{"app_id":"c7ahlk7m0feo","cloud_app_id":"cpnlgzmi69kw","enable_envs":[9,1,6]}]}
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.ConfigManager:GetModulesConfig(EnvType)
+MiHoYo.SDK.ConfigManager:LoadLocalConfig(EnvType)
+MiHoYo.SDK.ConfigManager:SetEnv(EnvType)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+submit shader load 2
+[2024-10-18 01:35:33.564] jsonWatermarkConfig: {"available":true,"config":[{"app_id":"c7ahlk7m0feo","cloud_app_id":"cpnlgzmi69kw","enable_envs":[9,1,6]}]}
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.ConfigManager:GetModulesConfig(EnvType)
+MiHoYo.SDK.ConfigManager:LoadLocalConfig(EnvType)
+MiHoYo.SDK.URLConfig:GetURL(EnvType)
+MiHoYo.SDK.ConfigManager:SetEnv(EnvType)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:33.564] LoadSkinColorConfig
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.ConfigManager:LoadSkinColorConfig()
+MiHoYo.SDK.ConfigManager:SetEnv(EnvType)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:33.565] Request to set language:zh-cn, length:5
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:33.566] Update region translation resources:zh-cn
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:33.572] Update local region translation resources:zh-cn
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.RegionTranslationManager:LoadLocalTranslation(String)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:33.572] Update local region translation resources:zh-cn
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.RegionTranslationManager:LoadRemoteTranslation(String)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:33.573] regionTranslationVersionCheck URL:https://webstatic.mihoyo.com/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.<RequestRemoteVersion>d__18:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+MiHoYo.SDK.LanguageManager:SetLanguage(String)
+MiHoYo.SDK.ProtocolManager:ShowLauncherProtocol(String, Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:launch_show_user_agreement_with_parameters(String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+CKMLLAAKPDH:LNCPOBODLJP()
+CKMLLAAKPDH:IHLBMPGJDCN()
+CKMLLAAKPDH:UpdateView()
+LFPCHHMFGMJ:Tick()
+MoleMole.GameManager:JLMKGCBKJEK()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:33.573] Genshin Start Log: LoginMainPageContext OnShowUserAgreementResult - NowTimeStamp:1729186533
+submit shader load 2
+submit shader load 2
+submit shader load 2
+submit shader load 2
+submit shader load 2
+[2024-10-18 01:35:33.587] Genshin Start Log: LoginMainPageContext OnPreInit - NowTimeStamp:1729186533
+[2024-10-18 01:35:33.620] Genshin Start Log: LoginMainPageContext InitServerDispatch - NowTimeStamp:1729186533
+[2024-10-18 01:35:33.620] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer 1 - NowTimeStamp:1729186533
+[2024-10-18 01:35:33.620] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186533
+[2024-10-18 01:35:34.218] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186534
+[2024-10-18 01:35:34.816] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186534
+[2024-10-18 01:35:35.414] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186535
+[2024-10-18 01:35:35.722] Logger Index is:5, not registered any pluginui, ignore native_ui_show event:MiHoYoSDKConfirm
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.HoYoSDKNativeUIStackManager:OnShowNativeUI(String, String)
+MiHoYo.SDK.OnShowNativeUIDelegate:Invoke(String, String)
+MiHoYo.SDK.UIManager:PushUIElement(String, Action`1, Int32)
+MiHoYo.SDK.Confirm:Show(String, String, String, OnConfirmDelegate, Int32, Boolean)
+MiHoYo.SDK.Win.ComboManager:Exit(Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:login_exit(Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+UnityEngine.Events.UnityAction:Invoke()
+UnityEngine.Events.UnityAction:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.UI.Button:Press()
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
+UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+MoleMole.MihoyoStandaloneInputModule:EBFPOAFLPDE(MouseButtonEventData)
+MoleMole.MihoyoStandaloneInputModule:ONFNAGGKDMC(Int32)
+MoleMole.MihoyoEventSystem:Tick()
+EHDEDFPIGNF:Tick()
+MoleMole.GameManager:KNNJGNAMLGN()
+MoleMole.GameManager:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:35.722] Logger Index is:6, received native_ui_show event: MiHoYoSDKConfirm,should send notification.
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.HoYoSDKNativeUIStackManager:OnShowNativeUI(String, String)
+MiHoYo.SDK.OnShowNativeUIDelegate:Invoke(String, String)
+MiHoYo.SDK.UIManager:PushUIElement(String, Action`1, Int32)
+MiHoYo.SDK.Confirm:Show(String, String, String, OnConfirmDelegate, Int32, Boolean)
+MiHoYo.SDK.Win.ComboManager:Exit(Action`1)
+MiHoYo.SDK.Win.MiHoYoSDKDll:login_exit(Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.Win.MiHoYoSDKDll:SDKInvoke(String, String, Action`1)
+System.Reflection.MonoMethod:(Object, BindingFlags, Binder, Object[], CultureInfo)
+MiHoYo.SDK.MiHoYoSDK:Invoke(String, String, Action`1)
+UnityEngine.Events.UnityAction:Invoke()
+UnityEngine.Events.UnityAction:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.UI.Button:Press()
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
+UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+MoleMole.MihoyoStandaloneInputModule:EBFPOAFLPDE(MouseButtonEventData)
+MoleMole.MihoyoStandaloneInputModule:ONFNAGGKDMC(Int32)
+MoleMole.MihoyoEventSystem:Tick()
+EHDEDFPIGNF:Tick()
+MoleMole.GameManager:KNNJGNAMLGN()
+MoleMole.GameManager:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:35.979] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186535
+[2024-10-18 01:35:36.544] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer https://dispatchcnglobal.yuanshen.com/query_region_list - NowTimeStamp:1729186536
+[2024-10-18 01:35:36.644] Logger Index is:7, not registered any pluginui, ignore native_ui_hide event:MiHoYoSDKConfirm
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.HoYoSDKNativeUIStackManager:OnHideNativeUI(String, String)
+MiHoYo.SDK.OnHideNativeUIDelegate:Invoke(String, String)
+MiHoYo.SDK.UIManager:PopUIElement(String)
+System.Action:Invoke()
+MiHoYo.SDK.Confirm:Hide()
+UnityEngine.Events.UnityAction:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.UI.Button:Press()
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
+UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+MoleMole.MihoyoStandaloneInputModule:EBFPOAFLPDE(MouseButtonEventData)
+MoleMole.MihoyoStandaloneInputModule:ONFNAGGKDMC(Int32)
+MoleMole.MihoyoEventSystem:Tick()
+EHDEDFPIGNF:Tick()
+MoleMole.GameManager:KNNJGNAMLGN()
+MoleMole.GameManager:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:36.645] Logger Index is:8, received native_ui_hide event: MiHoYoSDKConfirm,should send notification.
+UnityEngine.Logger:Log(LogType, Object)
+MiHoYo.SDK.HoYoSDKNativeUIStackManager:OnHideNativeUI(String, String)
+MiHoYo.SDK.OnHideNativeUIDelegate:Invoke(String, String)
+MiHoYo.SDK.UIManager:PopUIElement(String)
+System.Action:Invoke()
+MiHoYo.SDK.Confirm:Hide()
+UnityEngine.Events.UnityAction:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.UI.Button:Press()
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
+UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+MoleMole.MihoyoStandaloneInputModule:EBFPOAFLPDE(MouseButtonEventData)
+MoleMole.MihoyoStandaloneInputModule:ONFNAGGKDMC(Int32)
+MoleMole.MihoyoEventSystem:Tick()
+EHDEDFPIGNF:Tick()
+MoleMole.GameManager:KNNJGNAMLGN()
+MoleMole.GameManager:Update()
+ 
+(Filename: D:\5.1Fix\sourceCode\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 64)
+
+[2024-10-18 01:35:36.646] Call QuitApplication
+System.Action`1:Invoke(T)
+MiHoYo.SDK.OnConfirmDelegate:Invoke(ConfirmResult)
+MiHoYo.SDK.Confirm:OnDestroy()
+
+[ line 1262] 
+(Filename:  Line: 1262)
+
+[2024-10-18 01:35:36.647] Call QuitApplication
+ 
+(Filename:  Line: 1262)
+
