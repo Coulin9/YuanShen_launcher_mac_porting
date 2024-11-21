@@ -25,7 +25,7 @@ cd "$(dirname "$0")"
 export WINESKIN_APP="${PWD}"
 
 # Wrappers wine PATH
-cd "../../../Contents/SharedSupport/wine"; export WINEPATH="${PWD}"
+cd "../../../SharedSupport/wine"; export WINEPATH="${PWD}"
 
 # Wrappes wine/bin PATH
 export WINEBINPATH="${WINEPATH}/bin"

@@ -17,11 +17,11 @@
   + 如果你在国内，请依次在终端执行：
     + `/bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"` 如果卡住，请按`Control + C`中断脚本执行，再重新执行前面的命令，看到 `==> Installation successful!` 说明安装成功
     + `git -C "$(brew --repo)" remote set-url origin https://mirrors.ustc.edu.cn/brew.git`
-    + `git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git`
-    + `git -C "$(brew --repo homebrew/cask)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git`
+    + `重启终端`
     + `brew update`
   + 如果你在国外，请依次在终端执行：
     + `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+    + `重启终端`
     + `brew update`
 + **步骤2**:安装kotlin，如果你已经安装了kotlin，可以跳过这一步
   + 在终端执行命令`brew install kotlin`，等待安装完成
@@ -54,3 +54,6 @@
 + V1.0.1
   + 修复了原神5.1版本“机器环境异常”被踢下线的问题
   + 更新winskin engine为WS12WineCX64Bit23.7.1-4_D3DMetal-v2.0b2
++ V1.1
+  + 图形转译方案更改为DXMT，修复图形问题，提升性能。
+  + 优化了安装步骤指引

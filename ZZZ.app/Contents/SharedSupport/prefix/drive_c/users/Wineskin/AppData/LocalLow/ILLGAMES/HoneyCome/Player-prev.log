@@ -1,0 +1,749 @@
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path Z:/Users/zhaoxinyu/Games/No_Platform/Honey.Come.v.2.00/HoneyCome_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Apple M2 Max (ID=0xf0103f0)
+    Vendor:   Unknown (ID=106b)
+    VRAM:     32768 MB
+    Driver:   30.0.14023.3004
+<RI> Initializing input.
+<RI> Input initialized.
+d3d11: QueryInterface(IDXGISwapChain2) failed (80004002).
+<RI> Touch support initialization failed: 调用尚未实现。
+.
+UnloadTime: 5.641400 ms
+CE1852FA2EF0
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SecurityAssist:CreateIrregularStringFromMacAddress()
+Manager.GameSystem:.cctor()
+
+AssetBundleManager Initialized
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AssetBundleManager:Initialize(String)
+UnityEngine.Object:Instantiate(T)
+UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters:Instantiate(TObject)
+UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider:ProvideInstance(ResourceManager, AsyncOperationHandle`1, InstantiationParameters)
+UnityEngine.ResourceManagement.InstanceOperation:Execute()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass58_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
+UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle:Complete(T, Boolean, Exception)
+UnityEngine.ResourceManagement.ResourceProviders.InternalOp:ActionComplete(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 43)
+Unloading 308 unused Assets to reduce memory usage. Loaded Objects now: 17233.
+Total: 10.617800 ms (FindLiveObjects: 0.556600 ms CreateObjectMapping: 0.245700 ms MarkObjects: 9.471200 ms  DeleteObjects: 0.341900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 44)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 17249.
+Total: 8.996100 ms (FindLiveObjects: 0.549400 ms CreateObjectMapping: 0.266400 ms MarkObjects: 8.147800 ms  DeleteObjects: 0.031400 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 44)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 17236.
+Total: 9.430800 ms (FindLiveObjects: 0.614400 ms CreateObjectMapping: 0.334500 ms MarkObjects: 8.457400 ms  DeleteObjects: 0.023600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 46)
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 17238.
+Total: 9.903000 ms (FindLiveObjects: 0.501300 ms CreateObjectMapping: 0.242100 ms MarkObjects: 9.101300 ms  DeleteObjects: 0.057000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 46)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 17239.
+Total: 10.319000 ms (FindLiveObjects: 0.595700 ms CreateObjectMapping: 0.392200 ms MarkObjects: 9.301900 ms  DeleteObjects: 0.027900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 47)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 17238.
+Total: 10.188400 ms (FindLiveObjects: 0.843100 ms CreateObjectMapping: 0.349500 ms MarkObjects: 8.969300 ms  DeleteObjects: 0.025500 ms)
+
+読み込みエラー
+assetBundleName：localization/01/font.unity3d	assetName：en-US
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+ILLGames.Unity.CommonLib:LoadAsset(String, String, Boolean, String)
+Localize.Translate.SelectData:.ctor(Param)
+Localize.Translate.<>c:<Initialize>b__52_0(Int32)
+UniRx.ReactiveProperty`1:RaiseOnNext(T&)
+UniRx.ReactiveProperty`1:set_Value(T)
+Localize.Translate.Manager:SetLanguage(Int32)
+Manager.<Start>d__111:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+HC.<Initialize>d__55:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+ILLGames.Serialization.<LoadListAllAsync>d__5:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+ILLGames.Serialization.<DoLoadListAllAsync>d__9:MoveNext()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+KeyNotFoundException: Key=0 is no value insert
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].ThrowKeyNotFoundException (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].get_Item (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow+Initializable.Localize.Translate.InitializeSolution.IInitializable.Initialize () [0x00000] in <00000000000000000000000000000000>:0 
+  at Localize.Translate.InitializeSolution.Add (Localize.Translate.InitializeSolution+IInitializable initializable) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow.Start () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Manager.GameSystem.WaitUntilSetup (System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+YieldPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+HC.Dialog.Initializable:Localize.Translate.InitializeSolution.IInitializable.Initialize()
+Localize.Translate.InitializeSolution:Add(IInitializable)
+HC.Dialog.<Start>d__58:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Manager.<WaitUntilSetup>d__102:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.YieldPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+KeyNotFoundException: Key=1 is no value insert
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].ThrowKeyNotFoundException (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].get_Item (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow+Initializable.Localize.Translate.InitializeSolution.IInitializable.Initialize () [0x00000] in <00000000000000000000000000000000>:0 
+  at Localize.Translate.InitializeSolution.Add (Localize.Translate.InitializeSolution+IInitializable initializable) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow.Start () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Manager.GameSystem.WaitUntilSetup (System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+YieldPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+HC.Dialog.Initializable:Localize.Translate.InitializeSolution.IInitializable.Initialize()
+Localize.Translate.InitializeSolution:Add(IInitializable)
+HC.Dialog.<Start>d__58:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Manager.<WaitUntilSetup>d__102:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.YieldPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+KeyNotFoundException: Key=2 is no value insert
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].ThrowKeyNotFoundException (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].get_Item (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow+Initializable.Localize.Translate.InitializeSolution.IInitializable.Initialize () [0x00000] in <00000000000000000000000000000000>:0 
+  at Localize.Translate.InitializeSolution.Add (Localize.Translate.InitializeSolution+IInitializable initializable) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow.Start () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Manager.GameSystem.WaitUntilSetup (System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+YieldPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+HC.Dialog.Initializable:Localize.Translate.InitializeSolution.IInitializable.Initialize()
+Localize.Translate.InitializeSolution:Add(IInitializable)
+HC.Dialog.<Start>d__58:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Manager.<WaitUntilSetup>d__102:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.YieldPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+KeyNotFoundException: Key=3 is no value insert
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].ThrowKeyNotFoundException (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].get_Item (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow+Initializable.Localize.Translate.InitializeSolution.IInitializable.Initialize () [0x00000] in <00000000000000000000000000000000>:0 
+  at Localize.Translate.InitializeSolution.Add (Localize.Translate.InitializeSolution+IInitializable initializable) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow.Start () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Manager.GameSystem.WaitUntilSetup (System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+YieldPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+HC.Dialog.Initializable:Localize.Translate.InitializeSolution.IInitializable.Initialize()
+Localize.Translate.InitializeSolution:Add(IInitializable)
+HC.Dialog.<Start>d__58:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Manager.<WaitUntilSetup>d__102:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.YieldPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+KeyNotFoundException: Key=4 is no value insert
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].ThrowKeyNotFoundException (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].get_Item (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow+Initializable.Localize.Translate.InitializeSolution.IInitializable.Initialize () [0x00000] in <00000000000000000000000000000000>:0 
+  at Localize.Translate.InitializeSolution.Add (Localize.Translate.InitializeSolution+IInitializable initializable) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow.Start () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Manager.GameSystem.WaitUntilSetup (System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+YieldPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+HC.Dialog.Initializable:Localize.Translate.InitializeSolution.IInitializable.Initialize()
+Localize.Translate.InitializeSolution:Add(IInitializable)
+HC.Dialog.<Start>d__58:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Manager.<WaitUntilSetup>d__102:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.YieldPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+KeyNotFoundException: Key=5 is no value insert
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].ThrowKeyNotFoundException (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].get_Item (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow+Initializable.Localize.Translate.InitializeSolution.IInitializable.Initialize () [0x00000] in <00000000000000000000000000000000>:0 
+  at Localize.Translate.InitializeSolution.Add (Localize.Translate.InitializeSolution+IInitializable initializable) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow.Start () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Manager.GameSystem.WaitUntilSetup (System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+YieldPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+HC.Dialog.Initializable:Localize.Translate.InitializeSolution.IInitializable.Initialize()
+Localize.Translate.InitializeSolution:Add(IInitializable)
+HC.Dialog.<Start>d__58:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Manager.<WaitUntilSetup>d__102:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.YieldPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+KeyNotFoundException: Key=6 is no value insert
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].ThrowKeyNotFoundException (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].get_Item (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow+Initializable.Localize.Translate.InitializeSolution.IInitializable.Initialize () [0x00000] in <00000000000000000000000000000000>:0 
+  at Localize.Translate.InitializeSolution.Add (Localize.Translate.InitializeSolution+IInitializable initializable) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow.Start () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Manager.GameSystem.WaitUntilSetup (System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+YieldPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+HC.Dialog.Initializable:Localize.Translate.InitializeSolution.IInitializable.Initialize()
+Localize.Translate.InitializeSolution:Add(IInitializable)
+HC.Dialog.<Start>d__58:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Manager.<WaitUntilSetup>d__102:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.YieldPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+KeyNotFoundException: Key=7 is no value insert
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].ThrowKeyNotFoundException (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].get_Item (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow+Initializable.Localize.Translate.InitializeSolution.IInitializable.Initialize () [0x00000] in <00000000000000000000000000000000>:0 
+  at Localize.Translate.InitializeSolution.Add (Localize.Translate.InitializeSolution+IInitializable initializable) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow.Start () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Manager.GameSystem.WaitUntilSetup (System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+YieldPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+HC.Dialog.Initializable:Localize.Translate.InitializeSolution.IInitializable.Initialize()
+Localize.Translate.InitializeSolution:Add(IInitializable)
+HC.Dialog.<Start>d__58:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Manager.<WaitUntilSetup>d__102:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.YieldPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+KeyNotFoundException: Key=10 is no value insert
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].ThrowKeyNotFoundException (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at ILLGames.Collections.Generic.Optimized.IntKeyDictionary`1[T].get_Item (System.Int32 key) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow+Initializable.Localize.Translate.InitializeSolution.IInitializable.Initialize () [0x00000] in <00000000000000000000000000000000>:0 
+  at Localize.Translate.InitializeSolution.Add (Localize.Translate.InitializeSolution+IInitializable initializable) [0x00000] in <00000000000000000000000000000000>:0 
+  at HC.Dialog.HelpWindow.Start () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Manager.GameSystem.WaitUntilSetup (System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+YieldPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+HC.Dialog.Initializable:Localize.Translate.InitializeSolution.IInitializable.Initialize()
+Localize.Translate.InitializeSolution:Add(IInitializable)
+HC.Dialog.<Start>d__58:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Manager.<WaitUntilSetup>d__102:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.YieldPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 52)
+UnloadTime: 2.214300 ms
+Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 18661.
+Total: 12.623800 ms (FindLiveObjects: 0.546100 ms CreateObjectMapping: 0.263300 ms MarkObjects: 11.613100 ms  DeleteObjects: 0.200200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 52)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 18661.
+Total: 11.246800 ms (FindLiveObjects: 0.548400 ms CreateObjectMapping: 0.247600 ms MarkObjects: 10.429900 ms  DeleteObjects: 0.019900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 58)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 18684.
+Total: 11.479400 ms (FindLiveObjects: 0.629300 ms CreateObjectMapping: 0.311000 ms MarkObjects: 10.492400 ms  DeleteObjects: 0.045300 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 71)
+UnloadTime: 1.339400 ms
+Unloading 160 unused Assets to reduce memory usage. Loaded Objects now: 20267.
+Total: 12.419200 ms (FindLiveObjects: 0.799200 ms CreateObjectMapping: 0.485000 ms MarkObjects: 10.789000 ms  DeleteObjects: 0.344800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 71)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 20267.
+Total: 10.658100 ms (FindLiveObjects: 0.427100 ms CreateObjectMapping: 0.233000 ms MarkObjects: 9.975500 ms  DeleteObjects: 0.021600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 72)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 20333.
+Total: 12.159600 ms (FindLiveObjects: 0.652100 ms CreateObjectMapping: 0.264100 ms MarkObjects: 11.228000 ms  DeleteObjects: 0.014700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 76)
+Unloading 97 unused Assets to reduce memory usage. Loaded Objects now: 23961.
+Total: 12.993100 ms (FindLiveObjects: 0.758900 ms CreateObjectMapping: 0.330700 ms MarkObjects: 11.475500 ms  DeleteObjects: 0.427100 ms)
+
+Setting up 6 worker threads for Enlighten.
+cf_a_hit_bust_size2が見つからない
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ILLGames.Unity.AnimationKeyInfo.Controller:GetInfo(String, Single, Vector3&, Vector3&, Vector3&, Boolean[])
+ILLGames.Unity.ShapeInfoBase:ChangeValue(Int32, Single)
+Character.HumanBody:SetShapeBodyValue(Int32, Single)
+Character.HumanBody:UpdateShapeBodyValueFromCustomInfo()
+Character.HumanBody:Load(Transform, String)
+Character.Human:Load()
+Character.Human:.ctor(HumanData, Boolean, Boolean)
+Manager.Game:GetOrCreateChara(Byte, String, Int32, Boolean)
+HC.Scene.<LoadCharacter>d__36:MoveNext()
+HC.Scene.TitleScene:LoadCharacter()
+HC.Scene.<Start>d__40:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Manager.<LoadAsync>d__35:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+ILLGames.Unity.<LoadAssetAsync>d__6`1:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+<LoadAssetAsync>d__33:MoveNext()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 123)
+Unloading 8579 unused Assets to reduce memory usage. Loaded Objects now: 27538.
+Total: 20.779900 ms (FindLiveObjects: 3.205900 ms CreateObjectMapping: 1.083100 ms MarkObjects: 13.586300 ms  DeleteObjects: 2.903300 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 104)
+UnloadTime: 13.729700 ms
+Unloading 896 unused Assets to reduce memory usage. Loaded Objects now: 26606.
+Total: 50.813500 ms (FindLiveObjects: 1.887700 ms CreateObjectMapping: 0.527900 ms MarkObjects: 23.074300 ms  DeleteObjects: 25.322200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 105)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 26606.
+Total: 18.553700 ms (FindLiveObjects: 0.875500 ms CreateObjectMapping: 0.319700 ms MarkObjects: 17.331900 ms  DeleteObjects: 0.025700 ms)
+
+cf_a_hit_bust_size2が見つからない
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ILLGames.Unity.AnimationKeyInfo.Controller:GetInfo(String, Single, Vector3&, Vector3&, Vector3&, Boolean[])
+ILLGames.Unity.ShapeInfoBase:ChangeValue(Int32, Single)
+Character.HumanBody:SetShapeBodyValue(Int32, Single)
+Character.HumanBody:UpdateShapeBodyValueFromCustomInfo()
+Character.HumanBody:Load(Transform, String)
+Character.Human:Load()
+Character.Human:.ctor(HumanData, Boolean, Boolean)
+Manager.Game:GetOrCreateChara(Byte, String, Int32, Boolean)
+HC.Scene.<Start>d__95:MoveNext()
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start(TStateMachine&)
+HC.Scene.HomeScene:Start()
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 113)
+Unloading 8942 unused Assets to reduce memory usage. Loaded Objects now: 30790.
+Total: 22.909400 ms (FindLiveObjects: 1.338600 ms CreateObjectMapping: 0.530000 ms MarkObjects: 18.946100 ms  DeleteObjects: 2.093900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 109)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 30915.
+Total: 22.133000 ms (FindLiveObjects: 2.835300 ms CreateObjectMapping: 0.736500 ms MarkObjects: 17.679700 ms  DeleteObjects: 0.880300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 113)
+GI: material 'Standard' does not have Meta pass, and could not find default material. Object 'toon_fern00v8_00_LOD0' will not be affecting GI.
+GI: material 'Standard' does not have Meta pass, and could not find default material. Object 'toon_fern00v8_00_LOD0' will not be affecting GI.
+GI: material 'Standard' does not have Meta pass, and could not find default material. Object 'toon_fern00v8_00_LOD0' will not be affecting GI.
+GI: material 'Standard' does not have Meta pass, and could not find default material. Object 'toon_fern00v8_00_LOD0' will not be affecting GI.
+GI: material 'Standard' does not have Meta pass, and could not find default material. Object 'toon_fern00v8_00_LOD0' will not be affecting GI.
+GI: material 'Standard' does not have Meta pass, and could not find default material. Object 'toon_fern00v8_00_LOD0' will not be affecting GI.
+GI: material 'Standard' does not have Meta pass, and could not find default material. Object 'toon_fern00v8_00_LOD0' will not be affecting GI.
+GI: material 'Standard' does not have Meta pass, and could not find default material. Object 'toon_fern00v8_00_LOD0' will not be affecting GI.
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 32108.
+Total: 19.042000 ms (FindLiveObjects: 1.083600 ms CreateObjectMapping: 0.354600 ms MarkObjects: 17.117900 ms  DeleteObjects: 0.484800 ms)
+
+Manager.Sound.OnDisable()
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Manager.Sound:OnDisable()
+
+CurrentBGM : hc_bgm_01
+Volume = 0
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Manager.Sound:OnDisable()
+
+Caching AudioSource : hc_bgm_00
+Volume = 0
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Manager.Sound:OnDisable()
+
+Caching AudioSource : hc_bgm_01
+Volume = 0
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Manager.Sound:OnDisable()
+
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 53 frames, [2.0 KB-4.0 KB]: 503 frames, [4.0 KB-8.0 KB]: 9 frames, [8.0 KB-16.0 KB]: 1624 frames, [16.0 KB-32.0 KB]: 3325 frames, [32.0 KB-64.0 KB]: 4 frames, [64.0 KB-128.0 KB]: 5 frames, [128.0 KB-256.0 KB]: 6 frames, [256.0 KB-0.5 MB]: 6 frames, [0.5 MB-1.0 MB]: 1 frames, [1.0 MB-2.0 MB]: 7 frames, [2.0 MB-4.0 MB]: 12 frames, [4.0 MB-8.0 MB]: 2 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 7.6 MB
+      Peak Allocated Bytes 7.6 MB
+      Overflow Count 1
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 76.0 KB
+      Peak Allocated Bytes 75.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 0.5 MB
+      Peak Allocated Bytes 508.9 KB
+      Overflow Count 134
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 309 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 135.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 135.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 330 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 318 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 135.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 318 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 135.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 135.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 309 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 6
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 315 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 315 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 135.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 11
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 135.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 135.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 135.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 135.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 135.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 318 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 312 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 135.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 321 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 7315
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 111 Subsections = 113664 buckets. Failed count: 134566
+        32B: 95 Subsections = 48640 buckets. Failed count: 72426
+        48B: 13 Subsections = 4437 buckets. Failed count: 413978
+        64B: 17 Subsections = 4352 buckets. Failed count: 115216
+        80B: 11 Subsections = 2252 buckets. Failed count: 105815
+        96B: 3 Subsections = 512 buckets. Failed count: 323259
+        112B: 2 Subsections = 292 buckets. Failed count: 265394
+        128B: 4 Subsections = 512 buckets. Failed count: 80184
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 158 frames, [32.0 MB-64.0 MB]: 2953 frames, [64.0 MB-128.0 MB]: 2446 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 4
+      Peak Allocated memory 85.2 MB
+      Peak Large allocation bytes 36.5 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 5546 frames, [64.0 MB-128.0 MB]: 11 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 75.6 MB
+      Peak Large allocation bytes 64.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 4
+  Overflow Count (too large) 1
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 4
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 385
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 111 Subsections = 113664 buckets. Failed count: 134566
+        32B: 95 Subsections = 48640 buckets. Failed count: 72426
+        48B: 13 Subsections = 4437 buckets. Failed count: 413978
+        64B: 17 Subsections = 4352 buckets. Failed count: 115216
+        80B: 11 Subsections = 2252 buckets. Failed count: 105815
+        96B: 3 Subsections = 512 buckets. Failed count: 323259
+        112B: 2 Subsections = 292 buckets. Failed count: 265394
+        128B: 4 Subsections = 512 buckets. Failed count: 80184
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 55 frames, [64.0 KB-128.0 KB]: 4 frames, [0.5 MB-1.0 MB]: 2 frames, [1.0 MB-2.0 MB]: 32 frames, [8.0 MB-16.0 MB]: 449 frames, [16.0 MB-32.0 MB]: 2570 frames, [32.0 MB-64.0 MB]: 2445 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 3
+      Peak Allocated memory 42.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [2.0 KB-4.0 KB]: 45 frames, [4.0 KB-8.0 KB]: 2 frames, [8.0 KB-16.0 KB]: 1 frames, [16.0 KB-32.0 KB]: 1 frames, [1.0 MB-2.0 MB]: 492 frames, [2.0 MB-4.0 MB]: 2 frames, [4.0 MB-8.0 MB]: 2443 frames, [8.0 MB-16.0 MB]: 2570 frames, [16.0 MB-32.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 26.9 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 9372
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 111 Subsections = 113664 buckets. Failed count: 134566
+        32B: 95 Subsections = 48640 buckets. Failed count: 72426
+        48B: 13 Subsections = 4437 buckets. Failed count: 413978
+        64B: 17 Subsections = 4352 buckets. Failed count: 115216
+        80B: 11 Subsections = 2252 buckets. Failed count: 105815
+        96B: 3 Subsections = 512 buckets. Failed count: 323259
+        112B: 2 Subsections = 292 buckets. Failed count: 265394
+        128B: 4 Subsections = 512 buckets. Failed count: 80184
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [1.00 GB-2.00 GB]: 5556 frames, [2.00 GB-4.00 GB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 469
+      Peak Allocated memory 2.15 GB
+      Peak Large allocation bytes 1.00 GB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 2 frames, [64.0 KB-128.0 KB]: 1 frames, [256.0 KB-0.5 MB]: 39 frames, [2.0 MB-4.0 MB]: 6 frames, [4.0 MB-8.0 MB]: 7 frames, [8.0 MB-16.0 MB]: 488 frames, [16.0 MB-32.0 MB]: 127 frames, [32.0 MB-64.0 MB]: 4 frames, [64.0 MB-128.0 MB]: 4883 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 19
+      Peak Allocated memory 108.8 MB
+      Peak Large allocation bytes 48.3 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 111 Subsections = 113664 buckets. Failed count: 134566
+        32B: 95 Subsections = 48640 buckets. Failed count: 72426
+        48B: 13 Subsections = 4437 buckets. Failed count: 413978
+        64B: 17 Subsections = 4352 buckets. Failed count: 115216
+        80B: 11 Subsections = 2252 buckets. Failed count: 105815
+        96B: 3 Subsections = 512 buckets. Failed count: 323259
+        112B: 2 Subsections = 292 buckets. Failed count: 265394
+        128B: 4 Subsections = 512 buckets. Failed count: 80184
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 56 frames, [128.0 KB-256.0 KB]: 36 frames, [256.0 KB-0.5 MB]: 61 frames, [0.5 MB-1.0 MB]: 389 frames, [1.0 MB-2.0 MB]: 4 frames, [2.0 MB-4.0 MB]: 5011 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 3
+      Peak Allocated memory 4.0 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [1.0 KB-2.0 KB]: 42 frames, [256.0 KB-0.5 MB]: 5 frames, [0.5 MB-1.0 MB]: 496 frames, [1.0 MB-2.0 MB]: 5014 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.2 MB
+      Peak Large allocation bytes 0 B

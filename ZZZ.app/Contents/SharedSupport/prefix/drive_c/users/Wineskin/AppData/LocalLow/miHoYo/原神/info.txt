@@ -1,0 +1,13 @@
+version:5.2_rel CNRELWin5.2.0_28336591_28351161_28349297_28035729_28351161
+deviceName:ZHAOXINYUDEMACB
+time:2024-11-21 22.01.48.0411
+deviceModel:Mac14,6 (Apple Inc.)
+operatingSystem:Windows 10  (10.0.19043) 64bit Microsoft Windows NT 10.0.19043.0
+uid:0
+memoryInfo:0
+cpuInfo:VirtualApple @ 2.50GHz
+gpuInfo:AMD Radeon Pro 5300M
+clientIp:240e:3a1:45b:b9e8::f8d
+isRelease:1
+type:Windows Crash Release
+

@@ -35,6 +35,10 @@ fi
 
 export DYLD_FALLBACK_LIBRARY_PATH="${WINETRICKS_FALLBACK_LIBRARY_PATH}"
 
+# .Net 7 and later segfault under Rosetta2
+# https://github.com/dotnet/runtime/issues/94909
+export DOTNET="DOTNET_EnableWriteXorExecute=0"
+
 # Check for wineserver and use if found
 if [[ -x "$(command -v "$WINESKINPATH"/wineserver)" ]]; then exec "$WINESKINPATH/wineserver" "$@"; fi
 
