@@ -153,14 +153,28 @@ class HoYoGameInstaller() {
                 destFile.absolutePath
             )
 
+            val deletePb = ProcessBuilder(
+                "/bin/rm",
+                "-R",
+                destFile.absolutePath
+            )
+
             if (destFile.exists()) {
-                println("Please delete exist Apps before installation!")
-                return false
+                println("Updating game ...")
+                println("Deleting existing App ...")
+                val extCode = deletePb.start().waitFor()
+                if (extCode == 0) {
+                    println("Delete existing App success!")
+                } else {
+                    println("Delete existing App failed: $extCode!,Please delete App manually.")
+                    return false
+                }
+            } else {
+                println("Barand new installation ...")
             }
 
             println("Installing App ...")
-            val process = installPb.start()
-            val exitCode = process.waitFor()
+            val exitCode = installPb.start().waitFor()
 
             if (exitCode == 0) {
                 println("Install App success!")
