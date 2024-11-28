@@ -319,7 +319,7 @@ class HoYoGameInstaller() {
         }
 
         inputStream.close()
-        return hexString.toString().toUpperCase()
+        return hexString.toString().uppercase()
     }
 
     // 打印下载进度
@@ -440,7 +440,7 @@ class HoYoGameInstaller() {
             version = response.data.gamePackages[0].pkgInfo.mainPkgInfo.version
             for (pkg in response.data.gamePackages[0].pkgInfo.mainPkgInfo.gamePkgs) {
                 pkgUrls.add(pkg.url)
-                pkgMd5s.add(pkg.md5.toUpperCase())
+                pkgMd5s.add(pkg.md5.uppercase())
                 totalSize += pkg.size.toLong()
             }
         } else {
