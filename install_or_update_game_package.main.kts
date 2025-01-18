@@ -15,6 +15,11 @@ import java.io.FileInputStream
 import java.io.FileOutputStream
 import java.net.URLConnection
 import java.security.MessageDigest
+import javax.swing.JFileChooser
+import javax.swing.UIManager
+import javax.swing.filechooser.FileSystemView
+import javax.swing.SwingUtilities
+import kotlin.system.exitProcess
 
 /**
  * start of main
@@ -41,7 +46,15 @@ class HoYoGameInstaller() {
         const val ZZZ_GL = 4
         const val INVALIDE_GAME = -1
 
-        const val GAME_WINE_INSTALL_PATH = "Contents/SharedSupport/prefix/drive_c/HoYoGame/"
+        const val GS_EXE = "/YuanShen.exe"
+        const val ZZZ_EXE = "/ZenlessZoneZero.exe"
+
+        const val WINE_DRIVE_C_PATH = "Contents/SharedSupport/prefix/drive_c/"
+        const val LAUNCH_BAT = "launchGame.bat"
+        const val WINE_MAC_ROOT_PATH = "Z:"
+        const val MAC_APPLICATION_PATH = "/Applications/"
+
+        const val GS_CLOUD_GAME_PARAM = "-platform_type CLOUD_THIRD_PARTY_PC"
 
         val game_api_mapping = hashMapOf(GENSHIN_CN to GENSHIN_PKG_API_CN,
                 GENSHIN_GL to GENSHIN_PKG_API_GL,
@@ -76,7 +89,12 @@ class HoYoGameInstaller() {
         }
 
         //游戏数据包的默认下载路径
-        val gamePkgsBaseDir: String get() = "${System.getProperty("user.home")}/Downloads/HoYoGamePacks/"
+        var gamePkgsBaseDir = ""
+        
+        //用户指定的目录是否已安装了游戏
+        var isPathInstalledGame = false
+
+        var hasSelectedGameFolder = false
     }
 
     private var gameToInstall = INVALIDE_GAME
@@ -99,11 +117,14 @@ class HoYoGameInstaller() {
     private var appName = ""
 
     fun installOrUpdate() {
-        chooseGame()
-        fetchPkgInfo()
-        installApp()
-        downloadGamePkgs()
-        unZipGamePkgs("/Applications/$appName/$GAME_WINE_INSTALL_PATH")
+        SwingUtilities.invokeLater {
+            chooseGame()
+            fetchPkgInfo()
+            installApp()
+            selectGameDataFolder()
+            downloadGamePkgs()
+            exitProcess(0)
+        }
     }
 
     fun chooseGame() {
@@ -132,7 +153,7 @@ class HoYoGameInstaller() {
             }
         }
         val sourceFile = File(appFileName)
-        val destFolder = File("/Applications/")
+        val destFolder = File(MAC_APPLICATION_PATH)
         if (!sourceFile.exists()) {
             println("$appFileName  does not exist!")
             return false
@@ -190,7 +211,64 @@ class HoYoGameInstaller() {
         }
     }
 
+    fun selectGameDataFolder() {
+        println("选择游戏安装路径：")
+        val path = selectFolder()
+        if (path != null) {
+            isPathInstalledGame = false
+            hasSelectedGameFolder = true
+            gamePkgsBaseDir = "$path/HoYoGamePacks/"
+            println("游戏安装路径是：$gamePkgsBaseDir")
+        } else {
+            Thread.sleep(2000)
+            println("定位已有的游戏数据：")
+            selectFolder()?.let { installedPath ->
+                isPathInstalledGame = true
+                hasSelectedGameFolder = true
+                gamePkgsBaseDir = installedPath
+                println("已安装游戏数据的路径是：$gamePkgsBaseDir")
+            }
+        }
+        modifyLaunchBat()
+    }
+
+    private fun selectFolder(): String? {
+        // 设置为系统外观
+        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName())
+
+        // 创建文件选择器实例
+        val chooser = JFileChooser(FileSystemView.getFileSystemView())
+        chooser.fileSelectionMode = JFileChooser.DIRECTORIES_ONLY // 仅允许选择目录
+
+        // 显示选择窗口
+        val returnValue = chooser.showOpenDialog(null)
+        if (returnValue == JFileChooser.APPROVE_OPTION) {
+            return chooser.selectedFile.absolutePath // 返回选中目录的路径
+        }
+
+        // 如果取消或关闭窗口，返回 null
+        return null
+    }
+
+    private fun modifyLaunchBat() {
+        if (!hasSelectedGameFolder) {
+            return
+        }
+        val launchBatPath = "$MAC_APPLICATION_PATH${getAppName(gameToInstall)}.app/$WINE_DRIVE_C_PATH$LAUNCH_BAT"
+        val launchString = "\"$WINE_MAC_ROOT_PATH$gamePkgsBaseDir${getExeFileName(gameToInstall)}\"" + if (isGS(gameToInstall)) " " + GS_CLOUD_GAME_PARAM else ""
+        val launchBatFile = File(launchBatPath)
+        launchBatFile.writeText(launchString)
+    }
+
     fun downloadGamePkgs() {
+        if (isPathInstalledGame || !hasSelectedGameFolder) {
+            if (!hasSelectedGameFolder) {
+                println("请选择有效的游戏文件路径!")
+            } else {
+                println("安装成功！")
+            }
+            return
+        }
         println("数据包总大小：${totalSize / 1024 / 1024 / 1024} GB，请预留至少两倍数据包大小的空间以正常安装游戏")
         var pkgCount = 0
         val downloadDir = File(gamePkgsBaseDir)
@@ -205,6 +283,7 @@ class HoYoGameInstaller() {
             }
         }
         println("所有文件已下载完成，准备解压")
+        unZipGamePkgs(gamePkgsBaseDir)
     }
 
     private fun downloadPkg(pkgUrl: String, destPath: String, pkgCount: Int): Boolean {
@@ -352,12 +431,12 @@ class HoYoGameInstaller() {
     }
 
     fun unZipGamePkgs(destDir: String) {
+        if (isPathInstalledGame) {
+            println("安装成功！")
+            return
+        }
         // 创建输出目录
         val outputDirFile = File(destDir)
-        if (outputDirFile.exists()) {
-            println("正在删除已安装的游戏资源 ...")
-            outputDirFile.deleteRecursively()
-        }
         if (!outputDirFile.exists()) {
             outputDirFile.mkdirs()
         }
@@ -383,6 +462,7 @@ class HoYoGameInstaller() {
                 println("解压完成")
                 //解压完成后删除压缩包
                 File(gamePkgsBaseDir + it).delete()
+                println("安装成功！")
             } else {
                 println("解压过程中出现错误，退出码：$exitCode")
             }
@@ -471,6 +551,20 @@ class HoYoGameInstaller() {
             ""
         }
     }
+
+    private fun getExeFileName(gameCode: Int) = when (gameCode) {
+        in GENSHIN_CN .. GENSHIN_BILI -> {
+            GS_EXE
+        }
+        in ZZZ_CN .. ZZZ_GL -> {
+            ZZZ_EXE
+        }
+        else -> {
+            ""
+        }
+    }
+
+    private fun isGS(gameCode: Int) = gameCode in GENSHIN_CN .. GENSHIN_BILI
 
     private fun initPkgZipFileName(splitName: String) {
         val lastDotIndex = splitName.lastIndexOf(".")

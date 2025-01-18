@@ -63020,8 +63020,8 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%PUBLIC%\\Pictures"
 "CommonVideo"=str(2):"%PUBLIC%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1732197684
-#time=1db3c1dda0287b0
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1737184172
+#time=1db6977ec3a8c34
 "@Apple LiSung Light (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\2ae839cbaa0ff60fe6a1d8921a77c81adcec0646.asset\\AssetData\\AppleLiSung-Light.ttf"
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Arial Unicode.ttf"
@@ -63168,6 +63168,8 @@ WINE REGISTRY Version 2
 "@\x96b6\x53d8-\x7e41 \x5e38\x89c4\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\7278ac2566252649b05c5a2b07c7d45be59f47c5.asset\\AssetData\\Libian.ttc"
 "@\x96c5\x75de-\x7b80 \x5e38\x89c4\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\96af7ec9e88d5dae450d3162213f92a7b1129430.asset\\AssetData\\YuppySC-Regular.otf"
 "@\x96c5\x75de-\x7e41 \x5e38\x89c4\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\e28431125242b9a298de3296370abdab4a7e8666.asset\\AssetData\\YuppyTC-Regular.otf"
+"@\x9b4f\x7891-\x7b80 \x7c97\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\a8805b853edf89283dec908153a0015bdd1d00f8.asset\\AssetData\\WeibeiSC-Bold.otf"
+"@\x9b4f\x7891-\x7e41 \x7c97\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\0c723883d13f8442faf3adb131fc1eb91c7a1bf1.asset\\AssetData\\WeibeiTC-Bold.otf"
 "@\x9ed1\x4f53-\x7b80 \x4e2d\x7b49 (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Medium.ttc"
 "@\x9ed1\x4f53-\x7b80 \x7ec6\x4f53 (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Light.ttc"
 "@\x9ed1\x4f53-\x7e41 \x4e2d\x7b49 (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Medium.ttc"
@@ -63336,7 +63338,6 @@ WINE REGISTRY Version 2
 "Galvji Oblique (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Galvji.ttc"
 "Galvji-Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Galvji.ttc"
 "Galvji-BoldOblique (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Galvji.ttc"
-"GB18030 Bitmap"="Z:\\System\\Library\\Fonts\\Supplemental\\NISC18030.ttf"
 "Geeza Pro Bold (TrueType)"="Z:\\System\\Library\\Fonts\\GeezaPro.ttc"
 "Geeza Pro Regular (TrueType)"="Z:\\System\\Library\\Fonts\\GeezaPro.ttc"
 "Geneva (TrueType)"="Z:\\System\\Library\\Fonts\\Geneva.ttf"
@@ -63470,7 +63471,6 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett (TrueType)"="Z:\\Users\\zhaoxinyu\\Applications\\Wineskin\\DXMTTest.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -63641,7 +63641,6 @@ WINE REGISTRY Version 2
 "SukhumvitSet-SemiBold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
 "SukhumvitSet-Text (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
 "SukhumvitSet-Thin (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
-"Symbol (TrueType)"="Z:\\Users\\zhaoxinyu\\Applications\\Wineskin\\DXMTTest.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\symbol.ttf"
 "Tahoma (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tahoma.ttf"
 "Tahoma Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tahoma Bold.ttf"
 "Tamil MN (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tamil MN.ttc"
@@ -63773,6 +63772,8 @@ WINE REGISTRY Version 2
 "\x96b6\x53d8-\x7e41 \x5e38\x89c4\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\7278ac2566252649b05c5a2b07c7d45be59f47c5.asset\\AssetData\\Libian.ttc"
 "\x96c5\x75de-\x7b80 \x5e38\x89c4\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\96af7ec9e88d5dae450d3162213f92a7b1129430.asset\\AssetData\\YuppySC-Regular.otf"
 "\x96c5\x75de-\x7e41 \x5e38\x89c4\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\e28431125242b9a298de3296370abdab4a7e8666.asset\\AssetData\\YuppyTC-Regular.otf"
+"\x9b4f\x7891-\x7b80 \x7c97\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\a8805b853edf89283dec908153a0015bdd1d00f8.asset\\AssetData\\WeibeiSC-Bold.otf"
+"\x9b4f\x7891-\x7e41 \x7c97\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\0c723883d13f8442faf3adb131fc1eb91c7a1bf1.asset\\AssetData\\WeibeiTC-Bold.otf"
 "\x9ed1\x4f53-\x7b80 \x4e2d\x7b49 (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Medium.ttc"
 "\x9ed1\x4f53-\x7b80 \x7ec6\x4f53 (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Light.ttc"
 "\x9ed1\x4f53-\x7e41 \x4e2d\x7b49 (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Medium.ttc"
@@ -66339,8 +66340,8 @@ WINE REGISTRY Version 2
 #time=1db3c1a548c98da
 "MAPI"="1"
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion] 1732197685
-#time=1db3c1dda411cc8
+[Software\\Microsoft\\Windows NT\\CurrentVersion] 1737184172
+#time=1db6977ec995818
 "CurrentBuild"="19043"
 "CurrentBuildNumber"="19043"
 "CurrentMajorVersionNumber"=dword:0000000a
@@ -66411,8 +66412,8 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1732196172
 #time=1db3c1a548adffe
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1732197684
-#time=1db3c1dda0286c0
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1737184172
+#time=1db6977ec3a8c98
 "@Apple LiSung Light (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\2ae839cbaa0ff60fe6a1d8921a77c81adcec0646.asset\\AssetData\\AppleLiSung-Light.ttf"
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Arial Unicode.ttf"
@@ -66559,6 +66560,8 @@ WINE REGISTRY Version 2
 "@\x96b6\x53d8-\x7e41 \x5e38\x89c4\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\7278ac2566252649b05c5a2b07c7d45be59f47c5.asset\\AssetData\\Libian.ttc"
 "@\x96c5\x75de-\x7b80 \x5e38\x89c4\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\96af7ec9e88d5dae450d3162213f92a7b1129430.asset\\AssetData\\YuppySC-Regular.otf"
 "@\x96c5\x75de-\x7e41 \x5e38\x89c4\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\e28431125242b9a298de3296370abdab4a7e8666.asset\\AssetData\\YuppyTC-Regular.otf"
+"@\x9b4f\x7891-\x7b80 \x7c97\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\a8805b853edf89283dec908153a0015bdd1d00f8.asset\\AssetData\\WeibeiSC-Bold.otf"
+"@\x9b4f\x7891-\x7e41 \x7c97\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\0c723883d13f8442faf3adb131fc1eb91c7a1bf1.asset\\AssetData\\WeibeiTC-Bold.otf"
 "@\x9ed1\x4f53-\x7b80 \x4e2d\x7b49 (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Medium.ttc"
 "@\x9ed1\x4f53-\x7b80 \x7ec6\x4f53 (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Light.ttc"
 "@\x9ed1\x4f53-\x7e41 \x4e2d\x7b49 (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Medium.ttc"
@@ -66727,7 +66730,6 @@ WINE REGISTRY Version 2
 "Galvji Oblique (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Galvji.ttc"
 "Galvji-Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Galvji.ttc"
 "Galvji-BoldOblique (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Galvji.ttc"
-"GB18030 Bitmap"="Z:\\System\\Library\\Fonts\\Supplemental\\NISC18030.ttf"
 "Geeza Pro Bold (TrueType)"="Z:\\System\\Library\\Fonts\\GeezaPro.ttc"
 "Geeza Pro Regular (TrueType)"="Z:\\System\\Library\\Fonts\\GeezaPro.ttc"
 "Geneva (TrueType)"="Z:\\System\\Library\\Fonts\\Geneva.ttf"
@@ -66861,7 +66863,6 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett (TrueType)"="Z:\\Users\\zhaoxinyu\\Applications\\Wineskin\\DXMTTest.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -67032,7 +67033,6 @@ WINE REGISTRY Version 2
 "SukhumvitSet-SemiBold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
 "SukhumvitSet-Text (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
 "SukhumvitSet-Thin (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
-"Symbol (TrueType)"="Z:\\Users\\zhaoxinyu\\Applications\\Wineskin\\DXMTTest.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\symbol.ttf"
 "Tahoma (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tahoma.ttf"
 "Tahoma Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tahoma Bold.ttf"
 "Tamil MN (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tamil MN.ttc"
@@ -67164,6 +67164,8 @@ WINE REGISTRY Version 2
 "\x96b6\x53d8-\x7e41 \x5e38\x89c4\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\7278ac2566252649b05c5a2b07c7d45be59f47c5.asset\\AssetData\\Libian.ttc"
 "\x96c5\x75de-\x7b80 \x5e38\x89c4\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\96af7ec9e88d5dae450d3162213f92a7b1129430.asset\\AssetData\\YuppySC-Regular.otf"
 "\x96c5\x75de-\x7e41 \x5e38\x89c4\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\e28431125242b9a298de3296370abdab4a7e8666.asset\\AssetData\\YuppyTC-Regular.otf"
+"\x9b4f\x7891-\x7b80 \x7c97\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\a8805b853edf89283dec908153a0015bdd1d00f8.asset\\AssetData\\WeibeiSC-Bold.otf"
+"\x9b4f\x7891-\x7e41 \x7c97\x4f53 (TrueType)"="Z:\\System\\Library\\AssetsV2\\com_apple_MobileAsset_Font7\\0c723883d13f8442faf3adb131fc1eb91c7a1bf1.asset\\AssetData\\WeibeiTC-Bold.otf"
 "\x9ed1\x4f53-\x7b80 \x4e2d\x7b49 (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Medium.ttc"
 "\x9ed1\x4f53-\x7b80 \x7ec6\x4f53 (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Light.ttc"
 "\x9ed1\x4f53-\x7e41 \x4e2d\x7b49 (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Medium.ttc"
@@ -72123,6 +72125,10 @@ WINE REGISTRY Version 2
 
 [Software\\Registered Applications] 1732196172
 #time=1db3c1a548c9b00
+
+[Software\\Wine\\Drives] 1737184170
+#time=1db6977eb633248
+"d:"="floppy"
 
 [Software\\Wine\\LicenseInformation] 1732196172
 #time=1db3c1a54976a1c
@@ -77144,14 +77150,14 @@ WINE REGISTRY Version 2
 @="Disk drives"
 "Class"="DiskDrive"
 
-[System\\CurrentControlSet\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}] 1732197849
-#time=1db3c1e3c39f38c
+[System\\CurrentControlSet\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}] 1737184185
+#time=1db6977f3f1c8fc
 "Class"="Display"
 
-[System\\CurrentControlSet\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000] 1732197849
-#time=1db3c1e3c3a37de
-"DriverDate"="11-21-2024"
-"DriverDateData"=hex:90,f4,39,3c,1e,3c,db,01
+[System\\CurrentControlSet\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000] 1737184185
+#time=1db6977f3f1efb2
+"DriverDate"="1-18-2025"
+"DriverDateData"=hex:a6,c9,f1,f3,77,69,db,01
 "DriverDesc"="Apple M2 Max"
 "HardwareInformation.AdapterString"=hex:41,00,70,00,70,00,6c,00,65,00,20,00,4d,\
   00,32,00,20,00,4d,00,61,00,78,00,00,00
@@ -77171,12 +77177,12 @@ WINE REGISTRY Version 2
   00,30,00,30,00,32,00,42,00,45,00,31,00,30,00,33,00,31,00,38,00,7d,00,5c,00,\
   30,00,30,00,30,00,30,00
 
-[System\\CurrentControlSet\\Control\\Class\\{4D36E96E-E325-11CE-BFC1-08002BE10318}] 1732197849
-#time=1db3c1e3c3a994a
+[System\\CurrentControlSet\\Control\\Class\\{4D36E96E-E325-11CE-BFC1-08002BE10318}] 1737184185
+#time=1db6977f3f20f60
 "Class"="Monitor"
 
-[System\\CurrentControlSet\\Control\\Class\\{4D36E96E-E325-11CE-BFC1-08002BE10318}\\0000] 1732197849
-#time=1db3c1e3c3a994a
+[System\\CurrentControlSet\\Control\\Class\\{4D36E96E-E325-11CE-BFC1-08002BE10318}\\0000] 1737184185
+#time=1db6977f3f20f60
 
 [System\\CurrentControlSet\\Control\\Class\\{4d36e978-e325-11ce-bfc1-08002be10318}] 1732196172
 #time=1db3c1a548a5700
@@ -77233,48 +77239,48 @@ WINE REGISTRY Version 2
 "StemmerClass"=""
 "WBreakerClass"="{369647e0-17b0-11ce-9950-00aa004bbb1f}"
 
-[System\\CurrentControlSet\\Control\\DeviceClasses\\{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}\\##?#PCI#VEN_106B&DEV_03F0&SUBSYS_00000000&REV_00#00000000#{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}] 1732197686
-#time=1db3c1ddb20debc
+[System\\CurrentControlSet\\Control\\DeviceClasses\\{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}\\##?#PCI#VEN_106B&DEV_03F0&SUBSYS_00000000&REV_00#00000000#{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}] 1737184174
+#time=1db6977ed707794
 "DeviceInstance"="PCI\\VEN_106B&DEV_03F0&SUBSYS_00000000&REV_00\\00000000"
 
 [System\\CurrentControlSet\\Control\\DeviceClasses\\{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\##?#hid#vid_845e&pid_0001#0&0000&0&0#{378de44c-56ef-11d1-bc8c-00a0c91405dd}] 1732196176
 #time=1db3c1a56fb7730
 "DeviceInstance"="HID\\VID_845E&PID_0001\\0&0000&0&0"
 
-[System\\CurrentControlSet\\Control\\DeviceClasses\\{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\##?#hid#vid_845e&pid_0001#0&0000&0&0#{378de44c-56ef-11d1-bc8c-00a0c91405dd}\\#] 1732197684
-#time=1db3c1dda064d14
+[System\\CurrentControlSet\\Control\\DeviceClasses\\{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\##?#hid#vid_845e&pid_0001#0&0000&0&0#{378de44c-56ef-11d1-bc8c-00a0c91405dd}\\#] 1737184172
+#time=1db6977ec3eec7a
 "SymbolicLink"="\\\\?\\hid#vid_845e&pid_0001#0&0000&0&0#{378de44c-56ef-11d1-bc8c-00a0c91405dd}"
 
 [System\\CurrentControlSet\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#hid#vid_845e&pid_0001#0&0000&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}] 1732196176
 #time=1db3c1a56fb5ade
 "DeviceInstance"="HID\\VID_845E&PID_0001\\0&0000&0&0"
 
-[System\\CurrentControlSet\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#hid#vid_845e&pid_0001#0&0000&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}\\#] 1732197684
-#time=1db3c1dda06456c
+[System\\CurrentControlSet\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#hid#vid_845e&pid_0001#0&0000&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}\\#] 1737184172
+#time=1db6977ec3ee626
 "SymbolicLink"="\\\\?\\hid#vid_845e&pid_0001#0&0000&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}"
 
 [System\\CurrentControlSet\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#hid#vid_845e&pid_0002#0&0000&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}] 1732196176
 #time=1db3c1a56f76410
 "DeviceInstance"="HID\\VID_845E&PID_0002\\0&0000&0&0"
 
-[System\\CurrentControlSet\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#hid#vid_845e&pid_0002#0&0000&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}\\#] 1732197684
-#time=1db3c1dda0586ea
+[System\\CurrentControlSet\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#hid#vid_845e&pid_0002#0&0000&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}\\#] 1737184172
+#time=1db6977ec3e38c0
 "SymbolicLink"="\\\\?\\hid#vid_845e&pid_0002#0&0000&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}"
 
-[System\\CurrentControlSet\\Control\\DeviceClasses\\{5B45201D-F2F2-4F3B-85BB-30FF1F953599}\\##?#PCI#VEN_106B&DEV_03F0&SUBSYS_00000000&REV_00#00000000#{5B45201D-F2F2-4F3B-85BB-30FF1F953599}] 1732197686
-#time=1db3c1ddb20d91c
+[System\\CurrentControlSet\\Control\\DeviceClasses\\{5B45201D-F2F2-4F3B-85BB-30FF1F953599}\\##?#PCI#VEN_106B&DEV_03F0&SUBSYS_00000000&REV_00#00000000#{5B45201D-F2F2-4F3B-85BB-30FF1F953599}] 1737184174
+#time=1db6977ed7074c4
 "DeviceInstance"="PCI\\VEN_106B&DEV_03F0&SUBSYS_00000000&REV_00\\00000000"
 
 [System\\CurrentControlSet\\Control\\DeviceClasses\\{884B96C3-56EF-11D1-BC8C-00A0C91405DD}\\##?#hid#vid_845e&pid_0002#0&0000&0&0#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}] 1732196176
 #time=1db3c1a56f78bca
 "DeviceInstance"="HID\\VID_845E&PID_0002\\0&0000&0&0"
 
-[System\\CurrentControlSet\\Control\\DeviceClasses\\{884B96C3-56EF-11D1-BC8C-00A0C91405DD}\\##?#hid#vid_845e&pid_0002#0&0000&0&0#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}\\#] 1732197684
-#time=1db3c1dda05d2b2
+[System\\CurrentControlSet\\Control\\DeviceClasses\\{884B96C3-56EF-11D1-BC8C-00A0C91405DD}\\##?#hid#vid_845e&pid_0002#0&0000&0&0#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}\\#] 1737184172
+#time=1db6977ec3ea256
 "SymbolicLink"="\\\\?\\hid#vid_845e&pid_0002#0&0000&0&0#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}"
 
-[System\\CurrentControlSet\\Control\\DeviceClasses\\{E6F07B5F-EE97-4A90-B076-33F57BF4EAA7}\\##?#DISPLAY#Default_Monitor#0000&0000#{E6F07B5F-EE97-4A90-B076-33F57BF4EAA7}] 1732197686
-#time=1db3c1ddb212a52
+[System\\CurrentControlSet\\Control\\DeviceClasses\\{E6F07B5F-EE97-4A90-B076-33F57BF4EAA7}\\##?#DISPLAY#Default_Monitor#0000&0000#{E6F07B5F-EE97-4A90-B076-33F57BF4EAA7}] 1737184174
+#time=1db6977ed70b33a
 "DeviceInstance"="DISPLAY\\Default_Monitor\\0000&0000"
 
 [System\\CurrentControlSet\\Control\\FontAssoc\\Associated Charset] 1732196158
@@ -77896,8 +77902,8 @@ WINE REGISTRY Version 2
 #time=1db3c1a548d2066
 "DefaultSpoolDirectory"="C:\\windows\\system32\\spool\\printers"
 
-[System\\CurrentControlSet\\Control\\Print\\Printers\\XiaomiPrinter] 1732197695
-#time=1db3c1de065e188
+[System\\CurrentControlSet\\Control\\Print\\Printers\\XiaomiPrinter] 1737184175
+#time=1db6977ee38366c
 "Attributes"=dword:00000000
 "Datatype"="RAW"
 "Default DevMode"=hex:58,69,61,6f,6d,69,50,72,69,6e,74,65,72,00,00,00,00,00,00,\
@@ -78007,41 +78013,41 @@ WINE REGISTRY Version 2
 #time=1db3c1a54974f0a
 "CSDVersion"=dword:00000000
 
-[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000] 1732197849
-#time=1db3c1e3c3a67c2
+[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000] 1737184185
+#time=1db6977f3f20092
 "Class"="Monitor"
 "ClassGUID"="{4D36E96E-E325-11CE-BFC1-08002BE10318}"
 "DeviceDesc"="Generic Non-PnP Monitor"
 "Driver"="{4D36E96E-E325-11CE-BFC1-08002BE10318}\\0000"
 "HardwareID"=str(7):"MONITOR\\Default_Monitor\0"
 
-[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Device Parameters] 1732197849
-#time=1db3c1e3c3a638a
+[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Device Parameters] 1737184185
+#time=1db6977f3f1ff0c
 "BAD_EDID"=hex:
 
-[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0002] 1732197849
-#time=1db3c1e3c3a749c
+[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0002] 1737184185
+#time=1db6977f3f202fe
 @=hex(ffff0007):03,00,00,00
 
-[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0003] 1732197849
-#time=1db3c1e3c3a7924
+[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0003] 1737184185
+#time=1db6977f3f2048e
 @=hex(ffff1003):00,00,00,00,00,00,00,00,00,0a,00,00,a0,05,00,00
 
-[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0004] 1732197849
-#time=1db3c1e3c3a7d0c
+[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0004] 1737184185
+#time=1db6977f3f205ce
 @=hex(ffff1003):00,00,00,00,19,00,00,00,00,0a,00,00,58,05,00,00
 
-[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0005] 1732197849
-#time=1db3c1e3c3a818a
+[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0005] 1737184185
+#time=1db6977f3f20740
 @=hex(ffff0012):5c,00,5c,00,2e,00,5c,00,44,00,49,00,53,00,50,00,4c,00,41,00,59,\
   00,31,00,00,00
 
-[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{CA085853-16CE-48AA-B114-DE9C72334223}\\0001] 1732197849
-#time=1db3c1e3c3a94b8
+[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{CA085853-16CE-48AA-B114-DE9C72334223}\\0001] 1737184185
+#time=1db6977f3f20c72
 @=hex(ffff0008):f3,03,00,00,00,00,00,00
 
-[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{CA085853-16CE-48AA-B114-DE9C72334223}\\0002] 1732197849
-#time=1db3c1e3c3a979c
+[System\\CurrentControlSet\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{CA085853-16CE-48AA-B114-DE9C72334223}\\0002] 1737184185
+#time=1db6977f3f20dee
 @=hex(ffff0007):00,00,00,00
 
 [System\\CurrentControlSet\\Enum\\HID\\VID_845E&PID_0001\\0&0000&0&0] 1732196176
@@ -78086,8 +78092,8 @@ WINE REGISTRY Version 2
 #time=1db3c1a4ed009a4
 @=hex(ffff000d):00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
 
-[System\\CurrentControlSet\\Enum\\PCI\\VEN_106B&DEV_03F0&SUBSYS_00000000&REV_00\\00000000\\Properties\\{540B947E-8B40-45BC-A8A2-6A0B894CBDA2}\\0005] 1732197849
-#time=1db3c1e3c39ea22
+[System\\CurrentControlSet\\Enum\\PCI\\VEN_106B&DEV_03F0&SUBSYS_00000000&REV_00\\00000000\\Properties\\{540B947E-8B40-45BC-A8A2-6A0B894CBDA2}\\0005] 1737184185
+#time=1db6977f3f1c488
 @=hex(ffff0011):01,00,00,00
 
 [System\\CurrentControlSet\\Enum\\PCI\\VEN_106B&DEV_03F0&SUBSYS_00000000&REV_00\\00000000\\Properties\\{60B193CB-5276-4D0F-96FC-F173ABAD3EC6}\\0002] 1732196162

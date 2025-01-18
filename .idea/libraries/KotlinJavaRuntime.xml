@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="KotlinJavaRuntime" type="repository">
+    <properties maven-id="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.23/kotlin-stdlib-jdk8-1.9.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.23/kotlin-stdlib-1.9.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.23/kotlin-stdlib-jdk7-1.9.23.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.23/kotlin-stdlib-jdk8-1.9.23-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.23/kotlin-stdlib-1.9.23-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.23/kotlin-stdlib-jdk7-1.9.23-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.23/kotlin-stdlib-jdk8-1.9.23-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.23/kotlin-stdlib-1.9.23-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.23/kotlin-stdlib-jdk7-1.9.23-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

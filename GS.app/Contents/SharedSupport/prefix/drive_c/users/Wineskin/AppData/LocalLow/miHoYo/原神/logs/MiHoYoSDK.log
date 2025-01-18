@@ -1,0 +1,76 @@
+[MiHoYoSDK:0118/150506.354:1482272310:INFO:\MiHoYoSDKDll.cpp(153)] MiHoYo SDK InitGlobalEnv, sdk version is: 2.33.0.126, config dir is:C:\, company name is:miHoYo, product name is:原神, data dir is:C:/users/zhaoxinyu/AppData/LocalLow/miHoYo/原神, client type is: 3
+[MiHoYoSDK:0118/150506.368:1482272324:INFO:\MiHoYoSDKConfigManager.cpp(1948)] sub channel id: 1
+[MiHoYoSDK:0118/150506.374:1482272330:INFO:\MiHoYoSDKDll.cpp(203)] into Invoke call, func name is:login_account_plat
+[MiHoYoSDK:0118/150506.374:1482272330:INFO:\MiHoYoSDKDll.cpp(215)] Invoke found the dest func.
+[MiHoYoSDK:0118/150506.374:1482272330:INFO:\MiHoYoSDKComboManager.cpp(1263)] into ComboManager::AccountPlatLogin, 
+[MiHoYoSDK:0118/150506.374:1482272330:INFO:\LoginManager.cpp(523)] into LoginManager::Login
+[MiHoYoSDK:0118/150506.378:1482272334:INFO:\MiHoYoSDKNotificationManager.cpp(20)] SendNotification info is:{"event":"show","param":"login"}
+[MiHoYoSDK:0118/150506.379:1482272336:INFO:\BaseLoginService.cpp(32)] into BaseLoginService, login
+[MiHoYoSDK:0118/150506.383:1482272339:INFO:\AccountPlatAccountLoginJobber.cpp(86)] into AccountPlatAccountLoginJobber.
+[MiHoYoSDK:0118/150506.402:1482272359:INFO:\MiHoYoSDKBaseReporter.cpp(227)] Telemetry SDK initialized.
+[MiHoYoSDK:0118/150506.402:1482272359:INFO:\MiHoYoSDKBaseReporter.cpp(234)] Telemetry component has set config.
+[MiHoYoSDK:0118/150506.402:1482272359:INFO:\MiHoYoSDKBaseReporter.cpp(236)] Telemetry_Telemetry component has started log report proc.
+[MiHoYoSDK:0118/150506.412:1482272369:INFO:\MiHoYoSDKKibanaReporter.cpp(228)] Telemetry SDK initialized.
+[MiHoYoSDK:0118/150506.412:1482272369:INFO:\MiHoYoSDKKibanaReporter.cpp(235)] Telemetry component has set config.
+[MiHoYoSDK:0118/150506.412:1482272369:INFO:\MiHoYoSDKKibanaReporter.cpp(238)] Telemetry_Telemetry component has started kibana report proc.
+[MiHoYoSDK:0118/150514.830:1482280787:INFO:\MiHoYoSDKDll.cpp(203)] into Invoke call, func name is:ui_plugin_do_action
+[MiHoYoSDK:0118/150514.830:1482280787:INFO:\MiHoYoSDKDll.cpp(215)] Invoke found the dest func.
+[MiHoYoSDK:0118/150514.832:1482280787:INFO:\AccountPlatPhoneLoginJobber.cpp(34)] into AccountPlatPhoneLoginJobber.
+[MiHoYoSDK:0118/150519.931:1482285886:INFO:\MiHoYoSDKDll.cpp(203)] into Invoke call, func name is:ui_plugin_do_action
+[MiHoYoSDK:0118/150519.932:1482285886:INFO:\MiHoYoSDKDll.cpp(215)] Invoke found the dest func.
+[MiHoYoSDK:0118/150520.942:1482286892:INFO:\MiHoYoSDKDll.cpp(203)] into Invoke call, func name is:ui_plugin_do_action
+[MiHoYoSDK:0118/150520.942:1482286892:INFO:\MiHoYoSDKDll.cpp(215)] Invoke found the dest func.
+[MiHoYoSDK:0118/150520.971:1482286927:INFO:\MiHoYoSDKDll.cpp(203)] into Invoke call, func name is:ui_plugin_do_action
+[MiHoYoSDK:0118/150520.971:1482286927:INFO:\MiHoYoSDKDll.cpp(215)] Invoke found the dest func.
+[MiHoYoSDK:0118/150537.295:1482303246:INFO:\MiHoYoSDKDll.cpp(203)] into Invoke call, func name is:ui_plugin_do_action
+[MiHoYoSDK:0118/150537.296:1482303246:INFO:\MiHoYoSDKDll.cpp(215)] Invoke found the dest func.
+[MiHoYoSDK:0118/150537.296:1482303246:INFO:\BasePhoneLoginJobber.cpp(221)] into OnGetPhoneLogin. login_by_mobile_captcha
+[MiHoYoSDK:0118/150537.297:1482303246:INFO:\AccountPlatPhoneLoginJobber.cpp(254)] into LoginByPhone
+[MiHoYoSDK:0118/150537.305:1482303262:INFO:\MiHoYoSDKBaseReporter.cpp(227)] Telemetry SDK initialized.
+[MiHoYoSDK:0118/150537.305:1482303262:INFO:\MiHoYoSDKBaseReporter.cpp(234)] Telemetry component has set config.
+[MiHoYoSDK:0118/150537.305:1482303262:INFO:\MiHoYoSDKBaseReporter.cpp(236)] Telemetry_Telemetry component has started log report proc.
+[MiHoYoSDK:0118/150537.845:1482303800:INFO:\MiHoYoSDKNotificationManager.cpp(20)] SendNotification info is:{"event":"real_name_account","param":"35072130"}
+[MiHoYoSDK:0118/150537.845:1482303800:INFO:\MiHoYoSDKNotificationManager.cpp(20)] SendNotification info is:{"event":"bind_mobile_account","param":"35072130"}
+[MiHoYoSDK:0118/150537.845:1482303802:INFO:\BaseLoginService.cpp(690)] into OnCheckAccount, current login pattern is: 2, current stage is : 0
+[MiHoYoSDK:0118/150537.846:1482303802:INFO:\BaseLoginService.cpp(546)] into AccountCheckLogout
+[MiHoYoSDK:0118/150537.846:1482303803:INFO:\BaseLoginService.cpp(698)] OnCheckAccount, current stage 0 does not need to handle.
+[MiHoYoSDK:0118/150537.846:1482303803:INFO:\BaseLoginService.cpp(690)] into OnCheckAccount, current login pattern is: 2, current stage is : 1
+[MiHoYoSDK:0118/150537.846:1482303803:INFO:\BaseLoginService.cpp(698)] OnCheckAccount, current stage 1 does not need to handle.
+[MiHoYoSDK:0118/150537.846:1482303803:INFO:\BaseLoginService.cpp(690)] into OnCheckAccount, current login pattern is: 2, current stage is : 2
+[MiHoYoSDK:0118/150537.846:1482303803:INFO:\BaseLoginService.cpp(698)] OnCheckAccount, current stage 2 does not need to handle.
+[MiHoYoSDK:0118/150537.846:1482303803:INFO:\BaseLoginService.cpp(690)] into OnCheckAccount, current login pattern is: 2, current stage is : 3
+[MiHoYoSDK:0118/150537.846:1482303803:INFO:\BaseLoginService.cpp(698)] OnCheckAccount, current stage 3 does not need to handle.
+[MiHoYoSDK:0118/150537.846:1482303803:INFO:\BaseLoginService.cpp(690)] into OnCheckAccount, current login pattern is: 2, current stage is : 4
+[MiHoYoSDK:0118/150537.847:1482303803:INFO:\BaseLoginService.cpp(698)] OnCheckAccount, current stage 4 does not need to handle.
+[MiHoYoSDK:0118/150537.847:1482303803:INFO:\BaseLoginService.cpp(690)] into OnCheckAccount, current login pattern is: 2, current stage is : 5
+[MiHoYoSDK:0118/150537.847:1482303804:INFO:\BaseLoginService.cpp(698)] OnCheckAccount, current stage 5 does not need to handle.
+[MiHoYoSDK:0118/150537.847:1482303804:INFO:\BaseLoginService.cpp(690)] into OnCheckAccount, current login pattern is: 2, current stage is : 6
+[MiHoYoSDK:0118/150537.847:1482303804:INFO:\AccountPlatLoginService.cpp(1621)] into CheckFinished.
+[MiHoYoSDK:0118/150537.880:1482303837:INFO:\BaseLoginService.cpp(695)] OnCheckAccount, need to handle current stage :6
+[MiHoYoSDK:0118/150538.486:1482304442:INFO:\MiHoYoSDKDll.cpp(203)] into Invoke call, func name is:login_preload_new_user_center
+[MiHoYoSDK:0118/150538.486:1482304443:INFO:\MiHoYoSDKDll.cpp(215)] Invoke found the dest func.
+[MiHoYoSDK:0118/150657.680:1482383633:INFO:\MiHoYoSDKDll.cpp(153)] MiHoYo SDK InitGlobalEnv, sdk version is: 2.33.0.126, config dir is:C:\, company name is:miHoYo, product name is:原神, data dir is:C:/users/zhaoxinyu/AppData/LocalLow/miHoYo/原神, client type is: 3
+[MiHoYoSDK:0118/150657.694:1482383650:INFO:\MiHoYoSDKConfigManager.cpp(1948)] sub channel id: 1
+[MiHoYoSDK:0118/150657.700:1482383656:INFO:\MiHoYoSDKDll.cpp(203)] into Invoke call, func name is:login_account_plat
+[MiHoYoSDK:0118/150657.700:1482383656:INFO:\MiHoYoSDKDll.cpp(215)] Invoke found the dest func.
+[MiHoYoSDK:0118/150657.700:1482383656:INFO:\MiHoYoSDKComboManager.cpp(1263)] into ComboManager::AccountPlatLogin, 
+[MiHoYoSDK:0118/150657.700:1482383656:INFO:\LoginManager.cpp(523)] into LoginManager::Login
+[MiHoYoSDK:0118/150657.703:1482383660:INFO:\MiHoYoSDKNotificationManager.cpp(20)] SendNotification info is:{"event":"show","param":"login"}
+[MiHoYoSDK:0118/150657.706:1482383663:INFO:\BaseLoginService.cpp(32)] into BaseLoginService, login
+[MiHoYoSDK:0118/150657.709:1482383666:INFO:\AccountPlatAccountLoginJobber.cpp(86)] into AccountPlatAccountLoginJobber.
+[MiHoYoSDK:0118/150657.722:1482383679:INFO:\MiHoYoSDKBaseReporter.cpp(227)] Telemetry SDK initialized.
+[MiHoYoSDK:0118/150657.722:1482383680:INFO:\MiHoYoSDKBaseReporter.cpp(234)] Telemetry component has set config.
+[MiHoYoSDK:0118/150657.723:1482383680:INFO:\MiHoYoSDKBaseReporter.cpp(236)] Telemetry_Telemetry component has started log report proc.
+[MiHoYoSDK:0118/150657.730:1482383687:INFO:\MiHoYoSDKKibanaReporter.cpp(228)] Telemetry SDK initialized.
+[MiHoYoSDK:0118/150657.730:1482383688:INFO:\MiHoYoSDKKibanaReporter.cpp(235)] Telemetry component has set config.
+[MiHoYoSDK:0118/150657.730:1482383688:INFO:\MiHoYoSDKKibanaReporter.cpp(238)] Telemetry_Telemetry component has started kibana report proc.
+[MiHoYoSDK:0118/150700.017:1482385970:INFO:\MiHoYoSDKDll.cpp(203)] into Invoke call, func name is:ui_plugin_do_action
+[MiHoYoSDK:0118/150700.017:1482385970:INFO:\MiHoYoSDKDll.cpp(215)] Invoke found the dest func.
+[MiHoYoSDK:0118/150700.729:1482386685:INFO:\MiHoYoSDKDll.cpp(203)] into Invoke call, func name is:ui_plugin_do_action
+[MiHoYoSDK:0118/150700.730:1482386685:INFO:\MiHoYoSDKDll.cpp(215)] Invoke found the dest func.
+[MiHoYoSDK:0118/150704.056:1482390005:INFO:\MiHoYoSDKDll.cpp(203)] into Invoke call, func name is:ui_plugin_do_action
+[MiHoYoSDK:0118/150704.056:1482390005:INFO:\MiHoYoSDKDll.cpp(215)] Invoke found the dest func.
+[MiHoYoSDK:0118/150704.057:1482390005:INFO:\AccountPlatPhoneLoginJobber.cpp(34)] into AccountPlatPhoneLoginJobber.
+[MiHoYoSDK:0118/150711.399:1482397356:INFO:\MiHoYoSDKDll.cpp(203)] into Invoke call, func name is:ui_plugin_do_action
+[MiHoYoSDK:0118/150711.400:1482397356:INFO:\MiHoYoSDKDll.cpp(215)] Invoke found the dest func.
+[MiHoYoSDK:0118/150711.400:1482397356:INFO:\MiHoYoSDKNotificationManager.cpp(20)] SendNotification info is:{"event":"hide","param":"login"}

@@ -52,7 +52,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>10.15.4</string>
 	<key>METAL_HUD</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>MOLTENVKCX</key>
 	<integer>0</integer>
 	<key>NSAppTransportSecurity</key>
@@ -87,7 +87,7 @@
 	<key>Program Flags</key>
 	<string></string>
 	<key>Program Name and Path</key>
-	<string>/HoYoGame/ZenlessZoneZero.exe</string>
+	<string>/launchGame.bat</string>
 	<key>Skip Gecko</key>
 	<integer>0</integer>
 	<key>Skip Mono</key>
@@ -123,6 +123,6 @@
 	<key>Winetricks silent</key>
 	<integer>1</integer>
 	<key>use start.exe</key>
-	<integer>0</integer>
+	<integer>1</integer>
 </dict>
 </plist>

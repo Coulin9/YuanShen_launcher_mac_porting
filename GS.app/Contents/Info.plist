@@ -87,7 +87,7 @@
 	<key>Program Flags</key>
 	<string>-platform_type CLOUD_THIRD_PARTY_PC</string>
 	<key>Program Name and Path</key>
-	<string>/HoYoGame/YuanShen.exe</string>
+	<string>/launchGame.bat</string>
 	<key>Skip Gecko</key>
 	<integer>0</integer>
 	<key>Skip Mono</key>
@@ -123,6 +123,6 @@
 	<key>Winetricks silent</key>
 	<integer>1</integer>
 	<key>use start.exe</key>
-	<integer>0</integer>
+	<integer>1</integer>
 </dict>
 </plist>

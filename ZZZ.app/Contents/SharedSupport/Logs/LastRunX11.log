@@ -184,3 +184,34 @@ Graphics/Displays:
           Mirror: Off
           Online: Yes
 
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: Mac
+      Model Identifier: Mac14,6
+      Model Number: MNWA3CH/A
+      Chip: Unknown
+      Total Number of Cores: 12 (8 performance and 4 efficiency)
+      Memory: 32 GB
+      System Firmware Version: 11881.61.3
+      OS Loader Version: 11881.61.3
+
+Graphics/Displays:
+
+    Apple M2 Max:
+
+      Chipset Model: Apple M2 Max
+      Type: GPU
+      Bus: Built-In
+      Total Number of Cores: 38
+      Vendor: Apple (0x106b)
+      Metal Support: Metal 3
+      Displays:
+        P27QBC-RG:
+          Resolution: 2560 x 1440 (QHD/WQHD - Wide Quad High Definition)
+          UI Looks like: 2560 x 1440 @ 120.00Hz
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+

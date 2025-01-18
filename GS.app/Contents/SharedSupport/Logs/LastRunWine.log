@@ -1,4 +1,4 @@
-msync: bootstrapped mach port on wine-4c0d106-msync.
+msync: bootstrapped mach port on wine-a4cb3eb-msync.
 msync: up and running.
 002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wineboot.exe" at 0000000140000000: builtin
 002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
@@ -32,6 +32,10 @@ msync: up and running.
 004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\mountmgr.sys" at 00000003BE830000: builtin
 004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
 004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\setupapi.dll" at 000000036D860000: builtin
+0058:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+0058:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+0058:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
+0058:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
 0064:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winedevice.exe" at 0000000140000000: builtin
 0064:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
 0064:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
@@ -55,28 +59,28 @@ msync: up and running.
 0074:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
 0074:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
 0074:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
-0090:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\plugplay.exe" at 0000000140000000: builtin
-0090:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
-0090:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
-0090:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
-0090:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
-0090:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
-0090:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
-0090:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
-0090:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
-0090:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
-0090:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
-0090:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
-0090:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
-00a8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\svchost.exe" at 0000000140000000: builtin
-00a8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
-00a8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
-00a8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
-00a8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
-00a8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
-00a8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
-00a8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wevtsvc.dll" at 000000029E840000: builtin
-00a8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+008c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\plugplay.exe" at 0000000140000000: builtin
+008c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
+008c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
+008c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+008c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+008c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+008c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+008c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+008c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+008c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+008c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+008c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
+008c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
+00a4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\svchost.exe" at 0000000140000000: builtin
+00a4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
+00a4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
+00a4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+00a4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+00a4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+00a4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+00a4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wevtsvc.dll" at 000000029E840000: builtin
+00a4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
 004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\nsiproxy.sys" at 000000033BB90000: builtin
 004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dnsapi.dll" at 0000000296590000: builtin
 004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\nsi.dll" at 000000026C190000: builtin
@@ -108,301 +112,290 @@ msync: up and running.
 0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00000002A2380000: builtin
 0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 000000023BC00000: builtin
 0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\start.exe" at 0000000140000000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00000002BDE30000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00000002A2380000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 000000023BC00000: builtin
-00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
-00c0:fixme:exec:SHELL_execute flags ignored: 0x00000100
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\cmd.exe" at 0000000140000000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00000002BDE30000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00000002A2380000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 000000023BC00000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\conhost.exe" at 0000000140000000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
-00c8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\explorer.exe" at 0000000140000000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winemac.drv" at 00000000017A0000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uxtheme.dll" at 000000026C230000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00000002BDE30000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00000002A2380000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 000000023BC00000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 000000031C5D0000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 0000000002390000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\oleaut32.dll" at 00000001D0E20000: builtin
-00d8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\actxprxy.dll" at 00000002F3610000: builtin
-00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcss.exe" at 0000000140000000: builtin
-00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
-00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
-00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
-00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
-00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
-00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
-00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winemac.drv" at 00000000017A0000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uxtheme.dll" at 000000026C230000: builtin
-2024-11-21 22:07:46.170 wine64-preloader[22019:15091883] +[IMKClient subclass]: chose IMKClient_Modern
-00d8:fixme:imm:ImeSetActiveContext (0000000000010026, 0): stub
-00d8:fixme:imm:ImmReleaseContext (0000000000010020, 0000000000010026): stub
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msimg32.dll" at 0000000302D10000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 000000031C5D0000: builtin
-00d0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 00000000020C0000: builtin
-00d0:fixme:imm:ImeSetActiveContext (0000000000010052, 1): stub
-00d0:fixme:imm:ImmReleaseContext (000000000002004A, 0000000000010052): stub
-0114:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\HoYoGame\\YuanShen.exe" at 0000000140000000: native
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\USER32.dll" at 00000002169D0000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00000002BDE30000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00000002A2380000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\SHELL32.dll" at 000000023BC00000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 000000031C5D0000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 000000020B860000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\OLEAUT32.dll" at 00000001D0E20000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dnsapi.dll" at 0000000296590000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\nsi.dll" at 000000026C190000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\IPHLPAPI.DLL" at 00000003982D0000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\bcrypt.dll" at 00000002EE630000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\CRYPT32.dll" at 0000000000790000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WS2_32.dll" at 0000000370F70000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\SETUPAPI.dll" at 000000036D860000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\OPENGL32.dll" at 000000007A800000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msacm32.dll" at 0000000351A60000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WINMM.dll" at 00000002945E0000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\IMM32.dll" at 0000000393730000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\jsproxy.dll" at 00000002EB680000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WINHTTP.dll" at 00000001EFE00000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\HID.DLL" at 00000002E0D50000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dbghelp.dll" at 000000023ECB0000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\secur32.dll" at 00000003AFEF0000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WLDAP32.dll" at 0000000288480000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WINTRUST.dll" at 00000002A3D30000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\Kerberos.dll" at 00000001CE760000: builtin
-0114:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\netapi32.dll" at 00000001D4930000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\MSV1_0.dll" at 0000000311F40000: builtin
-0114:fixme:heap:GetNumaHighestNodeNumber semi-stub: 000000000011F650
-0114:fixme:thread:get_thread_times not implemented on this platform
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imagehlp.dll" at 00000002604A0000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rsaenh.dll" at 00000001CCDD0000: builtin
-0118:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 0000000001C9FE10
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\POWRPROF.dll" at 0000000284EA0000: builtin
-0114:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\HoYoGame\\MHYPBase.dll" at 0000000180000000: native
-0114:fixme:ntdll:NtQuerySystemInformation SystemCodeIntegrityInformation, size 8, info 0x11ed28, stub!
-00f4:err:service:validate_context_handle Access denied - handle created with access 34, needed 10000
-0144:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winedevice.exe" at 0000000140000000: builtin
-0144:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
-0144:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
-0144:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
-0144:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
-0144:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
-0144:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
-0144:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ntoskrnl.exe" at 000000031CA90000: builtin
-0144:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
-014c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\HAL.DLL" at 00000002C3510000: builtin
-014c:err:module:import_dll Library WDFLDR.SYS (which is needed by L"C:\\windows\\system32\\HoYoKProtect.sys") not found
-014c:err:ntoskrnl:ZwLoadDriver failed to create driver L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\HoYoProtect": c0000142
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winemac.drv" at 0000000001FB0000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uxtheme.dll" at 000000026C230000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\USERENV.dll" at 0000000244FC0000: builtin
-0114:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\HoYoGame\\YuanShen_Data\\Plugins\\Astrolabe.dll" at 00000000058F0000: native
-01b8:fixme:file:ReplaceFileW Ignoring flags 2
-01cc:fixme:file:NtLockFile I/O completion on lock not implemented yet
-01c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wlanapi.dll" at 00000002DD5D0000: builtin
-01c4:fixme:wlanapi:WlanEnumInterfaces (0000000000000001, 0000000000000000, 0000000006B2E9D8) semi-stub
-01b4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\cryptnet.dll" at 00000001F8340000: builtin
-01b4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mpr.dll" at 0000000250CD0000: builtin
-01b4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wininet.dll" at 0000000345640000: builtin
-01b4:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\cryptnet.dll" : builtin
-01b4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\cryptnet.dll" at 00000001F8340000: builtin
-01b4:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\cryptnet.dll" : builtin
-01b4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\cryptnet.dll" at 00000001F8340000: builtin
-01b4:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\cryptnet.dll" : builtin
-0114:fixme:imm:ImmReleaseContext (000000000003006C, 0000000000020070): stub
-2024-11-21 22:07:52.625 wine64-preloader[22032:15091957] +[IMKClient subclass]: chose IMKClient_Modern
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winemetal.dll" at 000000000D770000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\DXGI.DLL" at 000000000D650000: native
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\d3d11.dll" at 000000000D3B0000: native
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\start.exe" at 0000000140000000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00000002BDE30000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00000002A2380000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 000000023BC00000: builtin
+00bc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
+00bc:fixme:exec:SHELL_execute flags ignored: 0x00000100
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\cmd.exe" at 0000000140000000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00000002BDE30000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00000002A2380000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 000000023BC00000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\conhost.exe" at 0000000140000000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+00c4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\explorer.exe" at 0000000140000000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winemac.drv" at 00000000017A0000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uxtheme.dll" at 000000026C230000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00000002BDE30000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00000002A2380000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 000000023BC00000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 000000031C5D0000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 0000000002390000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\oleaut32.dll" at 00000001D0E20000: builtin
+00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\actxprxy.dll" at 00000002F3610000: builtin
+00e8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcss.exe" at 0000000140000000: builtin
+00e8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
+00e8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
+00e8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+00e8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+00e8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+00e8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+00e8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winemac.drv" at 00000000017A0000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uxtheme.dll" at 000000026C230000: builtin
+2025-01-18 15:06:37.835 wine64-preloader[82879:27109401] +[IMKClient subclass]: chose IMKClient_Modern
+00d4:fixme:imm:ImeSetActiveContext (0000000000010026, 0): stub
+00d4:fixme:imm:ImmReleaseContext (0000000000010020, 0000000000010026): stub
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msimg32.dll" at 0000000302D10000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 000000031C5D0000: builtin
+00cc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 00000000020C0000: builtin
+00cc:fixme:imm:ImeSetActiveContext (0000000000010052, 1): stub
+00cc:fixme:imm:ImmReleaseContext (000000000002004A, 0000000000010052): stub
+0110:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\No_Platform\\HoYoGamePacks\\YuanShen.exe" at 0000000140000000: native
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\USER32.dll" at 00000002169D0000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00000002BDE30000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00000002A2380000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\SHELL32.dll" at 000000023BC00000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 000000031C5D0000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 000000020B860000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\OLEAUT32.dll" at 00000001D0E20000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dnsapi.dll" at 0000000296590000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\nsi.dll" at 000000026C190000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\IPHLPAPI.DLL" at 00000003982D0000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\bcrypt.dll" at 00000002EE630000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\CRYPT32.dll" at 0000000000790000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WS2_32.dll" at 0000000370F70000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\SETUPAPI.dll" at 000000036D860000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\OPENGL32.dll" at 000000007A800000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msacm32.dll" at 0000000351A60000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WINMM.dll" at 00000002945E0000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\IMM32.dll" at 0000000393730000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\jsproxy.dll" at 00000002EB680000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WINHTTP.dll" at 00000001EFE00000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\HID.DLL" at 00000002E0D50000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dbghelp.dll" at 000000023ECB0000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\secur32.dll" at 00000003AFEF0000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WLDAP32.dll" at 0000000288480000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WINTRUST.dll" at 00000002A3D30000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\Kerberos.dll" at 00000001CE760000: builtin
+0110:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\netapi32.dll" at 00000001D4930000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\MSV1_0.dll" at 0000000311F40000: builtin
+0110:fixme:heap:GetNumaHighestNodeNumber semi-stub: 000000000011F650
+0110:fixme:thread:get_thread_times not implemented on this platform
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imagehlp.dll" at 00000002604A0000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rsaenh.dll" at 00000001CCDD0000: builtin
+0114:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 0000000001C9FE10
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\POWRPROF.dll" at 0000000284EA0000: builtin
+0110:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\No_Platform\\HoYoGamePacks\\MHYPBase.dll" at 0000000180000000: native
+0110:fixme:ntdll:NtQuerySystemInformation SystemCodeIntegrityInformation, size 8, info 0x11ec28, stub!
+00f0:err:service:validate_context_handle Access denied - handle created with access 34, needed 10000
+013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winedevice.exe" at 0000000140000000: builtin
+013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 0000000174000000: builtin
+013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 0000000178000000: builtin
+013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ntoskrnl.exe" at 000000031CA90000: builtin
+013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+0144:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\HAL.DLL" at 00000002C3510000: builtin
+0144:err:module:import_dll Library WDFLDR.SYS (which is needed by L"C:\\windows\\system32\\HoYoKProtect.sys") not found
+0144:err:ntoskrnl:ZwLoadDriver failed to create driver L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\HoYoProtect": c0000142
+015c:fixme:ntdll:NtPowerInformation semi-stub: SystemPowerCapabilities
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winemac.drv" at 0000000001DC0000: builtin
+016c:fixme:thread:NtQueryInformationThread info class 20 not supported yet
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uxtheme.dll" at 000000026C230000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\USERENV.dll" at 0000000244FC0000: builtin
+0110:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\No_Platform\\HoYoGamePacks\\YuanShen_Data\\Plugins\\Astrolabe.dll" at 00000000054F0000: native
+01a4:fixme:file:ReplaceFileW Ignoring flags 2
+01b8:fixme:file:NtLockFile I/O completion on lock not implemented yet
+01b0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wlanapi.dll" at 00000002DD5D0000: builtin
+01b0:fixme:wlanapi:WlanEnumInterfaces (0000000000000001, 0000000000000000, 000000000672E9D8) semi-stub
+0110:fixme:imm:ImmReleaseContext (000000000003006C, 0000000000020070): stub
+2025-01-18 15:06:40.998 wine64-preloader[82887:27109467] +[IMKClient subclass]: chose IMKClient_Modern
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winemetal.dll" at 000000000CF50000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\DXGI.DLL" at 000000000CE30000: native
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\d3d11.dll" at 000000000CB90000: native
 info:  Found built-in config:
 info:    dxgi.customDeviceId = 7340
 info:    dxgi.customVendorId = 1002
 info:    dxgi.customDeviceDesc = AMD Radeon Pro 5300M
 info:  Maximum supported feature level: D3D_FEATURE_LEVEL_11_1
 info:  Using feature level D3D_FEATURE_LEVEL_11_1
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\winsxs\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.2600.2982_none_deadbeef\\comctl32.dll" at 00000002FB3C0000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\compstui.dll" at 0000000313390000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winspool.drv" at 0000000012270000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wbem\\wbemprox.dll" at 00000001ED480000: builtin
-01b4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\cryptnet.dll" at 00000001F8340000: builtin
-0114:fixme:wbemprox:client_security_SetBlanket 00000001ED4A0EE0, 00000000010F5B00, 10, 0, (null), 3, 3, 0000000000000000, 0
-0114:fixme:wbemprox:client_security_Release 00000001ED4A0EE0
-0114:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
-01b4:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\cryptnet.dll" : builtin
-01b4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\cryptnet.dll" at 00000001F8340000: builtin
-01b4:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\cryptnet.dll" : builtin
-01b4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\cryptnet.dll" at 00000001F8340000: builtin
-01b4:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\cryptnet.dll" : builtin
-0114:fixme:wbemprox:client_security_SetBlanket 00000001ED4A0EE0, 00000000010F5B00, 10, 0, (null), 3, 3, 0000000000000000, 0
-0114:fixme:wbemprox:client_security_Release 00000001ED4A0EE0
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\xinput1_3.dll" at 00000002E99A0000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\winsxs\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.2600.2982_none_deadbeef\\comctl32.dll" at 00000002FB3C0000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\compstui.dll" at 0000000313390000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winspool.drv" at 0000000011850000: builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wbem\\wbemprox.dll" at 00000001ED480000: builtin
+0110:fixme:wbemprox:client_security_SetBlanket 00000001ED4A0EE0, 00000000010F5BA0, 10, 0, (null), 3, 3, 0000000000000000, 0
+0110:fixme:wbemprox:client_security_Release 00000001ED4A0EE0
+0110:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0110:fixme:wbemprox:client_security_SetBlanket 00000001ED4A0EE0, 00000000010F5BA0, 10, 0, (null), 3, 3, 0000000000000000, 0
+0110:fixme:wbemprox:client_security_Release 00000001ED4A0EE0
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\xinput1_3.dll" at 00000002E99A0000: builtin
 info:  Found built-in config:
 info:    dxgi.customDeviceId = 7340
 info:    dxgi.customVendorId = 1002
 info:    dxgi.customDeviceDesc = AMD Radeon Pro 5300M
 warn:  MakeWindowAssociation: Ignoring flags 3
 warn:  SetFullscreenState: stub
-0114:fixme:imm:ImeSetActiveContext (0000000000020070, 1): stub
-0114:fixme:win:RegisterTouchWindow hwnd 000000000003006C, flags 0 stub!
-0178:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
-0178:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
-0114:fixme:wbemprox:client_security_SetBlanket 00000001ED4A0EE0, 00000000010F5B00, 10, 0, (null), 3, 3, 0000000000000000, 0
-0114:fixme:wbemprox:client_security_Release 00000001ED4A0EE0
-0114:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x30
-0114:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x30
-0114:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x30
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\DINPUT8.dll" at 0000000267710000: builtin
-0114:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\HoYoGame\\YuanShen_Data\\Plugins\\Mmoron.dll" at 0000000018960000: native
-0114:fixme:thread:set_native_thread_name setting other thread name not supported
-0288:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mmdevapi.dll" at 0000000002EE0000: builtin
-0288:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winecoreaudio.drv" at 00000002B0260000: builtin
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0288:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
-0114:fixme:wbemprox:client_security_SetBlanket 00000001ED4A0EE0, 00000000010F5B00, 10, 0, (null), 3, 3, 0000000000000000, 0
-0114:fixme:wbemprox:client_security_Release 00000001ED4A0EE0
-0114:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x30
-0114:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x30
-0114:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\HoYoGame\\YuanShen_Data\\Plugins\\MTBenchmark_Windows.dll" at 0000000002F10000: native
+0110:fixme:imm:ImeSetActiveContext (0000000000020070, 1): stub
+0110:fixme:win:RegisterTouchWindow hwnd 000000000003006C, flags 0 stub!
+0110:fixme:wbemprox:client_security_SetBlanket 00000001ED4A0EE0, 00000000010F5BA0, 10, 0, (null), 3, 3, 0000000000000000, 0
+0110:fixme:wbemprox:client_security_Release 00000001ED4A0EE0
+0110:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x30
+0110:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x30
+0110:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x30
+0164:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+0164:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\DINPUT8.dll" at 0000000267710000: builtin
+0110:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\No_Platform\\HoYoGamePacks\\YuanShen_Data\\Plugins\\Mmoron.dll" at 0000000018360000: native
+0110:fixme:thread:set_native_thread_name setting other thread name not supported
+0270:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mmdevapi.dll" at 000000001CC70000: builtin
+0270:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winecoreaudio.drv" at 00000002B0260000: builtin
+0110:fixme:wbemprox:client_security_SetBlanket 00000001ED4A0EE0, 00000000010F5BA0, 10, 0, (null), 3, 3, 0000000000000000, 0
+0110:fixme:wbemprox:client_security_Release 00000001ED4A0EE0
+0110:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x30
+0110:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x30
+0110:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\No_Platform\\HoYoGamePacks\\YuanShen_Data\\Plugins\\MTBenchmark_Windows.dll" at 000000001EEB0000: native
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
+0270:fixme:coreaudio:ca_channel_layout_to_channel_mask Unhandled channel 0xffffffff
 0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
 0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
 0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
-0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
-0288:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\propsys.dll" at 0000000263650000: builtin
-0288:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rtworkq.dll" at 00000001FFB10000: builtin
-0288:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mfplat.dll" at 00000003BB450000: builtin
-0288:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mfreadwrite.dll" at 00000002B0A60000: builtin
-0288:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\XAudio2_9.dll" at 00000003592F0000: builtin
-0244:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\xinput1_4.dll" at 0000000259D90000: builtin
-0178:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
-0178:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
-0178:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
-0178:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+0270:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\propsys.dll" at 0000000263650000: builtin
+0270:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rtworkq.dll" at 00000001FFB10000: builtin
+0270:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mfplat.dll" at 00000003BB450000: builtin
+0270:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mfreadwrite.dll" at 00000002B0A60000: builtin
+0270:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\XAudio2_9.dll" at 00000003592F0000: builtin
+0214:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\xinput1_4.dll" at 0000000259D90000: builtin
+0168:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+0168:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
 warn:  SetFullscreenState: stub
-0114:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\HoYoGame\\YuanShen_Data\\Plugins\\telemetry.dll" at 0000000021980000: native
-02e0:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 00000000231CF238, 4): stub
-02dc:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
-024c:fixme:toolhelp:CreateToolhelp32Snapshot Unimplemented: heap list snapshot
-024c:fixme:toolhelp:Heap32ListFirst : stub
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\Normaliz.dll" at 0000000002FA0000: builtin
-0114:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\HoYoGame\\YuanShen_Data\\Plugins\\MiHoYoMTRSDK.dll" at 000000001D560000: native
-0310:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 00000000241CFE10
-02fc:err:winediag:WSASocketW Failed to create a socket of type SOCK_RAW, this requires special permissions.
-0300:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\schannel.dll" at 000000001F2B0000: builtin
-0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\bthprops.cpl" at 00000003196C0000: builtin
-0114:fixme:bthpropscpl:BluetoothFindFirstDevice (000000000011D080 000000000C7DDBA0): stub!
-0114:fixme:setupapi:CM_Get_Parent 000000000011CC44 0x00000000 0x00000000 stub
-0114:fixme:setupapi:CM_Get_Parent 000000000011CC44 0x00000001 0x00000000 stub
+0168:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+0168:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0110:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\No_Platform\\HoYoGamePacks\\YuanShen_Data\\Plugins\\telemetry.dll" at 0000000021500000: native
+02c0:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+02c4:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000002294F238, 4): stub
 0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
 0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
-031c:fixme:setupapi:CM_Get_Parent 000000001F66F204 0x00000000 0x00000000 stub
-031c:fixme:setupapi:CM_Get_Parent 000000001F66F204 0x00000001 0x00000000 stub
-031c:fixme:bthpropscpl:BluetoothFindFirstDevice (000000001F66F5B0 000000000C7DDBA0): stub!
-031c:fixme:setupapi:CM_Get_Parent 000000001F66F174 0x00000000 0x00000000 stub
-031c:fixme:setupapi:CM_Get_Parent 000000001F66F174 0x00000001 0x00000000 stub
+01a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\cryptnet.dll" at 00000001F8340000: builtin
+01a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mpr.dll" at 000000001EE00000: builtin
+01a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wininet.dll" at 0000000345640000: builtin
+0234:fixme:toolhelp:CreateToolhelp32Snapshot Unimplemented: heap list snapshot
+0234:fixme:toolhelp:Heap32ListFirst : stub
+01a0:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\cryptnet.dll" : builtin
+01a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\cryptnet.dll" at 00000001F8340000: builtin
+01a0:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\cryptnet.dll" : builtin
+01a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\cryptnet.dll" at 00000001F8340000: builtin
+01a0:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\cryptnet.dll" : builtin
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\Normaliz.dll" at 000000001D1B0000: builtin
+0110:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\No_Platform\\HoYoGamePacks\\YuanShen_Data\\Plugins\\MiHoYoMTRSDK.dll" at 000000001D0D0000: native
+02f8:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 0000000023D4FE10
+02e8:err:winediag:WSASocketW Failed to create a socket of type SOCK_RAW, this requires special permissions.
+0110:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\bthprops.cpl" at 00000003196C0000: builtin
+0110:fixme:bthpropscpl:BluetoothFindFirstDevice (000000000011D090 00000000168C4BA0): stub!
+0110:fixme:setupapi:CM_Get_Parent 000000000011CC54 0x00000000 0x00000000 stub
+0110:fixme:setupapi:CM_Get_Parent 000000000011CC54 0x00000001 0x00000000 stub
 0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
 0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
 0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
@@ -413,12 +406,44 @@ warn:  SetFullscreenState: stub
 0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
 0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
 0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
-02e4:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"ROOT": stub
-02e4:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"CA": stub
-02e4:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"Disallowed": stub
-02e4:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
-02e4:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
-02e4:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
-02e4:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
-02e4:fixme:wlanapi:WlanEnumInterfaces (0000000000000001, 0000000000000000, 00000000233CE508) semi-stub
-0114:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011F900
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0304:fixme:setupapi:CM_Get_Parent 000000001F1EF204 0x00000000 0x00000000 stub
+0304:fixme:setupapi:CM_Get_Parent 000000001F1EF204 0x00000001 0x00000000 stub
+0304:fixme:bthpropscpl:BluetoothFindFirstDevice (000000001F1EF5B0 00000000168C4BA0): stub!
+0304:fixme:setupapi:CM_Get_Parent 000000001F1EF174 0x00000000 0x00000000 stub
+0304:fixme:setupapi:CM_Get_Parent 000000001F1EF174 0x00000001 0x00000000 stub
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0110:trace:loaddll:build_module Loaded L"Z:\\Users\\zhaoxinyu\\Games\\No_Platform\\HoYoGamePacks\\YuanShen_Data\\Plugins\\AccountPlatNative.dll" at 0000000024670000: native
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0328:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000002436FE10
+info:  Maximum supported feature level: D3D_FEATURE_LEVEL_11_1
+info:  Using feature level D3D_FEATURE_LEVEL_11_0
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+02e8:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\schannel.dll" at 000000025C0B0000: builtin
+02c8:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"ROOT": stub
+02c8:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"CA": stub
+02c8:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"Disallowed": stub
+02c8:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
+02c8:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
+02c8:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
+02c8:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
+02c8:fixme:wlanapi:WlanEnumInterfaces (0000000000000001, 0000000000000000, 0000000022B4E508) semi-stub
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0050:fixme:nsi:ipv6_forward_enumerate_all not implemented
+0110:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011F930

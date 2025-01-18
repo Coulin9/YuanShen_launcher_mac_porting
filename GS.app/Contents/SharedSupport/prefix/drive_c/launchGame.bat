@@ -1,0 +1,1 @@
+"Z:/Users/zhaoxinyu/Games/No_Platform/HoYoGamePacks/YuanShen.exe" -platform_type CLOUD_THIRD_PARTY_PC 
