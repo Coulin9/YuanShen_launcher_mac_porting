@@ -49,7 +49,7 @@
 + **步骤2**:更新安装脚本
   + 在终端执行命令`git pull origin main`
 + **步骤3**:运行安装脚本
-  + 在终端执行命令`kotlinc -script install_or_update_game_package.main.kts`
+  + 在终端执行命令`kotlinc -J-Djava.awt.headless=false -script install_or_update_game_package.main.kts`
 
 ![ScreenShot.png](ScreenShot.png)
 
