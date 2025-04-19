@@ -54,7 +54,7 @@ class HoYoGameInstaller() {
         const val WINE_MAC_ROOT_PATH = "Z:"
         const val MAC_APPLICATION_PATH = "/Applications/"
 
-        const val GS_CLOUD_GAME_PARAM = "-platform_type CLOUD_THIRD_PARTY_PC"
+        const val GS_CLOUD_GAME_PARAM = "" //no need to add this
 
         val game_api_mapping = hashMapOf(GENSHIN_CN to GENSHIN_PKG_API_CN,
                 GENSHIN_GL to GENSHIN_PKG_API_GL,
